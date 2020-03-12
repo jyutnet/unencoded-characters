@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-Hant-HK">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Unencoded characters</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        :root {
+            --border-color: #999;
+        }
+
+        .char-image {
+            width: 64px;
+        }
+
+        div.unenc-char.header {
+            font-weight: bold;
+        }
+
+        div.unenc-char {
+            margin-top: 16px;
+            display: grid;
+            grid-template-columns: 1fr 1.5fr 1.5fr 3fr 8fr;
+            grid-gap: 0;
+
+            border-top: 1px solid var(--border-color);
+            border-left: 1px solid var(--border-color);
+        }
+
+        div.unenc-char div {
+            display: grid;
+            border-right: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+            box-sizing: border-box;
+            padding: 8px;
+        }
+
+        div.unenc-char div.evidences {
+            padding: 0;
+        }
+
+        dl, dt, dd {
+            padding: 0;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        div.evidences dl {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            grid-gap: 0;
+        }
+
+        div.evidences dl dt, div.evidences dl dd {
+            display: grid;
+            padding: 8px;
+        }
+
+        div.evidences dl dt {
+            border-right: 1px solid var(--border-color);
+        }
+
+        div.evidences dl:not(:first-child) {
+            border-top: 1px solid var(--border-color);
+        }
+
+        section {
+            padding-top: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<main role="main" class="m-5">
+
+    <h1>Unencoded Characters</h1>
+
+    <p>These are the unencoded characters collected from various Cantonese dictionaries.</p>
+
+    <section>
+        <h2>Sources</h2>
+
+        <ul>
+            {% for id, source in sources %}
+                <li>
+                    <strong>{{ id }}</strong>: {{ source.title }}
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section>
+        <h2>Character List</h2>
+
+        {% for tag, chars in characters %}
+        <section>
+            <h3>{{ tag }}</h3>
+
+            <div class="unenc-char header">
+                <div>Seq</div>
+                <div>IDS</div>
+                <div>Jyutping</div>
+                <div>Evidences</div>
+                <div>Remarks</div>
+            </div>
+
+            {#            <table class="table table-bordered">#}
+            {#                <colgroup>#}
+            {#                    <col style="width:5%"/>#}
+            {#                    <col style="width:10%"/>#}
+            {#                    <col style="width:10%"/>#}
+            {#                    <col style="width:15%"/>#}
+            {#                    <col style="width:10%"/>#}
+            {#                    <col/>#}
+            {#                </colgroup>#}
+            {#                <thead>#}
+            {#                <tr>#}
+            {#                    <th>Seq</th>#}
+            {#                    <th>IDS</th>#}
+            {#                    <th>Jyutping</th>#}
+            {#                    <th>Evidences</th>#}
+            {#                    <th>Image</th>#}
+            {#                    <th>Remarks</th>#}
+            {#                </tr>#}
+            {#                </thead>#}
+            {% for char in chars %}
+                <div class="unenc-char">
+                    <div>
+                        {{ char.id }}
+                    </div>
+                    <div>
+                        {{ char.ids ?? '' }}
+                    </div>
+                    <div>
+                        {{ char.jyutping ?? '' }}
+                    </div>
+                    <div class="evidences">
+                        {% for src in char.srcN %}
+                            <dl>
+                                <dt>
+                                    <a href="{{ src.evidencePath }}" title="{{ sources[src.id].title }}"
+                                       target="_blank">
+                                        [{{ src.id }}]
+                                        {{ src.locationText }}
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <img class="char-image" src="data:image/png;base64,{{ src.imageData }}"/></dd>
+                            </dl>
+                        {% endfor %}
+                    </div>
+                    <div>
+                        {{ char.remarksHTML|raw }}
+                    </div>
+                </div>
+
+                {#                <tr>#}
+                {#                    <td rowspan="{{ char.srcCount }}">{{ char.id }}</td>#}
+                {#                    <td rowspan="{{ char.srcCount }}">{{ char.ids ?? '' }}</td>#}
+                {#                    <td rowspan="{{ char.srcCount }}">{{ char.jyutping ?? '' }}</td>#}
+                {#                    <td>#}
+                {#                        <a href="#" title="{{ sources[char.src1.id].title }}">#}
+                {#                            {{ char.src1.id }}#}
+                {#                            {{ char.src1.location }}#}
+                {#                        </a>#}
+                {#                    </td>#}
+                {#                    <td>#}
+                {#                        <img class="char-image" src="data:image/png;base64,{{ char.src1.imageData }}"/>#}
+                {#                    </td>#}
+                {#                    <td rowspan="{{ char.srcCount }}">{{ char.remarksHTML|raw }}</td>#}
+                {#                </tr>#}
+                {#                {% for src in char.srcN %}#}
+                {#                    <tr>#}
+                {#                        <td>#}
+                {#                            <a href="#" title="{{ sources[src.id].title }}">#}
+                {#                                {{ src.id }}#}
+                {#                                {{ src.location }}#}
+                {#                            </a>#}
+                {#                        </td>#}
+                {#                        <td>#}
+                {#                            <img class="char-image" src="data:image/png;base64,{{ src.imageData }}"/>#}
+                {#                        </td>#}
+                {#                    </tr>#}
+                {#                {% endfor %}#}
+            {% endfor %}
+            {#            </table>#}
+            {% endfor %}
+        </section>
+    </section>
+</main>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,818 @@
+sources:
+    FW1825:
+        title: 虞學圃、溫岐石輯, 江湖尺牘分韻撮要合集. 1825 (道光 5 年).
+    FW1838:
+        title: 虞學圃、溫岐石輯, 江湖尺牘分韻撮要合集. 1838 (道光 18 年).
+    CPV1855:
+        title: "Chinese phonetic vocabulary (初學粵音切要). Hong Kong: London Missionary Society’s Press 香港英華書院活板. 1855"
+    TDCL1856:
+        title: "Samuel Wells Williams, Tonic Dictionary of the Chinese Language in the Canton Dialect (英華分韻撮要). Canton: Office of the Chinese Repository (羊城中和行). 1856"
+    LCW1914:
+        title: "Li, Chunhua 李春華, 分部分音廣話九聲字宗. 1914. From Hatano, Tarō 波多野太郎, Chūgoku gobun shiryō ikan 中國語文資料彙刊 pp365-402. Tokyo : Fuji Shuppan. 1991."
+    CSK1939:
+        title: "Chan Sui Ki 陳瑞祺, 道漢字音. Hong Kong: 道字總社. 1939"
+        extension: png
+    WSL1941:
+        title: "S. L. Wong 黃錫凌, 粵音韻彙 A Chinese Syllable Pronounced According to the Dialect of Canton. Hong Kong: 中華書局. 1980."
+    FTL1974:
+        title: "Fung Tinlib 馮田獵, 粤語同音字典. Hong Kong: 東聯學供社, 1974."
+    ZWJ1988:
+        title: "周無忌 饒秉才, 廣州話標準音字彙. Hong Kong: 商務印書館. 1988. ISBN 962 07 0081 3"
+    FTL1996:
+        title: "Fung Tinlib 馮田獵, 粤語同音字典. Hong Kong: 東聯學供社, 1996. ISBN 9789628507313"
+    YPC1971:
+        title: "Thomas Yu Ping-Chiu 余秉昭, 同音字彙. Hong Kong: 光華圖書出版公司, 1971."
+    FSY1971:
+        title: "Fung, Sz-Yi 馮思禹, 廣州音字彙. Hong Kong: 世界書局, 1971."
+
+characters:
+    JYN00001:
+        ids: null
+        jyutping: jyu5
+        sources:
+            CSK1939:
+                -   location: "58"
+        remarks: |
+            A variant of “与”, with “一” replaced with “卄”.
+    JYN00002:
+        ids: null
+        jyutping: ngo5
+        sources:
+            CSK1939:
+                -   location: "68"
+        remarks: |
+            [A variant of 我 according to 俗書刊誤 卷七．略記字始．頁571(石鼓字)](http://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAxNDcz)
+            <img src="data:image/png;base64,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">
+    JYN00003:
+        ids: null
+        jyutping: se2
+        sources:
+            CSK1939:
+                -   location: "72"
+        remarks: |
+            A variant of “寫”.
+    JYN00004:
+        ids: ⿰糹⿱负比
+        jyutping: coi4
+        sources:
+            CSK1939:
+                -   location: "56"
+    JYN00005:
+        ids: ⿰口士
+        jyutping: si6
+        sources:
+            CPV1855:
+                -   location: "8"
+        remarks: |
+            - Not to be confused with 吐.
+            - Also seen: [林則徐集](https://zh.wikipedia.org/wiki/User:Urga/%E6%9C%AA%E7%B7%A8%E7%A2%BC%E6%BC%A2%E5%AD%97%E5%88%97%E8%A1%A8)
+            - Also seen: [Hakka Chinese Bible, from BabelStone U+F1DB](https://www.babelstone.co.uk/Fonts/PUA.html)
+    JYN00006:
+        ids: ⿰育攵
+        jyutping: cit3
+        sources:
+            CPV1855:
+                -   location: "14"
+        remarks: |
+            - The right side of 徹, 轍 etc.
+            - Also seen: UTC00448 ([TXT1](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [TXT2](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+    JYN00007:
+        ids: ⿱左月
+        jyutping: do6
+        sources:
+            CPV1855:
+                -   location: "24"
+        remarks: |
+            - The right side of 隋
+            - Also seen: [《廣雅·卷一》](https://ctext.org/dictionary.pl?if=gb&char=ctext%3A8075): “紓摯貞二又至蕆勑輦呈俙許皆屬時欲蛻七會㲗孚毻門悼反冒字也必無**［⿱左月］**字邊從毛吐外反形聲不然或未𠠎口白口郭劙力支袒解也”
+    JYN00008:
+        ids: ⿱雍正
+        jyutping: jung1
+        sources:
+            CPV1855:
+                -   location: "29"
+    JYN00009:
+        ids: ⿰口揖
+        jyutping: ngap6
+        sources:
+            TDCL1856:
+                -   location: "321"
+            FTL1996:
+                -   location: "8"
+        remarks: |
+            Also seen: UTC00380 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+    JYN00010:
+        ids: ⿰扌𦧕
+        jyutping: daam1
+        sources:
+            TDCL1856:
+                -   location: "499"
+        remarks: |
+            A variant of 擔.
+    JYN00011:
+        ids: ⿰牜堅
+        jyutping: hang1
+        sources:
+            LCW1914:
+                -   location: "14"
+    JYN00012:
+        ids: ⿰𧾷貪
+        jyutping: taam1
+        sources:
+            FW1838:
+                -   location: "貞17"
+            LCW1914:
+                -   location: "17"
+            FTL1974:
+                -   location: "113"
+            FTL1996:
+                -   location: "301"
+    JYN00013:
+        ids: ⿵門覃
+        jyutping: taam5
+        sources:
+            LCW1914:
+                -   location: "17"
+    JYN00014:
+        ids: ⿰墨刂
+        jyutping: mak6
+        sources:
+            FW1838: "利32"
+            LCW1914: "21"
+            CSK1939: "31"
+            FTL1974: "89"
+            FTL1996: "236"
+    JYN00016:
+        ids: ⿰貝幾
+        jyutping: gei1
+        sources:
+            LCW1914: "31"
+        remarks: |
+            Also seen: TK01087230 (https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
+    JYN00017:
+        ids: ⿰舟邊
+        jyutping: bin1
+        sources:
+            LCW1914: "41"
+        remarks: |
+            Also seen: GT01918 (IRGN1467, [IRGN1467IDS_A2.xls](https://drive.google.com/uc?id=15P6CRjRiIvImo8fRjhWPr-eN7wdP1oYc&export=download))
+    JYN00018:
+        ids: ⿰山險
+        jyutping: him2
+        sources:
+            LCW1914: "44"
+        remarks: |
+            Also seen: GT01110 (IRGN1467, [IRGN1467IDS_A1.xls](https://drive.google.com/uc?id=1fsM_IhfmouqXj5B3vCJwbZXTbJBMIFpK&export=download))
+#    JYN00019:
+#        ids: ⿱艹𡇒
+#        jyutping: si2
+#        sources:
+#            LCW1914: "45"
+#        remarks: |
+#            - Also seen: «戚林八音校注» 2001 蔡士泮, 陳他, 李如龍, 王升魁(著) https://only3km.github.io/ciklinbekin/CikLinBekIn.html
+#            - Unifiable with 𦳊?
+    JYN00020:
+        ids: ⿰釒般
+        jyutping: bun1
+        sources:
+            LCW1914: "51"
+            FTL1974: "11"
+            FTL1996: "25"
+    JYN00021:
+        ids: ⿱豬土
+        jyutping: bun1
+        sources:
+            LCW1914: "59"
+    JYN00022:
+        ids: ⿰亻⿱𢆉豕
+        jyutping: ji4
+        sources:
+            CSK1939: "2"
+    JYN00023:
+        ids: ⿱𢆉豕
+        jyutping: ji6
+        sources:
+            CSK1939: "2"
+    JYN00024:
+        ids: ⿺辶⿱罒屰
+        jyutping: ng6
+        sources:
+            CSK1939: "3"
+    JYN00025:
+        ids: ⿰⿱立月⿻己三
+        jyutping: lung4
+        sources:
+            CSK1939: "4"
+    JYN00026:
+        ids: ⿱旅刀
+        jyutping: leoi5
+        sources:
+            CSK1939: "6"
+            FSY1971: "25"
+    JYN00027:
+        ids: ⿳木人貝
+        jyutping: loi6
+        sources:
+            CSK1939: "6"
+    JYN00028:
+        ids: ⿸尸⿳宀𡗜月
+        jyutping: liu4
+        sources:
+            CSK1939: "7"
+    JYN00029:
+        ids: ⿰𡱮刂
+        jyutping: waak6
+        sources:
+            CSK1939: "9"
+    JYN00030:
+        ids: ⿸疒征
+        jyutping: zing1
+        sources:
+            CSK1939: "10"
+        remarks: |
+            - Also seen: UK-10976 ([IRGN2385WS2017 v4.0 Part 6 P.300](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part6.pdf))
+            - Also seen: [irg2017-02776](https://hc.jsecs.org/irg/ws2017/app/index.php?id=02776)
+    JYN00031:
+        ids: ⿰來刂
+        jyutping: cik1
+        sources:
+            CSK1939: "10"
+        remarks: |
+            - Also seen: [戚林八音字表](https://only3km.github.io/ciklinbekin/CikLinBekIn.html)
+            - Its simplified form ⿰来刂 is encoded in Ext-G: U+3012F
+    JYN00032:
+        ids: ⿱⿳𠫓⺫冖夕
+        jyutping: mung6
+        sources:
+            CSK1939: "13"
+    JYN00033:
+        ids: ⿱疋䖵
+        jyutping: daan6
+        sources:
+            CSK1939: "16"
+    JYN00034:
+        ids: ⿰𩵋羊
+        jyutping: sin1
+        sources:
+            CSK1939: "18"
+    JYN00035:
+        ids: ⿱⿰月犬灬
+        jyutping: jin4
+        sources:
+            CSK1939: "18"
+    JYN00036:
+        ids: ⿰⺡⿳來𠆢⺢
+        jyutping: cat1
+        sources:
+            CSK1939: "22"
+    JYN00037:
+        ids: ⿰木昬
+        jyutping: fan1
+        sources:
+            CSK1939: "23"
+        remarks: |
+            Also seen: [CB09084](https://github.com/mskala/chise-ids/blob/master/IDS-CBETA.txt)
+    JYN00038:
+        ids: ⿰骨参
+        jyutping: caam2
+        sources:
+            CSK1939: "24"
+    JYN00039:
+        ids: ⿱爫灰
+        jyutping: jim4
+        sources:
+            CSK1939: "26"
+    JYN00040:
+        ids: ⿰石入
+        jyutping: dip6
+        sources:
+            CSK1939: "27"
+    JYN00041:
+        ids: ⿰虫入
+        jyutping: dip6
+        sources:
+            CSK1939: "27"
+    JYN00042:
+        ids: ⿰忄办
+        jyutping: hip6
+        sources:
+            CSK1939: "27"
+    JYN00043:
+        ids: ⿱彐巩
+        jyutping: cam4
+        sources:
+            CSK1939: "28"
+        remarks: |
+            ⿰口⿱彐巩 is found at *sawd-07530* (https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
+    JYN00044:
+        ids: ⿱罒𠂢
+        jyutping: mak6
+        sources:
+            CSK1939: "31"
+        remarks: |
+            The right side of 𢟿 (U+227FF).
+    JYN00045:
+        ids: ⿰飠莽
+        jyutping: mong5
+        sources:
+            CSK1939: "33"
+        remarks: |
+            Also seen: UK-10453 ([PDF](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/?id=04744))
+    JYN00046:
+        ids: ⿰冫莫
+        jyutping: mok6
+        sources:
+            CSK1939: "33"
+    JYN00047:
+        ids: ⿱二山
+        jyutping: ceot1
+        sources:
+            CSK1939: "36"
+        remarks: |
+            Also seen: [sawn-f6c45](http://glyphwiki.org/wiki/Group:Working-SawnNewBuild-05-10)
+    JYN00048:
+        ids: ⿱艹乐
+        jyutping: joek6
+        sources:
+            CSK1939: "40"
+        remarks: |
+            Also seen: GZ-5011102 ([PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part9.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?id=03666))
+    JYN00049:
+        ids: ⿰⿴弓王畺
+        jyutping: goeng1
+        sources:
+            CSK1939: "41"
+    JYN00050:
+        ids: ⿰扌⿱𠫓冉
+        jyutping: gau3
+        sources:
+            CSK1939: "48"
+    JYN00051:
+        ids: ⿱雈皿
+        jyutping: gau6
+        sources:
+            CSK1939: "48"
+        remarks: |
+            Also seen: T13-306D([TXT](https://github.com/cjkvi/cjkvi-ids/blob/master/ws2015-ids-cdp.txt), [PDF1: seq. 426](https://report.nat.gov.tw/ReportFront/PageSystem/reportFileDownload/C10501451/001), [PDF2: SN#03655](http://unicode.org/wg2/docs/n4936-IRGN2269IRG_Working_Set2015v5.pdf))
+    JYN00052:
+        ids: ⿱制二
+        jyutping: zai3
+        sources:
+            CSK1939: "50"
+        remarks: |
+            Also seen: [sawd-06617](https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
+    JYN00053:
+        ids: ⿱艹执
+        jyutping: ngai6
+        sources:
+            CSK1939: "50"
+        remarks: |
+            Also seen: [GXM-00285](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp401-450.pdf), [IRG2017 #03671](https://hc.jsecs.org/irg/ws2017/app/?id=03671)
+    JYN00054:
+        ids: ⿰厶隹
+        jyutping: wai4
+        sources:
+            CSK1939: "51"
+        remarks: |
+            Also seen: [GT00019](https://zh.wikipedia.org/wiki/User:Urga/%E6%B2%99%E7%9B%92/IRGN1467)
+    JYN00055:
+        ids: ⿳⺈口电
+        jyutping: gwai1
+        sources:
+            CSK1939: "51"
+    JYN00056:
+        ids: ⿱艹⿰⺡⿳厶大氺
+        jyutping: zou2, cou2
+        sources:
+            CSK1939: [ "52", "52" ]
+    JYN00057:
+        ids: ⿰⺡⿳厶大氺
+        jyutping: cou1
+        sources:
+            CSK1939: "52"
+    JYN00058:
+        ids: ⿰扌⿳厶大氺
+        jyutping: cou1, cou3
+        sources:
+            CSK1939: [ "52", "52" ]
+    JYN00059:
+        ids: ⿰⺼⿱巛㐫
+        jyutping: nou2
+        sources:
+            CSK1939: "52"
+    JYN00060:
+        ids: ⿰女怒
+        jyutping: nou6
+        sources:
+            CSK1939: "52"
+    JYN00061:
+        ids: ⿱⺮⿰⺡専
+        jyutping: bou6
+        sources:
+            CSK1939: "53"
+        remarks: |
+            Also seen: [J90-4A6D](https://github.com/mskala/chise-ids/blob/master/IDS-JIS-X0208-1990.txt)
+    JYN00062:
+        ids: ⿹弋止
+        jyutping: mou5
+        sources:
+            CSK1939: "53"
+    JYN00063:
+        ids: ⿱止⼎
+        jyutping: seoi3
+        sources:
+            CSK1939: "54"
+    JYN00064:
+        ids: ⿰𠮥卩
+        jyutping: siu6
+        sources:
+            CSK1939: "62"
+    JYN00065:
+        ids: ⿱衣刀
+        jyutping: co1
+        sources:
+            CSK1939: "68"
+    JYN00066:
+        ids: ⿱从可
+        jyutping: o2
+        sources:
+            CSK1939: "69"
+    JYN00067:
+        ids: ⿱亠𠦆
+        jyutping: ce1
+        sources:
+            CSK1939: "72"
+    JYN00068:
+        ids: ⿰鹵奄
+        jyutping: jip3, jim1
+        sources:
+            FSY1971: "35"
+            YPC1971: "104"
+        remarks: |
+            Also seen: [G_WZ102916](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
+    JYN00069:
+        ids: ⿰口靄
+        jyutping: aai3
+        sources:
+            FTL1974: "2"
+            FTL1996: "4"
+        remarks: |
+            Also seen: [sawd-39125](https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
+    JYN00070:
+        ids: ⿰口桻
+        jyutping: baang6
+        sources:
+            FTL1996: "13"
+        remarks: |
+            Also seen: UTC00390 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+    JYN00071:
+        ids: ⿱𥫗彡
+        jyutping: caam2
+        sources:
+            FTL1974: "12"
+            FTL1996: "30"
+    JYN00072:
+        ids: ⿰忄𠫵
+        jyutping: caam2
+        sources:
+            FTL1974: "12"
+            FTL1996: "30"
+    JYN00073:
+        ids: ⿺辶雇
+        jyutping: cim3
+        sources:
+            FW1825: "貞03"
+            FTL1974: "17"
+            FTL1996: "41"
+        remarks: |
+            Possibly misprinted form of 暹
+    JYN00074:
+        ids: ⿱艹瑳
+        jyutping: co1
+        sources:
+            FTL1974: "18"
+            FTL1996: "44"
+    JYN00075:
+        ids: ⿰骨衆 / ⿰骨眾
+        jyutping: cung4
+        sources:
+            FSY1971: "74"
+            FTL1974: "21"
+            FTL1996: "53"
+            WSL1941: "48"
+            ZWJ1988: "202"
+    JYN00076:
+        ids: ⿰口𦂥
+        jyutping: dam3
+        sources:
+            FTL1974: "24"
+            FTL1996: "62"
+    JYN00077:
+        ids: ⿰豕攴
+        jyutping: duk1
+        sources:
+            FTL1996: "73"
+    JYN00078:
+        ids: ⿰扌經
+        jyutping: gaang1
+        sources:
+            FTL1996: "96"
+        remarks: |
+            Also seen: UTC00365 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt), [PDF](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf))
+    JYN00079:
+        ids: ⿳艹⿻亜冖死
+        jyutping: gwang1
+        sources:
+            FW1825: "利29"
+            FW1838: "利29"
+            FTL1974: "45"
+    JYN00080:
+        ids: ⿰木盒
+        jyutping: hap6
+        sources:
+            FW1838: "貞42"
+            FTL1974: "50"
+            FTL1996: "129"
+    JYN00081:
+        ids: ⿰山勘
+        jyutping: ham3
+        sources:
+            FTL1974: "50"
+            FTL1996: "131"
+    JYN00082:
+        ids: ⿱冖盅
+        jyutping: ham6
+        sources:
+            FTL1974: "51"
+            FTL1996: "132"
+    JYN00083:
+        ids: ⿰口炕
+        jyutping: hong3
+        sources:
+            FTL1996: "142"
+        remarks: |
+            Also seen: UTC00359 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+    JYN00084:
+        ids: ⿱⿰立隹木
+        jyutping: lap1
+        sources:
+            FTL1996: "203"
+    JYN00085:
+        ids: ⿱雷䖵
+        jyutping: leoi4
+        sources:
+            FTL1974: "84"
+            FTL1996: "221"
+    JYN00086:
+        ids: ⿰步⿱糸頁
+        jyutping: leoi6
+        sources:
+            FTL1974: "84"
+            FTL1996: "222"
+    JYN00087:
+        ids: ⿲彳𡼡亍
+        jyutping: mak1
+        sources:
+            FTL1974: "89"
+            FTL1996: "236"
+    JYN00088:
+        ids: ⿸尸可
+        jyutping: o1
+        sources:
+            FW1825: "貞23"
+            FTL1974: "94"
+            FTL1996: "250"
+    JYN00089:
+        ids: ⿸尸可
+        jyutping: ngo4
+        sources:
+            FW1825: "貞13"
+            FTL1974: "94"
+            FTL1996: "250"
+    JYN00090:
+        ids: ⿱𥫗⿰皮欠
+        jyutping: po3
+        sources:
+            FTL1974: "99"
+            FTL1996: "264"
+    JYN00091:
+        ids: ⿱⿰山匕一
+        jyutping: se1
+        sources:
+            FTL1974: "104"
+            FTL1996: "277"
+    JYN00092:
+        ids: ⿰歹㔾
+        jyutping: si2
+        sources:
+            FTL1974: "105"
+    JYN00093:
+        ids: ⿱止夗
+        jyutping: si2
+        sources:
+            FTL1974: "105"
+            FTL1996: "280"
+    JYN00094:
+        ids: ⿰衤⿱土石
+        jyutping: tok3
+        sources:
+            FTL1974: "117"
+            FTL1996: "310"
+    JYN00095:
+        ids: ⿰丅長
+        jyutping: zoeng3
+        sources:
+            FTL1974: "135"
+            FTL1996: "361"
+    JYN00096:
+        ids: ⿰亻⿱丿⿳田八夊
+        jyutping: so4
+        sources:
+            ZWJ1988: "8"
+    JYN00097:
+        ids: ⿰土冬
+        jyutping: dung1
+        sources:
+            ZWJ1988: "30"
+        remarks: |
+            Also seen: G_Z1311203, [IRG2015 #00707](http://unicode.org/wg2/docs/n4936-IRGN2269IRG_Working_Set2015v5.pdf)
+    JYN00098:
+        ids: ⿰土冚
+        jyutping: kam2
+        sources:
+            ZWJ1988: "30"
+    JYN00099:
+        ids: ⿰土勇
+        jyutping: jung5
+        sources:
+            ZWJ1988: "32"
+        remarks: |
+            Also seen: [UTC-03064](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03064)
+    JYN00100:
+        ids: ⿳埔𠆢⺢
+        jyutping: jing4
+        sources:
+            ZWJ1988: "33"
+    JYN00101:
+        ids: ⿳山大基
+        jyutping: ce4
+        sources:
+            ZWJ1988: "46"
+    JYN00102:
+        ids: ⿱丞巳
+        jyutping: gan2
+        sources:
+            ZWJ1988: "47"
+        remarks: |
+            Also seen: CB11928 (http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=IDS-CBETA.txt)
+    JYN00103:
+        ids: ⿰巾完
+        jyutping: wun2
+        sources:
+            ZWJ1988: "47"
+    JYN00104:
+        ids: ⿰全斤
+        jyutping: gan1
+        sources:
+            ZWJ1988: "69"
+    JYN00105:
+        ids: ⿰木⿱⿳中十中女
+        jyutping: lau4
+        sources:
+            ZWJ1988: ["79", "255"]
+    JYN00106:
+        ids: ⿳负比免
+        jyutping: cam4
+        sources:
+            ZWJ1988: ["85", "278"]
+    JYN00107:
+        ids: ⿱甫氽
+        jyutping: jin4
+        sources:
+            ZWJ1988: "90"
+        remarks: |
+            Also seen: GDM-00085, UTC-02993([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-02993); [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp201-250.pdf) says “unifies 02007, irg50”, meaning unknown.
+    JYN00108:
+        ids: ⿰王哥
+        jyutping: go1
+        sources:
+            ZWJ1988: "104"
+        remarks: |
+            Also seen: [GDM-00217](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part6.pdf)
+    JYN00109:
+        ids: ⿱田令
+        jyutping: ling4
+        sources:
+            ZWJ1988: "107"
+        remarks: |
+            Also seen: GDM-00107 & UTC-03061 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03061), [PDF 1: #02731 & #02734](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [PDF 2](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp551-600.pdf) says “IRGN2270 Unified & Withdrawn / unified by 02731, irg50”
+    JYN00110:
+        ids: ⿸厂⿱𣏟石
+        jyutping: lik6
+        sources:
+            ZWJ1988: ["117", "257"]
+    JYN00111:
+        ids: ⿰韋刄
+        jyutping: jan6, ngan6
+        sources:
+            ZWJ1988: "194"
+    JYN00112:
+        ids: ⿰口芉
+        jyutping: me1
+        sources:
+            ZWJ1988: "243"
+    JYN00113:
+        ids: ⿺鬼攴
+        jyutping: gwai2
+        sources:
+            ZWJ1988: "263"
+    JYN00114:
+        ids: ⿰糸㝉
+        jyutping: cyu5
+        sources:
+            ZWJ1988: "282"
+    JYN00115:
+        ids: ⿰彳⿱丑山
+        jyutping: naau4
+        sources:
+            FSY1971: "10"
+    JYN00116:
+        ids: ⿰飠普
+        jyutping: pou2
+        sources:
+            FSY1971: "14"
+    JYN00117:
+        ids: ⿰犭怒
+        jyutping: nou6
+        sources:
+            FSY1971: "15"
+        remarks: |
+            Also seen: UK-10780 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UK-10780), [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp251-300.pdf))
+    JYN00118:
+        ids: ⿰木龠
+        jyutping: joek6
+        sources:
+            FSY1971: "61"
+        remarks: |
+            - Also seen: [蒙古字韻 下15 from BabelStone U+F456](https://www.babelstone.co.uk/Fonts/PUA.html)
+            - Also seen: [TE-405A](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
+    JYN00119:
+        ids: ⿰阝䆸
+        jyutping: zing3
+        sources:
+            FSY1971: "66"
+    JYN00120:
+        ids: ⿰巾睪
+        jyutping: jik6
+        sources:
+            FSY1971: "67"
+    JYN00121:
+        ids: ⿰革當
+        jyutping: tong1
+        sources:
+            FSY1971: "69"
+        remarks: |
+            Also seen: Nihon Kokugo Daijiten 日本国語大辞典 (1st ed.) vol. 8 p. 689 ([BabelStone U+F333](https://www.babelstone.co.uk/Fonts/PUA.html), [Twitter](https://twitter.com/bori_so1/status/1162963648119132160))
+    JYN00122:
+        tag: UNLIKELY
+        ids: null
+        jyutping: zing3
+        sources:
+            CSK1939: "10"
+        remarks: The running script (行書/XingShu) form of “正”.
+    JYN00123:
+        tag: UNLIKELY
+        ids: null
+        jyutping: ngou4
+        sources:
+            CSK1939: "52"
+        remarks: Unifiable with 敖.
+    JYN00124:
+        tag: UNLIKELY
+        ids: ⿳十⿰十十貝
+        jyutping: bei3
+        sources:
+            CSK1939: "45"
+        remarks: Not to be confused with 𧶚 (U+27D9A). Unifiable with 賁 (U+8CC1).
+    JYN00125:
+        tag: UNLIKELY
+        ids: ⿱大𠦄
+        jyutping: ban1
+        sources:
+            ZWJ1988: "35"
+        remarks: Unifiable with 奔.
+    JYN00126:
+        tag: UNLIKELY
+        ids: ⿰木幵
+        jyutping: gai1
+        sources:
+            ZWJ1988: "76"
+        remarks: Unifiable with 枅.
+    JYN00127:
+        tag: UNLIKELY
+        ids: ⿰王册
+        jyutping: saan1
+        sources:
+            ZWJ1988: "103"
+        remarks: Unifiable with 珊.
+
