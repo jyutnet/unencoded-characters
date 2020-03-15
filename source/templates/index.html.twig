@@ -24,7 +24,7 @@
         div.unenc-char {
             margin-top: 16px;
             display: grid;
-            grid-template-columns: 1fr 1.5fr 1.5fr 3fr 8fr;
+            grid-template-columns: 2fr 1.5fr 2fr 4fr 8fr;
             grid-gap: 0;
 
             border-top: 1px solid var(--border-color);
@@ -51,7 +51,7 @@
 
         div.evidences dl {
             display: grid;
-            grid-template-columns: 1fr 1.5fr;
+            grid-template-columns: 2fr 1fr;
             grid-gap: 0;
         }
 
@@ -98,7 +98,7 @@
 
         {% for tag, chars in characters %}
         <section>
-            <h3>{{ tag }}</h3>
+            <h3>{{ tag }} ({{ chars|length }})</h3>
 
             <div class="unenc-char header">
                 <div>Seq</div>
@@ -144,7 +144,7 @@
                                 <dt>
                                     <a href="{{ src.evidencePath }}" title="{{ sources[src.id].title }}"
                                        target="_blank">
-                                        [{{ src.id }}]
+                                        {{ src.id }},
                                         {{ src.locationText }}
                                     </a>
                                 </dt>

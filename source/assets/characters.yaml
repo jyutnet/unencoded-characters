@@ -400,6 +400,8 @@ characters:
         jyutping: nou2
         sources:
             CSK1939: "52"
+        remarks: |
+            Also seen: [Moji_Joho collection IVD](https://unicode.org/ivd/data/2017-12-12/IVD_Charts_Moji_Joho.pdf), as `U+8166 E0102` (Moji_Joho MJ058390)
     JYN00060:
         ids: ⿰女怒
         jyutping: nou6
@@ -411,7 +413,8 @@ characters:
         sources:
             CSK1939: "53"
         remarks: |
-            Also seen: [J90-4A6D](https://github.com/mskala/chise-ids/blob/master/IDS-JIS-X0208-1990.txt)
+            - Also seen: [J90-4A6D](https://github.com/mskala/chise-ids/blob/master/IDS-JIS-X0208-1990.txt)
+            - Probably unifiable with U+7C3F 薄, ref: [Hanyo-Denshi collection IVD](https://www.unicode.org/ivd/data/2012-03-02/IVD_Charts_Hanyo-Denshi.pdf), the form is listed as U+7C3F E0102.
     JYN00062:
         ids: ⿹弋止
         jyutping: mou5
@@ -427,6 +430,8 @@ characters:
         jyutping: siu6
         sources:
             CSK1939: "62"
+        remarks:
+            ≠ 卲.
     JYN00065:
         ids: ⿱衣刀
         jyutping: co1
@@ -557,6 +562,8 @@ characters:
         jyutping: lap1
         sources:
             FTL1996: "203"
+        remarks:
+            ≠ U+2E980 (⿰亲隹, JMJ-060323) which is a variant of 雜.
     JYN00085:
         ids: ⿱雷䖵
         jyutping: leoi4
@@ -583,7 +590,7 @@ characters:
             FTL1974: "94"
             FTL1996: "250"
     JYN00089:
-        ids: ⿸尸可
+        ids: ⿰言孔
         jyutping: ngo4
         sources:
             FW1825: "貞13"
@@ -625,10 +632,13 @@ characters:
             FTL1974: "135"
             FTL1996: "361"
     JYN00096:
-        ids: ⿰亻⿱丿⿳田八夊
+        ids: ⿰亻⿳甶八夊
         jyutping: so4
         sources:
             ZWJ1988: "8"
+        remarks: |
+            - A variant of 傻 according to source.
+            - ≠ 𠋻 (⿰亻畟, U+202FB), a variant of 禝/稷 according to 集韻.
     JYN00097:
         ids: ⿰土冬
         jyutping: dung1
@@ -664,7 +674,8 @@ characters:
         sources:
             ZWJ1988: "47"
         remarks: |
-            Also seen: CB11928 (http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=IDS-CBETA.txt)
+            - = 巹, probably unifiable.
+            - Also seen: CB11928 (http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=IDS-CBETA.txt)
     JYN00103:
         ids: ⿰巾完
         jyutping: wun2
@@ -711,21 +722,29 @@ characters:
         jyutping: lik6
         sources:
             ZWJ1988: ["117", "257"]
+        remarks: |
+            Seems a variant of 磿 (not mentioned in source).
     JYN00111:
         ids: ⿰韋刄
         jyutping: jan6, ngan6
         sources:
             ZWJ1988: "194"
+        remarks: |
+            = 韌.
     JYN00112:
         ids: ⿰口芉
         jyutping: me1
         sources:
             ZWJ1988: "243"
+        remarks: |
+            Seems a variant of U+54F6 哶, U+2F841 哶 aka 54F6 FE00 (not mentioned in source).
     JYN00113:
         ids: ⿺鬼攴
         jyutping: gwai2
         sources:
             ZWJ1988: "263"
+        remarks: |
+            Also seen: [CB12840](http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=IDS-CBETA.txt), which is normalized to U+9B3E 鬾, but the pronunciation is different (U+9B3E 鬾: kei4/gei6)
     JYN00114:
         ids: ⿰糸㝉
         jyutping: cyu5
