@@ -67,15 +67,6 @@ characters:
             - Not to be confused with 吐.
             - Also seen: [林則徐集](https://zh.wikipedia.org/wiki/User:Urga/%E6%9C%AA%E7%B7%A8%E7%A2%BC%E6%BC%A2%E5%AD%97%E5%88%97%E8%A1%A8)
             - Also seen: [Hakka Chinese Bible, from BabelStone U+F1DB](https://www.babelstone.co.uk/Fonts/PUA.html)
-    JYN00006:
-        ids: ⿰育攵
-        jyutping: cit3
-        sources:
-            CPV1855:
-                -   location: "14"
-        remarks: |
-            - The right side of 徹, 轍 etc.
-            - Also seen: UTC00448 ([TXT1](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [TXT2](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
     JYN00007:
         ids: ⿱左月
         jyutping: do6
@@ -347,13 +338,6 @@ characters:
         jyutping: gau3
         sources:
             CSK1939: "48"
-    JYN00051:
-        ids: ⿱雈皿
-        jyutping: gau6
-        sources:
-            CSK1939: "48"
-        remarks: |
-            Also seen: T13-306D([TXT](https://github.com/cjkvi/cjkvi-ids/blob/master/ws2015-ids-cdp.txt), [PDF1: seq. 426](https://report.nat.gov.tw/ReportFront/PageSystem/reportFileDownload/C10501451/001), [PDF2: SN#03655](http://unicode.org/wg2/docs/n4936-IRGN2269IRG_Working_Set2015v5.pdf))
     JYN00052:
         ids: ⿱制二
         jyutping: zai3
@@ -375,11 +359,6 @@ characters:
             CSK1939: "51"
         remarks: |
             Also seen: [GT00019](https://zh.wikipedia.org/wiki/User:Urga/%E6%B2%99%E7%9B%92/IRGN1467)
-    JYN00055:
-        ids: ⿳⺈口电
-        jyutping: gwai1
-        sources:
-            CSK1939: "51"
     JYN00056:
         ids: ⿱艹⿰⺡⿳厶大氺
         jyutping: zou2, cou2
@@ -390,11 +369,6 @@ characters:
         jyutping: cou1
         sources:
             CSK1939: "52"
-    JYN00058:
-        ids: ⿰扌⿳厶大氺
-        jyutping: cou1, cou3
-        sources:
-            CSK1939: [ "52", "52" ]
     JYN00059:
         ids: ⿰⺼⿱巛㐫
         jyutping: nou2
@@ -608,11 +582,6 @@ characters:
         sources:
             FTL1974: "104"
             FTL1996: "277"
-    JYN00092:
-        ids: ⿰歹㔾
-        jyutping: si2
-        sources:
-            FTL1974: "105"
     JYN00093:
         ids: ⿱止夗
         jyutping: si2
@@ -639,13 +608,6 @@ characters:
         remarks: |
             - A variant of 傻 according to source.
             - ≠ 𠋻 (⿰亻畟, U+202FB), a variant of 禝/稷 according to 集韻.
-    JYN00097:
-        ids: ⿰土冬
-        jyutping: dung1
-        sources:
-            ZWJ1988: "30"
-        remarks: |
-            Also seen: G_Z1311203, [IRG2015 #00707](http://unicode.org/wg2/docs/n4936-IRGN2269IRG_Working_Set2015v5.pdf)
     JYN00098:
         ids: ⿰土冚
         jyutping: kam2
