@@ -70,7 +70,7 @@ characters:
         remarks: |
             - Not to be confused with 吐.
             - Also seen: [林則徐集](https://zh.wikipedia.org/wiki/User:Urga/%E6%9C%AA%E7%B7%A8%E7%A2%BC%E6%BC%A2%E5%AD%97%E5%88%97%E8%A1%A8)
-            - Also seen: [Hakka Chinese Bible, from BabelStone U+F1DB](https://www.babelstone.co.uk/Fonts/PUA.html)
+            - Also seen: [Hakka Chinese Bible, from BabelStone U+F1DB, UK-20592](https://www.babelstone.co.uk/Fonts/PUA.html)
     JYN00007:
         ids: ⿱左月
         jyutping: do6
@@ -81,6 +81,7 @@ characters:
         remarks: |
             - The right side of 隋
             - Also seen: [《廣雅·卷一》](https://ctext.org/dictionary.pl?if=gb&char=ctext%3A8075): “紓摯貞二又至蕆勑輦呈俙許皆屬時欲蛻七會㲗孚毻門悼反冒字也必無**［⿱左月］**字邊從毛吐外反形聲不然或未𠠎口白口郭劙力支袒解也”
+            - (From [Babelstone](https://www.babelstone.co.uk/Fonts/PUA.html)) L2/20-073, UTC-00609
     JYN00008:
         tag: RETRACTED
         ids: ⿱雍正
@@ -148,7 +149,8 @@ characters:
         sources:
             LCW1914: "31"
         remarks: |
-            Also seen: TK01087230 (https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
+            - Also seen: TK01087230 (https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
+            - (From [Babelstone](https://www.babelstone.co.uk/Fonts/PUA.html)) 《邯鄲縣誌》, UK-20103
     JYN00017:
         ids: ⿰舟邊
         jyutping: bin1
@@ -241,11 +243,15 @@ characters:
         remarks: |
             - Also seen: [戚林八音字表](https://only3km.github.io/ciklinbekin/CikLinBekIn.html)
             - Its simplified form ⿰来刂 is encoded in Ext-G: U+3012F
+            - [Evidence from BabelStone](http://www.koreanhistory.or.kr/newchar/grid_list.jsp?code_type=3&codebase=KC11465)
     JYN00032:
+        tag: RETRACTED
         ids: ⿱⿳𠫓⺫冖夕
         jyutping: mung6
         sources:
             CSK1939: "13"
+        remarks: |
+            Retracted, already encoded (U+5923 夣)
     JYN00033:
         ids: ⿱疋䖵
         jyutping: daan6
@@ -288,6 +294,8 @@ characters:
         jyutping: dip6
         sources:
             CSK1939: "27"
+        remarks: |
+            Also seen in [Babelstone](https://www.babelstone.co.uk/Fonts/PUA.html#U_F096), WG2 N3695 #263: EJ-2.2.059 as 2nd stage simplified form (Part 2) of U+8815 蠕 (which is probably independent from this source)
     JYN00042:
         ids: ⿰忄办
         jyutping: hip6
@@ -313,7 +321,8 @@ characters:
         sources:
             CSK1939: "33"
         remarks: |
-            Also seen: UK-10453 ([PDF](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/?id=04744))
+            - Also seen: UK-10453 ([PDF](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/?id=04744))
+            - [BabelStone](https://www.babelstone.co.uk/Fonts/PUA.html#U_E56C)
     JYN00046:
         ids: ⿰冫莫
         jyutping: mok6
@@ -325,7 +334,8 @@ characters:
         sources:
             CSK1939: "36"
         remarks: |
-            Also seen: [sawn-f6c45](http://glyphwiki.org/wiki/Group:Working-SawnNewBuild-05-10)
+            - Also seen: [sawn-f6c45](http://glyphwiki.org/wiki/Group:Working-SawnNewBuild-05-10)
+            - Other sources: [王澤《老夫子》](https://zhuanlan.zhihu.com/p/19775339), [司馬龍《𢭃坭幅》](https://www.facebook.com/OldCantonese/photos/a.1850808324990362/2822195947851590/)
     JYN00048:
         ids: ⿱艹乐
         jyutping: joek6
@@ -349,7 +359,8 @@ characters:
         sources:
             CSK1939: "50"
         remarks: |
-            Also seen: [sawd-06617](https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
+            - Also seen: [sawd-06617](https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
+            - Other source: [司馬龍《𢭃坭幅》](https://www.facebook.com/OldCantonese/photos/a.1850808324990362/2822195947851590/)
     JYN00053:
         ids: ⿱艹执
         jyutping: ngai6
@@ -380,7 +391,8 @@ characters:
         sources:
             CSK1939: "52"
         remarks: |
-            Also seen: [Moji_Joho collection IVD](https://unicode.org/ivd/data/2017-12-12/IVD_Charts_Moji_Joho.pdf), as `U+8166 E0102` (Moji_Joho MJ058390)
+            - Also seen: [Moji_Joho collection IVD](https://unicode.org/ivd/data/2017-12-12/IVD_Charts_Moji_Joho.pdf), as `U+8166 E0102` (Moji_Joho MJ058390)
+            - See also JYN00149 for ⿱巛㐫.
     JYN00060:
         ids: ⿰女怒
         jyutping: nou6
@@ -393,7 +405,7 @@ characters:
             CSK1939: "53"
         remarks: |
             - Also seen: [J90-4A6D](https://github.com/mskala/chise-ids/blob/master/IDS-JIS-X0208-1990.txt)
-            - Probably unifiable with U+7C3F 薄, ref: [Hanyo-Denshi collection IVD](https://www.unicode.org/ivd/data/2012-03-02/IVD_Charts_Hanyo-Denshi.pdf), the form is listed as U+7C3F E0102.
+            - Probably unifiable with U+7C3F 簿, ref: [Hanyo-Denshi collection IVD](https://www.unicode.org/ivd/data/2012-03-02/IVD_Charts_Hanyo-Denshi.pdf), the form is listed as U+7C3F E0102.
     JYN00062:
         ids: ⿹弋止
         jyutping: mou5
@@ -442,44 +454,51 @@ characters:
             FTL1974: "2"
             FTL1996: "4"
         remarks: |
-            Also seen: [sawd-39125](https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
+            - Also seen: [sawd-39125](https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
+            - [Additional source from Babelstone: 古壯字字典](https://babelstone.co.uk/Fonts/PUA.html#U_E187)
     JYN00070:
         ids: ⿰口桻
         jyutping: baang6
+        babelstone_pua: "U+E19E" # Cowles 1914
         sources:
             FTL1996: "13"
         remarks: |
-            Also seen: UTC00390 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+            - Also seen: UTC00390 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
     JYN00071:
         ids: ⿱𥫗彡
         jyutping: caam2
+        babelstone_pua: "U+E189"
         sources:
             FTL1974: "12"
             FTL1996: "30"
     JYN00072:
         ids: ⿰忄𠫵
         jyutping: caam2
+        babelstone_pua: "U+E18A"
         sources:
             FTL1974: "12"
             FTL1996: "30"
     JYN00073:
         ids: ⿺辶雇
         jyutping: cim3
+        babelstone_pua: "U+E18B"
         sources:
             FW1825: "貞03"
             FTL1974: "17"
             FTL1996: "41"
         remarks: |
-            Possibly misprinted form of 暹
+            Misprinted form of 暹. The correct form is shown in 壁魚堂分韻撮要 (17xx).
     JYN00074:
         ids: ⿱艹瑳
         jyutping: co1
+        babelstone_pua: "U+E18C"
         sources:
             FTL1974: "18"
             FTL1996: "44"
     JYN00075:
         ids: ⿰骨衆 / ⿰骨眾
         jyutping: cung4
+        babelstone_pua: "U+E18D"
         sources:
             FSY1971: "74"
             FTL1974: "21"
@@ -489,6 +508,7 @@ characters:
     JYN00076:
         ids: ⿰口𦂥
         jyutping: dam3
+        babelstone_pua: "U+E18E" # Cowles 1914 (no. 3001)
         sources:
             FTL1974: "24"
             FTL1996: "62"
@@ -497,9 +517,12 @@ characters:
         jyutping: duk1
         sources:
             FTL1996: "73"
+        remarks:
+            Probably misprinted from 𢽚.
     JYN00078:
         ids: ⿰扌經
         jyutping: gaang1
+        babelstone_pua: "U+F020" # Cowles 1914 (no. 1481)
         sources:
             FTL1996: "96"
         remarks: |
@@ -514,6 +537,7 @@ characters:
     JYN00080:
         ids: ⿰木盒
         jyutping: hap6
+        babelstone_pua: "U+E18F"
         sources:
             FW1838: "貞42"
             FTL1974: "50"
@@ -521,18 +545,21 @@ characters:
     JYN00081:
         ids: ⿰山勘
         jyutping: ham3
+        babelstone_pua: "U+E190" # KC-05016
         sources:
             FTL1974: "50"
             FTL1996: "131"
     JYN00082:
         ids: ⿱冖盅
         jyutping: ham6
+        babelstone_pua: "U+E191"
         sources:
             FTL1974: "51"
             FTL1996: "132"
     JYN00083:
         ids: ⿰口炕
         jyutping: hong3
+        babelstone_pua: "U+E19F" # Cowles 1914 (no. 1184)
         sources:
             FTL1996: "142"
         remarks: |
@@ -547,6 +574,7 @@ characters:
     JYN00085:
         ids: ⿱雷䖵
         jyutping: leoi4
+        babelstone_pua: "U+E192"
         sources:
             FTL1974: "84"
             FTL1996: "221"
@@ -559,12 +587,14 @@ characters:
     JYN00087:
         ids: ⿲彳𡼡亍
         jyutping: mak1
+        babelstone_pua: "U+E193"
         sources:
             FTL1974: "89"
             FTL1996: "236"
     JYN00088:
         ids: ⿸尸可
         jyutping: o1
+        babelstone_pua: "U+E195" # UK-20862
         sources:
             FW1825: "貞23"
             FTL1974: "94"
@@ -573,6 +603,7 @@ characters:
     JYN00089:
         ids: ⿰言孔
         jyutping: ngo4
+        babelstone_pua: "U+E196"
         sources:
             FW1825: "貞13"
             FTL1974: "94"
@@ -580,30 +611,35 @@ characters:
     JYN00090:
         ids: ⿱𥫗⿰皮欠
         jyutping: po3
+        babelstone_pua: "U+E197"
         sources:
             FTL1974: "99"
             FTL1996: "264"
     JYN00091:
         ids: ⿱⿰山匕一
         jyutping: se1
+        babelstone_pua: "U+E198"
         sources:
             FTL1974: "104"
             FTL1996: "277"
     JYN00093:
         ids: ⿱止夗
         jyutping: si2
+        babelstone_pua: "U+E19A"
         sources:
             FTL1974: "105"
             FTL1996: "280"
     JYN00094:
         ids: ⿰衤⿱土石
         jyutping: tok3
+        babelstone_pua: "U+E19C"
         sources:
             FTL1974: "117"
             FTL1996: "310"
     JYN00095:
         ids: ⿰丅長
         jyutping: zoeng3
+        babelstone_pua: "U+E19D"
         sources:
             FTL1974: "135"
             FTL1996: "361"
@@ -623,6 +659,7 @@ characters:
     JYN00099:
         ids: ⿰土勇
         jyutping: jung5
+        babelstone_pua: "U+E84F"
         sources:
             ZWJ1988: "32"
         remarks: |
@@ -670,6 +707,7 @@ characters:
         jyutping: jin4
         sources:
             ZWJ1988: "90"
+        babelstone_pua: "U+E41F"
         remarks: |
             Also seen: GDM-00085, UTC-02993([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-02993); [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp201-250.pdf) says “unifies 02007, irg50”, meaning unknown.
     JYN00108:
@@ -682,6 +720,7 @@ characters:
     JYN00109:
         ids: ⿱田令
         jyutping: ling4
+        babelstone_pua: "U+E84C"
         sources:
             ZWJ1988: "107"
         remarks: |
@@ -699,14 +738,15 @@ characters:
         sources:
             ZWJ1988: "194"
         remarks: |
-            = 韌.
+            = 韌. unifiable?
     JYN00112:
         ids: ⿰口芉
         jyutping: me1
         sources:
             ZWJ1988: "243"
         remarks: |
-            Seems a variant of U+54F6 哶, U+2F841 哶 aka 54F6 FE00 (not mentioned in source).
+            - Seems a variant of U+54F6 哶, U+2F841 哶 aka 54F6 FE00 (not mentioned in source).
+            - [G_ZFY00754](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
     JYN00113:
         ids: ⿺鬼攴
         jyutping: gwai2
@@ -719,6 +759,8 @@ characters:
         jyutping: cyu5
         sources:
             ZWJ1988: "282"
+        remarks: |
+            Also seen: [Dictionary of the Foochow Dialect, 1929](https://only3km.github.io/ciklinbekin/DFD.html)
     JYN00115:
         ids: ⿰彳⿱丑山
         jyutping: naau4
@@ -732,6 +774,7 @@ characters:
     JYN00117:
         ids: ⿰犭怒
         jyutping: nou6
+        babelstone_pua: "U+E58F"
         sources:
             FSY1971: "15"
             WST1937: "244"
@@ -741,6 +784,7 @@ characters:
     JYN00118:
         ids: ⿰木龠
         jyutping: joek6
+        babelstone_pua: "U+F456"
         sources:
             FSY1971: "61"
         remarks: |
@@ -759,6 +803,7 @@ characters:
     JYN00121:
         ids: ⿰革當
         jyutping: tong1
+        babelstone_pua: "U+F333"
         sources:
             FSY1971: "69"
         remarks: |
@@ -810,19 +855,24 @@ characters:
         jyutping: ji5
         sources:
             WST1937: "100"
-        remarks: A variant of 爾.
-#    JYN00129:
+        remarks: |
+            - Variant of 爾.
+            - Also seen: [UTC00526](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [2](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf)
+#    JYN00129: # U+2F8B1
 #        ids: ⿰忄頼
 #        jyutping: laan5
 #        sources:
 #            WST1937: "136"
 #        remarks: Source claims ⿰忄頼 is a varint of 嬾, and is different from 懶
     JYN00130:
+        tag: RETRACTED
         ids: ⿰犭寕
         jyutping: ning4
         sources:
             WST1937: "244"
-        remarks: We have ⿰氵寕 (U+2C23F), ⿱艹寕 (U+2C78A), ⿰糸寕 (U+2615C), ⿰虫寕 (U+2E53E) in addition to 濘, 薴, 𦆭, 䗿.
+        remarks: |
+            - We have ⿰氵寕 (U+2C23F), ⿱艹寕 (U+2C78A), ⿰糸寕 (U+2615C), ⿰虫寕 (U+2E53E) in addition to 濘, 薴, 𦆭, 䗿.
+            - Retracted - already encoded (U+2485B).
     JYN00131:
         ids: ⿱竹⿳⺊彐龰
         jyutping: zit6, saap3
@@ -830,11 +880,14 @@ characters:
             WST1937: "299"
         remarks: A variant of 箑 (⿱竹疌). Similar to 㨗 (U+3A17) vs 捷 (U+6377), 媫 (U+5AAB) vs 婕 (U+5A55).
     JYN00132:
+        tag: RETRACTED
         ids: ⿳竹⿰工口木
         jyutping: zuk1
         sources:
             WST1937: "299"
-        remarks: A variant of 築.
+        remarks: |
+            - A variant of 築.
+            - UTC-01161, unified to U+7BC9 築, IRG48 (https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg48/IRGN2223Unified&WithdrawnV4.0.pdf)
     JYN00133:
         ids: ⿰糹𤣥
         jyutping: jin4
@@ -852,19 +905,25 @@ characters:
         jyutping: laam5
         sources:
             WST1937: "389"
-        remarks: A variant of 覽.
+        remarks: |
+            - A variant of 覽.
+            - Also seen - [UTC00580 1](http://www.unicode.org/reports/tr45/tr45-sourcedata-3.txt), [UTC00580 2](http://www.unicode.org/Public/12.1.0/ucd/USourceRSChart.pdf)
     JYN00136:
         ids: ⿰娄頁
         jyutping: leoi5, leoi6
         sources:
             WST1937: "483"
-        remarks: A variant of 類.
+        remarks: |
+            - Variant of 類.
+            - Also seen - [IRG WS 2017 ##04710](https://hc.jsecs.org/irg/ws2017/app/?id=04710)
     JYN00137:
         ids: ⿰禾⿱不冉
         jyutping: cing1, cing3
         sources:
             FSY1967: "113"
-        remarks: An erratic form of 稱.
+        remarks: |
+            - An erratic form of 稱.
+            - Also seen - [TD-5239](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
     JYN00138:
         ids: ⿳⺊彐龰
         jyutping: zip6
@@ -894,13 +953,16 @@ characters:
         jyutping: geoi3
         sources:
             FSY1967: "285"
-        remarks: Simplified form of 據.
+        remarks: |
+            - Simplified form of 據.
+            - See also [TC-323F](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [2](https://appsrv.cse.cuhk.edu.hk/~irg/irg/CJK/CJK_C1_V3.1_101-200.pdf)
     JYN00143:
         ids: ⿻𠂊⺀
         jyutping: ~
         sources:
             FSY1967: "289"
-        remarks: ~
+        remarks: |
+            - See also [UTC-00804](http://www.unicode.org/Public/12.1.0/ucd/USourceRSChart.pdf), [2](http://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
     JYN00144:
         ids: ⿱釆大
         jyutping: gyun3
@@ -930,7 +992,9 @@ characters:
         jyutping: lit6
         sources:
             FSY1967: "370"
-        remarks: Erratic form of 𠛱.
+        remarks: |
+            - Erratic form of 𠛱.
+            - See also [UTC-00127](http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt), [2](https://unicode.org/Public/UCD/latest/ucd/USourceGlyphs.pdf)
     JYN00149:
         ids: ⿱巛㐫
         jyutping: ~
@@ -960,13 +1024,18 @@ characters:
         jyutping: seon4
         sources:
             FSY1967: "397"
-        remarks: Same as 醇.
+        remarks: |
+            - Same as 醇.
+            - See also [WS2017 04411](https://hc.jsecs.org/irg/ws2017/app/?id=04411), [KC 08171](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp451-500.pdf)
     JYN00154:
         ids: ⿱文韭
         jyutping: zai1
+        babelstone_pua: U+F12B # WG2 N3695 #169:DJ-70, HZFY p.459
         sources:
             FSY1967: "403"
-        remarks: Simplified form of 齏.
+        remarks: |
+            - Simplified form of 齏.
+            - See also [WS2017 04681](https://hc.jsecs.org/irg/ws2017/app/index.php?id=04681), [UK 10770](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part11.pdf)
     JYN00155:
         ids: ⿰⿱立月尨
         jyutping: lung4, cung2, lung5
