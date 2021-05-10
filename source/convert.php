@@ -37,15 +37,23 @@ foreach ($data['characters'] as $charId => $charData) {
                 $sourceDatum = ['location' => $sourceDatum];
             }
 
-            $ext = $data['sources'][$sourceId]['extension'] ?? 'jpg';
-            $evidenceFilename =
-                is_numeric($sourceDatum['location'])
-                    ? sprintf('%04d.%s', $sourceDatum['location'], $ext)
-                    : sprintf('%s.%s', $sourceDatum['location'], $ext);
+            $evidencePath = null;
+            foreach (['jpg', 'png'] as $tryExtension) {
+                $ext = $data['sources'][$sourceId]['extension'] ?? $tryExtension;
+                $evidenceFilename =
+                    is_numeric($sourceDatum['location'])
+                        ? sprintf('%04d.%s', $sourceDatum['location'], $ext)
+                        : sprintf('%s.%s', $sourceDatum['location'], $ext);
 
-            $evidencePath = 'evidences/' . $sourceId . '/' . $evidenceFilename;
-            if (!is_file(__DIR__ . '/../' . $evidencePath)) {
-                die($evidencePath . ' not found.');
+                $tryEvidencePath = 'evidences/' . $sourceId . '/' . $evidenceFilename;
+                if (is_file(__DIR__ . '/../' . $tryEvidencePath)) {
+                    $evidencePath = $tryEvidencePath;
+                    break;
+                }
+            }
+
+            if (!$evidencePath) {
+                die($tryEvidencePath . ' not found.');
             }
 
             $sources[] = array_merge($sourceDatum, [

@@ -24,6 +24,8 @@ sources:
         title: "Thomas Yu Ping-Chiu 余秉昭, 同音字彙. Hong Kong: 光華圖書出版公司, 1971."
     FSY1971:
         title: "Fung, Sz-Yi 馮思禹, 廣州音字彙. Hong Kong: 世界書局, 1971."
+    WST1937:
+        title: "Wang Sung Tang 王頌棠, 中華新字典. Guangzhou: 環球書局, 1937."
 
 characters:
     JYN00001:
@@ -77,11 +79,15 @@ characters:
             - The right side of 隋
             - Also seen: [《廣雅·卷一》](https://ctext.org/dictionary.pl?if=gb&char=ctext%3A8075): “紓摯貞二又至蕆勑輦呈俙許皆屬時欲蛻七會㲗孚毻門悼反冒字也必無**［⿱左月］**字邊從毛吐外反形聲不然或未𠠎口白口郭劙力支袒解也”
     JYN00008:
+        tag: RETRACTED
         ids: ⿱雍正
         jyutping: jung1
         sources:
             CPV1855:
                 -   location: "29"
+        remarks: |
+            - Retracted, probably a badly printed form of 㻾 according to a clearer source.
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAADGCAMAAACQLOy4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF28myY1E+prBdXwAAAwxJREFUeNrsm9tygzAMRL3//9OdPmRKsO5akaTBT22IDyDL0kqQte6RHsAA8jGmuBjCUsH/lJs+a4ybv50QVzx8mLYdxGn8frTUL1kzW2MIi/nrPSxlYFaGq6y/657n0wX9Svg08D3fXR2/T25tmFxUg7KDReZy/46pX65hH0ddLMx4IK3rNvs4S8XC9BjJt4/TjL1vO92+YyBxIxvOzrjiP+n4sN2XYJEQ03F6qJe7oCxHJItoF28vXJi726AQczaUtGIN7m7oZeeYJ4iTy4/7TLw66R7kG9ByaiQDWoJzPyLHWmTzm3hfPK4YnQzzQlytM1lJZ4ZGivuvs1PiXM3DLG4wC2nhVw3s2lYxxdmelEMekJCTCTdbnkxdNa5oFyepw0hLT3ZNysmKKElg4ZUpWTHpGMYwqT0hK/ujYjLmCLrNfdnXicDaCbd1lVVVnJpa9AsaLWWoPc+sbPeblLRQrMDvFa96HcnhBlIIi7sHPTXcF9o6dPd+CRcElMktn8LaKs0dqmmiqlHC5VudiwHuInNh1loUM1DdN1qv2aVbLia3esrINuGQAce5cdP7/bNirPsrAVxvCzfJLQmf3Sb0pnKJm7DDc6zJqnL+Q7R73OO9x4Qu0zQKn0vTlUNcmNz6GcwOWO7arc6eJFcLmp9YD5ES0GXcZcyFYqR83QI4/lt15lh//t24a5y7mHGnoKGbBe4XJ7Z2zeVqbCIXn8BVamZObND+7oacIS6u5ja7Rxq3145R/0m+EqO2Y2THZmyHdaEweQeucSqhtciIQBPt35FXKNm10dmsZCuQucIz6oHCkFy+nQUwzcGCncoqdQWePcY3gxdAilvMjUyseFDjRqY0sdk1zVTwva/dXcyX1xpTJQxu7hAXX2oH5TEZ/+qYXPWN4PIO7Ly0xFHsU9ziL3sC56krSOsDDrfb5NEe0H89t/6iuR1uuev2adxx/wV5v+3vK3ulB6+z8R3c3ZzM+GvF+Vaep7xhrf/SqivZKJC4jCLos4t06s29uRdwMcv9sLLwbpYkx48AAwA73BNgTDy5sgAAAABJRU5ErkJggg==">
     JYN00009:
         ids: ⿰口揖
         jyutping: ngap6
@@ -154,14 +160,15 @@ characters:
             LCW1914: "44"
         remarks: |
             Also seen: GT01110 (IRGN1467, [IRGN1467IDS_A1.xls](https://drive.google.com/uc?id=1fsM_IhfmouqXj5B3vCJwbZXTbJBMIFpK&export=download))
-#    JYN00019:
-#        ids: ⿱艹𡇒
-#        jyutping: si2
-#        sources:
-#            LCW1914: "45"
-#        remarks: |
-#            - Also seen: «戚林八音校注» 2001 蔡士泮, 陳他, 李如龍, 王升魁(著) https://only3km.github.io/ciklinbekin/CikLinBekIn.html
-#            - Unifiable with 𦳊?
+    JYN00019:
+        tag: RETRACTED
+        ids: ⿱艹𡇒
+        jyutping: si2
+        sources:
+            LCW1914: "45"
+        remarks: |
+            - Also seen: «戚林八音校注» 2001 蔡士泮, 陳他, 李如龍, 王升魁(著) https://only3km.github.io/ciklinbekin/CikLinBekIn.html
+            - Retracted, unifiable with 𦳊.
     JYN00020:
         ids: ⿰釒般
         jyutping: bun1
@@ -558,6 +565,7 @@ characters:
             FW1825: "貞23"
             FTL1974: "94"
             FTL1996: "250"
+            WST1937: "101"
     JYN00089:
         ids: ⿰言孔
         jyutping: ngo4
@@ -722,6 +730,7 @@ characters:
         jyutping: nou6
         sources:
             FSY1971: "15"
+            WST1937: "244"
         remarks: |
             Also seen: UK-10780 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UK-10780), [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp251-300.pdf))
     JYN00118:
@@ -791,4 +800,59 @@ characters:
         sources:
             ZWJ1988: "103"
         remarks: Unifiable with 珊.
+    JYN00128:
+        ids: ⿱冖小
+        jyutping: ji5
+        sources:
+            WST1937: "100"
+        remarks: A variant of 爾.
+#    JYN00129:
+#        ids: ⿰忄頼
+#        jyutping: laan5
+#        sources:
+#            WST1937: "136"
+#        remarks: Source claims ⿰忄頼 is a varint of 嬾, and is different from 懶
+    JYN00130:
+        ids: ⿰犭寕
+        jyutping: ning4
+        sources:
+            WST1937: "244"
+        remarks: We have ⿰氵寕 (U+2C23F), ⿱艹寕 (U+2C78A), ⿰糸寕 (U+2615C), ⿰虫寕 (U+2E53E) in addition to 濘, 薴, 𦆭, 䗿.
+    JYN00131:
+        ids: ⿱竹⿳⺊彐龰
+        jyutping: zit6, saap3
+        sources:
+            WST1937: "299"
+        remarks: A variant of 箑 (⿱竹疌). Similar to 㨗 (U+3A17) vs 捷 (U+6377), 媫 (U+5AAB) vs 婕 (U+5A55).
+    JYN00132:
+        ids: ⿳竹⿰工口木
+        jyutping: zuk1
+        sources:
+            WST1937: "299"
+        remarks: A variant of 築.
+    JYN00133:
+        ids: ⿰糹𤣥
+        jyutping: jin4
+        sources:
+            WST1937: "307"
+        remarks: A variant of 絃.
+    JYN00134:
+        ids: ⿱⿳亠口冖月
+        jyutping: gou1, gou3
+        sources:
+            WST1937: "333"
+        remarks: A variant of 膏.
+    JYN00135:
+        ids: ⿱臤見
+        jyutping: laam5
+        sources:
+            WST1937: "389"
+        remarks: A variant of 覽.
+    JYN00136:
+        ids: ⿰娄頁
+        jyutping: leoi5, leoi6
+        sources:
+            WST1937: "483"
+        remarks: A variant of 類.
+
 
