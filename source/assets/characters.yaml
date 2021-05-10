@@ -26,6 +26,8 @@ sources:
         title: "Fung, Sz-Yi 馮思禹, 廣州音字彙. Hong Kong: 世界書局, 1971."
     WST1937:
         title: "Wang Sung Tang 王頌棠, 中華新字典. Guangzhou: 環球書局, 1937."
+    FSY1967:
+        title: "Fung, Sz-Yi 馮思禹, 部身字典. Hong Kong: 右文書局, 1967."
 
 characters:
     JYN00001:
@@ -75,6 +77,7 @@ characters:
         sources:
             CPV1855:
                 -   location: "24"
+            FSY1967: "95"
         remarks: |
             - The right side of 隋
             - Also seen: [《廣雅·卷一》](https://ctext.org/dictionary.pl?if=gb&char=ctext%3A8075): “紓摯貞二又至蕆勑輦呈俙許皆屬時欲蛻七會㲗孚毻門悼反冒字也必無**［⿱左月］**字邊從毛吐外反形聲不然或未𠠎口白口郭劙力支袒解也”
@@ -429,6 +432,7 @@ characters:
         sources:
             FSY1971: "35"
             YPC1971: "104"
+            FSY1967: "113"
         remarks: |
             Also seen: [G_WZ102916](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
     JYN00069:
@@ -731,6 +735,7 @@ characters:
         sources:
             FSY1971: "15"
             WST1937: "244"
+            FSY1967: "375"
         remarks: |
             Also seen: UK-10780 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UK-10780), [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp251-300.pdf))
     JYN00118:
@@ -854,5 +859,118 @@ characters:
         sources:
             WST1937: "483"
         remarks: A variant of 類.
-
+    JYN00137:
+        ids: ⿰禾⿱不冉
+        jyutping: cing1, cing3
+        sources:
+            FSY1967: "113"
+        remarks: An erratic form of 稱.
+    JYN00138:
+        ids: ⿳⺊彐龰
+        jyutping: zip6
+        sources:
+            FSY1967: "137"
+        remarks: Erratic form of 疌.
+    JYN00139:
+        ids: ⿰⿳业𢆉土寸
+        jyutping: deoi3
+        sources:
+            FSY1967: "138"
+        remarks: Ancient form of 對.
+    JYN00140:
+        ids: ⿻囗一
+        jyutping: jim5
+        sources:
+            FSY1967: "143"
+        remarks: Variant of 冄.
+    JYN00141:
+        ids: (The left side of 印)
+        jyutping: ~
+        sources:
+            FSY1967: "222"
+        remarks: ~
+    JYN00142:
+        ids: ⿰扌处
+        jyutping: geoi3
+        sources:
+            FSY1967: "285"
+        remarks: Simplified form of 據.
+    JYN00143:
+        ids: ⿻𠂊⺀
+        jyutping: ~
+        sources:
+            FSY1967: "289"
+        remarks: ~
+    JYN00144:
+        ids: ⿱釆大
+        jyutping: gyun3
+        sources:
+            FSY1967: "312"
+        remarks: ~
+    JYN00145:
+        ids: ⿱⺕豕
+        jyutping: ci2
+        sources:
+            FSY1967: "332"
+        remarks: Variant of 𧰲.
+    JYN00146:
+        ids: ⿱㞢寸
+        jyutping: zi6
+        sources:
+            FSY1967: "348"
+        remarks: Variant of 寺.
+    JYN00147:
+        ids: ⿱刀巴
+        jyutping: ~
+        sources:
+            FSY1967: "363"
+        remarks: Different from 色.
+    JYN00148:
+        ids: ⿰𣧄刂
+        jyutping: lit6
+        sources:
+            FSY1967: "370"
+        remarks: Erratic form of 𠛱.
+    JYN00149:
+        ids: ⿱巛㐫
+        jyutping: ~
+        sources:
+            FSY1967: "372"
+        remarks: Variant of 𡿺.
+    JYN00150:
+        ids: ⿱幺月
+        jyutping: ~
+        sources:
+            FSY1967: "372"
+        remarks: ~
+    JYN00151:
+        ids: ⿳厶十回
+        jyutping: pei2, tou4
+        sources:
+            FSY1967: "377"
+        remarks: Variant of 啚.
+    JYN00152:
+        ids: ⿱艹稁
+        jyutping: gou2
+        sources:
+            FSY1967: "394"
+        remarks: Variant of 稿.
+    JYN00153:
+        ids: ⿰酉畗
+        jyutping: seon4
+        sources:
+            FSY1967: "397"
+        remarks: Same as 醇.
+    JYN00154:
+        ids: ⿱文韭
+        jyutping: zai1
+        sources:
+            FSY1967: "403"
+        remarks: Simplified form of 齏.
+    JYN00155:
+        ids: ⿰⿱立月尨
+        jyutping: lung4, cung2, lung5
+        sources:
+            FSY1967: "419"
+        remarks: Variant of 龍.
 
