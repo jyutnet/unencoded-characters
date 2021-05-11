@@ -64,16 +64,17 @@ characters:
     JYN00005:
         ids: ⿰口士
         jyutping: si6
+        babelstone_pua: "U+F1DB" # Hakka Chinese Bible HGSS p. 143, UK-20592
         sources:
             CPV1855:
                 -   location: "8"
         remarks: |
             - Not to be confused with 吐.
             - Also seen: [林則徐集](https://zh.wikipedia.org/wiki/User:Urga/%E6%9C%AA%E7%B7%A8%E7%A2%BC%E6%BC%A2%E5%AD%97%E5%88%97%E8%A1%A8)
-            - Also seen: [Hakka Chinese Bible, from BabelStone U+F1DB, UK-20592](https://www.babelstone.co.uk/Fonts/PUA.html)
     JYN00007:
         ids: ⿱左月
         jyutping: do6
+        babelstone_pua: "U+F07E" # L2/20-073 UTC-00609
         sources:
             CPV1855:
                 -   location: "24"
@@ -81,7 +82,6 @@ characters:
         remarks: |
             - The right side of 隋
             - Also seen: [《廣雅·卷一》](https://ctext.org/dictionary.pl?if=gb&char=ctext%3A8075): “紓摯貞二又至蕆勑輦呈俙許皆屬時欲蛻七會㲗孚毻門悼反冒字也必無**［⿱左月］**字邊從毛吐外反形聲不然或未𠠎口白口郭劙力支袒解也”
-            - (From [Babelstone](https://www.babelstone.co.uk/Fonts/PUA.html)) L2/20-073, UTC-00609
     JYN00008:
         tag: RETRACTED
         ids: ⿱雍正
@@ -95,6 +95,7 @@ characters:
     JYN00009:
         ids: ⿰口揖
         jyutping: ngap6
+        babelstone_pua: "U+E917" # Cowles 1914 (no. 3033)
         sources:
             TDCL1856:
                 -   location: "321"
@@ -119,6 +120,7 @@ characters:
     JYN00012:
         ids: ⿰𧾷貪
         jyutping: taam1
+        babelstone_pua: "U+E19B"
         sources:
             FW1838:
                 -   location: "貞17"
@@ -137,6 +139,7 @@ characters:
     JYN00014:
         ids: ⿰墨刂
         jyutping: mak6
+        babelstone_pua: "U+E194"
         sources:
             FW1838: "利32"
             LCW1914: "21"
@@ -146,11 +149,11 @@ characters:
     JYN00016:
         ids: ⿰貝幾
         jyutping: gei1
+        babelstone_pua: "U+EBF6" # 《邯鄲縣誌》, UK-20103
         sources:
             LCW1914: "31"
         remarks: |
             - Also seen: TK01087230 (https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
-            - (From [Babelstone](https://www.babelstone.co.uk/Fonts/PUA.html)) 《邯鄲縣誌》, UK-20103
     JYN00017:
         ids: ⿰舟邊
         jyutping: bin1
@@ -177,6 +180,7 @@ characters:
     JYN00020:
         ids: ⿰釒般
         jyutping: bun1
+        babelstone_pua: "U+E188"
         sources:
             LCW1914: "51"
             FTL1974: "11"
@@ -230,6 +234,7 @@ characters:
     JYN00030:
         ids: ⿸疒征
         jyutping: zing1
+        babelstone_pua: "U+E5ED"
         sources:
             CSK1939: "10"
         remarks: |
@@ -238,12 +243,12 @@ characters:
     JYN00031:
         ids: ⿰來刂
         jyutping: cik1
+        babelstone_pua: "U+F119" # http://www.koreanhistory.or.kr/newchar/grid_list.jsp?code_type=3&codebase=KC11465
         sources:
             CSK1939: "10"
         remarks: |
             - Also seen: [戚林八音字表](https://only3km.github.io/ciklinbekin/CikLinBekIn.html)
             - Its simplified form ⿰来刂 is encoded in Ext-G: U+3012F
-            - [Evidence from BabelStone](http://www.koreanhistory.or.kr/newchar/grid_list.jsp?code_type=3&codebase=KC11465)
     JYN00032:
         tag: RETRACTED
         ids: ⿱⿳𠫓⺫冖夕
@@ -292,10 +297,11 @@ characters:
     JYN00041:
         ids: ⿰虫入
         jyutping: dip6
+        babelstone_pua: "U+F096" # WG2 N3695 #263
         sources:
             CSK1939: "27"
         remarks: |
-            Also seen in [Babelstone](https://www.babelstone.co.uk/Fonts/PUA.html#U_F096), WG2 N3695 #263: EJ-2.2.059 as 2nd stage simplified form (Part 2) of U+8815 蠕 (which is probably independent from this source)
+            Also seen in [Babelstone](https://www.babelstone.co.uk/Fonts/PUA.html#U_F096), WG2 N3695 #263: EJ-2.2.059 as 2nd stage simplified form (Part 2) of U+8815 蠕, which is probably unrelated to this source.
     JYN00042:
         ids: ⿰忄办
         jyutping: hip6
@@ -318,11 +324,11 @@ characters:
     JYN00045:
         ids: ⿰飠莽
         jyutping: mong5
+        babelstone_pua: "U+E56C" # SFCY p. 281 UK-10453
         sources:
             CSK1939: "33"
         remarks: |
             - Also seen: UK-10453 ([PDF](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/?id=04744))
-            - [BabelStone](https://www.babelstone.co.uk/Fonts/PUA.html#U_E56C)
     JYN00046:
         ids: ⿰冫莫
         jyutping: mok6
@@ -331,6 +337,7 @@ characters:
     JYN00047:
         ids: ⿱二山
         jyutping: ceot1
+        babelstone_pua: "U+F4EC" # GDM-00330
         sources:
             CSK1939: "36"
         remarks: |
@@ -441,6 +448,7 @@ characters:
     JYN00068:
         ids: ⿰鹵奄
         jyutping: jip3, jim1
+        babelstone_pua: "U+F73F"
         sources:
             FSY1971: "35"
             YPC1971: "104"
@@ -450,12 +458,12 @@ characters:
     JYN00069:
         ids: ⿰口靄
         jyutping: aai3
+        babelstone_pua: "U+E187" # 古壯字字典
         sources:
             FTL1974: "2"
             FTL1996: "4"
         remarks: |
             - Also seen: [sawd-39125](https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
-            - [Additional source from Babelstone: 古壯字字典](https://babelstone.co.uk/Fonts/PUA.html#U_E187)
     JYN00070:
         ids: ⿰口桻
         jyutping: baang6
