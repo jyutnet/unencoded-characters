@@ -9,6 +9,8 @@ sources:
         title: "Samuel Wells Williams, Tonic Dictionary of the Chinese Language in the Canton Dialect (英華分韻撮要). Canton: Office of the Chinese Repository (羊城中和行). 1856"
     LCW1914:
         title: "Li, Chunhua 李春華, 分部分音廣話九聲字宗. 1914. From Hatano, Tarō 波多野太郎, Chūgoku gobun shiryō ikan 中國語文資料彙刊 pp365-402. Tokyo : Fuji Shuppan. 1991."
+    LDY1916:
+        title: "Li, Danyu 李澹愚, 廣話國語一貫未定稿. 1916."
     CSK1939:
         title: "Chan Sui Ki 陳瑞祺, 道漢字音. Hong Kong: 道字總社. 1939"
         extension: png
@@ -1050,4 +1052,34 @@ characters:
         sources:
             FSY1967: "419"
         remarks: Variant of 龍.
-
+    JYN00156:
+        ids: ⿰飠意
+        jyutping: ji3
+        sources:
+            FSY1971: "4"
+        remarks: ~
+    JYN00157:
+        ids: ⿰扌坎
+        jyutping: ham2
+        sources:
+            TDCL1856:
+                -   location: "91"
+        remarks: |
+            Also seen: UTC00358 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt), [PDF](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf))
+    JYN00158:
+        ids: ⿰扌仝
+        jyutping: saan1
+        sources:
+            TDCL1856:
+                -   location: "423"
+        remarks: ~
+    JYN00159:
+        ids: ⿰鼠余
+        jyutping: N/A
+        sources:
+            LDY1916:
+                -   location: "preface-01"
+        remarks: |
+            - Probably because of the lack of certain movable types, the publisher used simple words to describe the corresponding ideographs. 余（旁舟）（又馬旁鼠旁） literally means 余 (with 舟 besides it) (also with 馬 and 鼠 besides it), and thus can be interpreted as “舟余 (艅)”,  “馬余 (駼)” and  “鼠余” respectively.
+            - Also seen: [GKJ-00643](https://hc.jsecs.org/irg/ws2021/app/?find=GKJ-00643).
+            - The structure would be ⿺鼠余 for TC.
