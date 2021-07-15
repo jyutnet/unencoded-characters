@@ -73,6 +73,7 @@ characters:
         remarks: |
             - Not to be confused with 吐.
             - Also seen: [林則徐集](https://zh.wikipedia.org/wiki/User:Urga/%E6%9C%AA%E7%B7%A8%E7%A2%BC%E6%BC%A2%E5%AD%97%E5%88%97%E8%A1%A8)
+            - Also seen: [UK-20592](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.xlsx) ([PDF](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.pdf)), evidences: 《海國四説》（中華書局, 1993年） p. 143 ; 《海國四説・蘭侖偶説》（清道光刊本）卷3 folio 13 ; 《新約全書淺文理和合本使徒列傳》 卷17 folio 18 ; Thom, Robert：“Chinese and English Vocabulary” = 《華英通用雜話》 (Canton, 1843) p.5
     JYN00007:
         ids: ⿱左月
         jyutping: do6
@@ -104,7 +105,8 @@ characters:
             FTL1996:
                 -   location: "8"
         remarks: |
-            Also seen: UTC00380 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+            - Also seen: UTC-00380 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=00608)
     JYN00010:
         ids: ⿰扌𦧕
         jyutping: daam1
@@ -155,7 +157,8 @@ characters:
         sources:
             LCW1914: "31"
         remarks: |
-            - Also seen: TK01087230 (https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
+            - Also seen: [TK01087230](https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
+            - Also seen: [UK-20103](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.xlsx) ([PDF](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.pdf)),ref: 《邯鄲縣志》 卷10 folio 8.
     JYN00017:
         ids: ⿰舟邊
         jyutping: bin1
@@ -189,7 +192,7 @@ characters:
             FTL1996: "25"
     JYN00021:
         ids: ⿱豬土
-        jyutping: bun1
+        jyutping: zyu1
         sources:
             LCW1914: "59"
     JYN00022:
@@ -207,6 +210,9 @@ characters:
         jyutping: ng6
         sources:
             CSK1939: "3"
+        remarks: |
+            - Also seen: [KC-05584](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2484ROK202Data.xlsx), ref: 南冥學硏究院 小訥先生文集 卷41
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?find=KC-05584)
     JYN00025:
         ids: ⿰⿱立月⿻己三
         jyutping: lung4
@@ -235,6 +241,7 @@ characters:
             CSK1939: "9"
     JYN00030:
         ids: ⿸疒征
+        tag: EXTENSION-H
         jyutping: zing1
         babelstone_pua: "U+E5ED"
         sources:
@@ -242,6 +249,7 @@ characters:
         remarks: |
             - Also seen: UK-10976 ([IRGN2385WS2017 v4.0 Part 6 P.300](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part6.pdf))
             - Also seen: [irg2017-02776](https://hc.jsecs.org/irg/ws2017/app/index.php?id=02776)
+            - Ext-H: U+31C58
     JYN00031:
         ids: ⿰來刂
         jyutping: cik1
@@ -325,12 +333,14 @@ characters:
             The right side of 𢟿 (U+227FF).
     JYN00045:
         ids: ⿰飠莽
+        tag: EXTENSION-H
         jyutping: mong5
         babelstone_pua: "U+E56C" # SFCY p. 281 UK-10453
         sources:
             CSK1939: "33"
         remarks: |
             - Also seen: UK-10453 ([PDF](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/?id=04744))
+            - Ext-H: U+322DF
     JYN00046:
         ids: ⿰冫莫
         jyutping: mok6
@@ -344,14 +354,17 @@ characters:
             CSK1939: "36"
         remarks: |
             - Also seen: [sawn-f6c45](http://glyphwiki.org/wiki/Group:Working-SawnNewBuild-05-10)
+            - Also seen: [GDM-00330](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2483HanCharacters-ws2021.xlsx), ref: (光緒)榮河縣志
             - Other sources: [王澤《老夫子》](https://zhuanlan.zhihu.com/p/19775339), [司馬龍《𢭃坭幅》](https://www.facebook.com/OldCantonese/photos/a.1850808324990362/2822195947851590/)
     JYN00048:
         ids: ⿱艹乐
+        tag: EXTENSION-H
         jyutping: joek6
         sources:
             CSK1939: "40"
         remarks: |
-            Also seen: GZ-5011102 ([PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part9.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?id=03666))
+            - Also seen: GZ-5011102 ([PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part9.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?id=03666))
+            - Ext-H: U+31F5B
     JYN00049:
         ids: ⿰⿴弓王畺
         jyutping: goeng1
@@ -372,11 +385,13 @@ characters:
             - Other source: [司馬龍《𢭃坭幅》](https://www.facebook.com/OldCantonese/photos/a.1850808324990362/2822195947851590/)
     JYN00053:
         ids: ⿱艹执
+        tag: EXTENSION-H
         jyutping: ngai6
         sources:
             CSK1939: "50"
         remarks: |
-            Also seen: [GXM-00285](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp401-450.pdf), [IRG2017 #03671](https://hc.jsecs.org/irg/ws2017/app/?id=03671)
+            - Also seen: [GXM-00285](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp401-450.pdf), [IRG2017 #03671](https://hc.jsecs.org/irg/ws2017/app/?id=03671)
+            - Ext-H: U+31F5D
     JYN00054:
         ids: ⿰厶隹
         jyutping: wai4
@@ -456,7 +471,8 @@ characters:
             YPC1971: "104"
             FSY1967: "113"
         remarks: |
-            Also seen: [G_WZ102916](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
+            - Also seen: [G_WZ102916](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
+            - Also seen: UK-20918 [(IRG WS2021)](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20918), ref: 《福建通志》（清乾隆二年刊本）卷12 folio 42
     JYN00069:
         ids: ⿰口靄
         jyutping: aai3
@@ -473,7 +489,8 @@ characters:
         sources:
             FTL1996: "13"
         remarks: |
-            - Also seen: UTC00390 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+            - Also seen: UTC-00390 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=00576)
     JYN00071:
         ids: ⿱𥫗彡
         jyutping: caam2
@@ -522,6 +539,9 @@ characters:
         sources:
             FTL1974: "24"
             FTL1996: "62"
+        remarks: |
+            - [UTC-00416](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2488UTC153.pdf)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=00696)
     JYN00077:
         ids: ⿰豕攴
         jyutping: duk1
@@ -536,7 +556,7 @@ characters:
         sources:
             FTL1996: "96"
         remarks: |
-            Also seen: UTC00365 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt), [PDF](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf))
+            Also seen: UTC-00365 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt), [PDF](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf))
     JYN00079:
         ids: ⿳艹⿻亜冖死
         jyutping: gwang1
@@ -559,6 +579,9 @@ characters:
         sources:
             FTL1974: "50"
             FTL1996: "131"
+        remarks: |
+            - Also seen: [KC-05016](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2484ROK202Data.xlsx), ref: 韓國古典飜譯院 頤齋遺藁卷5 挽金君公白光晶
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=KC-05016)
     JYN00082:
         ids: ⿱冖盅
         jyutping: ham6
@@ -573,7 +596,8 @@ characters:
         sources:
             FTL1996: "142"
         remarks: |
-            Also seen: UTC00359 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+            Also seen: UTC-00359 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UTC-00359)
     JYN00084:
         ids: ⿱⿰立隹木
         jyutping: lap1
@@ -610,6 +634,8 @@ characters:
             FTL1974: "94"
             FTL1996: "250"
             WST1937: "101"
+        remarks: |
+            - Also seen: [UK-20862](https://hc.jsecs.org/irg/ws2021/app/index.php?id=01087). The source says this is a variant of 局 (U+5C40), but in Canton/Hong Kong the usage is different - ⿸尸可 is a variant of 屙 (to defecate), thus not unifiable with 局 (U+5C40).
     JYN00089:
         ids: ⿰言孔
         jyutping: ngo4
@@ -668,12 +694,14 @@ characters:
             ZWJ1988: "30"
     JYN00099:
         ids: ⿰土勇
+        tag: EXTENSION-H
         jyutping: jung5
         babelstone_pua: "U+E84F"
         sources:
             ZWJ1988: "32"
         remarks: |
-            Also seen: [UTC-03064](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03064)
+            - Also seen: [UTC-03064](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03064)
+            - Ext-H: U+315D9
     JYN00100:
         ids: ⿳埔𠆢⺢
         jyutping: jing4
@@ -691,7 +719,7 @@ characters:
             ZWJ1988: "47"
         remarks: |
             - = 巹, probably unifiable.
-            - Also seen: CB11928 (http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=IDS-CBETA.txt)
+            - Also seen: [CB11928](http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=IDS-CBETA.txt)
     JYN00103:
         ids: ⿰巾完
         jyutping: wun2
@@ -722,19 +750,23 @@ characters:
             Also seen: GDM-00085, UTC-02993([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-02993); [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp201-250.pdf) says “unifies 02007, irg50”, meaning unknown.
     JYN00108:
         ids: ⿰王哥
+        tag: EXTENSION-H
         jyutping: go1
         sources:
             ZWJ1988: "104"
         remarks: |
-            Also seen: [GDM-00217](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part6.pdf)
+            - Also seen: [GDM-00217](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part6.pdf)
+            - Ext-H: U+31BCE
     JYN00109:
         ids: ⿱田令
+        tag: EXTENSION-H
         jyutping: ling4
         babelstone_pua: "U+E84C"
         sources:
             ZWJ1988: "107"
         remarks: |
-            Also seen: GDM-00107 & UTC-03061 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03061), [PDF 1: #02731 & #02734](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [PDF 2](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp551-600.pdf) says “IRGN2270 Unified & Withdrawn / unified by 02731, irg50”
+            - Also seen: GDM-00107 & UTC-03061 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03061), [PDF 1: #02731 & #02734](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [PDF 2](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp551-600.pdf) says “IRGN2270 Unified & Withdrawn / unified by 02731, irg50”
+            - Ext-H: U+31C2F
     JYN00110:
         ids: ⿸厂⿱𣏟石
         jyutping: lik6
@@ -783,6 +815,7 @@ characters:
             FSY1971: "14"
     JYN00117:
         ids: ⿰犭怒
+        tag: EXTENSION-H
         jyutping: nou6
         babelstone_pua: "U+E58F"
         sources:
@@ -790,7 +823,8 @@ characters:
             WST1937: "244"
             FSY1967: "375"
         remarks: |
-            Also seen: UK-10780 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UK-10780), [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp251-300.pdf))
+            - Also seen: UK-10780 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UK-10780), [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp251-300.pdf))
+            - Ext-H: U+31B91
     JYN00118:
         ids: ⿰木龠
         jyutping: joek6
@@ -817,7 +851,9 @@ characters:
         sources:
             FSY1971: "69"
         remarks: |
-            Also seen: Nihon Kokugo Daijiten 日本国語大辞典 (1st ed.) vol. 8 p. 689 ([BabelStone U+F333](https://www.babelstone.co.uk/Fonts/PUA.html), [Twitter](https://twitter.com/bori_so1/status/1162963648119132160))
+            - Also seen: Nihon Kokugo Daijiten 日本国語大辞典 (1st ed.) vol. 8 p. 689 ([BabelStone U+F333](https://www.babelstone.co.uk/Fonts/PUA.html), [Twitter](https://twitter.com/bori_so1/status/1162963648119132160))
+            - Also seen: [UK-20233](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.xlsx), same source as above.
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20233)
     JYN00122:
         tag: UNLIKELY
         ids: null
@@ -867,7 +903,7 @@ characters:
             WST1937: "100"
         remarks: |
             - Variant of 爾.
-            - Also seen: [UTC00526](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [2](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf)
+            - Also seen: [UTC-00526](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [2](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf)
 #    JYN00129: # U+2F8B1
 #        ids: ⿰忄頼
 #        jyutping: laan5
@@ -897,7 +933,7 @@ characters:
             WST1937: "299"
         remarks: |
             - A variant of 築.
-            - UTC-01161, unified to U+7BC9 築, IRG48 (https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg48/IRGN2223Unified&WithdrawnV4.0.pdf)
+            - [UTC-01161, unified to U+7BC9 築, IRG48](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg48/IRGN2223Unified&WithdrawnV4.0.pdf)
     JYN00133:
         ids: ⿰糹𤣥
         jyutping: jin4
@@ -917,7 +953,7 @@ characters:
             WST1937: "389"
         remarks: |
             - A variant of 覽.
-            - Also seen - [UTC00580 1](http://www.unicode.org/reports/tr45/tr45-sourcedata-3.txt), [UTC00580 2](http://www.unicode.org/Public/12.1.0/ucd/USourceRSChart.pdf)
+            - Also seen - [UTC-00580 1](http://www.unicode.org/reports/tr45/tr45-sourcedata-3.txt), [UTC-00580 2](http://www.unicode.org/Public/12.1.0/ucd/USourceRSChart.pdf)
     JYN00136:
         ids: ⿰娄頁
         jyutping: leoi5, leoi6
@@ -1031,14 +1067,17 @@ characters:
         remarks: Variant of 稿.
     JYN00153:
         ids: ⿰酉畗
+        tag: EXTENSION-H
         jyutping: seon4
         sources:
             FSY1967: "397"
         remarks: |
             - Same as 醇.
             - See also [WS2017 04411](https://hc.jsecs.org/irg/ws2017/app/?id=04411), [KC 08171](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp451-500.pdf)
+            - Ext-H: U+321BA
     JYN00154:
         ids: ⿱文韭
+        tag: EXTENSION-H
         jyutping: zai1
         babelstone_pua: U+F12B # WG2 N3695 #169:DJ-70, HZFY p.459
         sources:
@@ -1046,6 +1085,7 @@ characters:
         remarks: |
             - Simplified form of 齏.
             - See also [WS2017 04681](https://hc.jsecs.org/irg/ws2017/app/index.php?id=04681), [UK 10770](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part11.pdf)
+            - Ext-H: U+322A6
     JYN00155:
         ids: ⿰⿱立月尨
         jyutping: lung4, cung2, lung5
@@ -1065,7 +1105,7 @@ characters:
             TDCL1856:
                 -   location: "91"
         remarks: |
-            Also seen: UTC00358 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt), [PDF](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf))
+            Also seen: UTC-00358 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt), [PDF](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf))
     JYN00158:
         ids: ⿰扌仝
         jyutping: saan1
@@ -1083,3 +1123,10 @@ characters:
             - Probably because of the lack of certain movable types, the publisher used simple words to describe the corresponding ideographs. 余（旁舟）（又馬旁鼠旁） literally means 余 (with 舟 besides it) (also with 馬 and 鼠 besides it), and thus can be interpreted as “舟余 (艅)”,  “馬余 (駼)” and  “鼠余” respectively.
             - Also seen: [GKJ-00643](https://hc.jsecs.org/irg/ws2021/app/?find=GKJ-00643).
             - The structure would be ⿺鼠余 for TC.
+    JYN00160:
+        ids: ⿸疒邕
+        jyutping: jung1
+        sources:
+            LCW1914:
+                -   location: "2"
+        remarks: ~
