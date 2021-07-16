@@ -33,13 +33,13 @@ sources:
 
 characters:
     JYN00001:
-        ids: null
+        ids: ⿹⿺㇉一卄
         jyutping: jyu5
         sources:
             CSK1939:
                 -   location: "58"
         remarks: |
-            A variant of “与”, with “一” replaced with “卄”.
+            A variant of “与”, with “一” replaced by “卄”.
     JYN00002:
         ids: null
         jyutping: ngo5
@@ -66,6 +66,7 @@ characters:
     JYN00005:
         ids: ⿰口士
         jyutping: si6
+        tag: IRG-WS2021
         babelstone_pua: "U+F1DB" # Hakka Chinese Bible HGSS p. 143, UK-20592
         sources:
             CPV1855:
@@ -74,8 +75,10 @@ characters:
             - Not to be confused with 吐.
             - Also seen: [林則徐集](https://zh.wikipedia.org/wiki/User:Urga/%E6%9C%AA%E7%B7%A8%E7%A2%BC%E6%BC%A2%E5%AD%97%E5%88%97%E8%A1%A8)
             - Also seen: [UK-20592](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.xlsx) ([PDF](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.pdf)), evidences: 《海國四説》（中華書局, 1993年） p. 143 ; 《海國四説・蘭侖偶説》（清道光刊本）卷3 folio 13 ; 《新約全書淺文理和合本使徒列傳》 卷17 folio 18 ; Thom, Robert：“Chinese and English Vocabulary” = 《華英通用雜話》 (Canton, 1843) p.5
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20592)
     JYN00007:
         ids: ⿱左月
+        tag: IRG-WS2021
         jyutping: do6
         babelstone_pua: "U+F07E" # L2/20-073 UTC-00609
         sources:
@@ -85,6 +88,8 @@ characters:
         remarks: |
             - The right side of 隋
             - Also seen: [《廣雅·卷一》](https://ctext.org/dictionary.pl?if=gb&char=ctext%3A8075): “紓摯貞二又至蕆勑輦呈俙許皆屬時欲蛻七會㲗孚毻門悼反冒字也必無**［⿱左月］**字邊從毛吐外反形聲不然或未𠠎口白口郭劙力支袒解也”
+            - Also seen: [UTC-00609](https://www.unicode.org/Public/13.0.0/ucd/USourceGlyphs.pdf)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UTC-00609)
     JYN00008:
         tag: RETRACTED
         ids: ⿱雍正
@@ -97,6 +102,7 @@ characters:
               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAADGCAMAAACQLOy4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF28myY1E+prBdXwAAAwxJREFUeNrsm9tygzAMRL3//9OdPmRKsO5akaTBT22IDyDL0kqQte6RHsAA8jGmuBjCUsH/lJs+a4ybv50QVzx8mLYdxGn8frTUL1kzW2MIi/nrPSxlYFaGq6y/657n0wX9Svg08D3fXR2/T25tmFxUg7KDReZy/46pX65hH0ddLMx4IK3rNvs4S8XC9BjJt4/TjL1vO92+YyBxIxvOzrjiP+n4sN2XYJEQ03F6qJe7oCxHJItoF28vXJi726AQczaUtGIN7m7oZeeYJ4iTy4/7TLw66R7kG9ByaiQDWoJzPyLHWmTzm3hfPK4YnQzzQlytM1lJZ4ZGivuvs1PiXM3DLG4wC2nhVw3s2lYxxdmelEMekJCTCTdbnkxdNa5oFyepw0hLT3ZNysmKKElg4ZUpWTHpGMYwqT0hK/ujYjLmCLrNfdnXicDaCbd1lVVVnJpa9AsaLWWoPc+sbPeblLRQrMDvFa96HcnhBlIIi7sHPTXcF9o6dPd+CRcElMktn8LaKs0dqmmiqlHC5VudiwHuInNh1loUM1DdN1qv2aVbLia3esrINuGQAce5cdP7/bNirPsrAVxvCzfJLQmf3Sb0pnKJm7DDc6zJqnL+Q7R73OO9x4Qu0zQKn0vTlUNcmNz6GcwOWO7arc6eJFcLmp9YD5ES0GXcZcyFYqR83QI4/lt15lh//t24a5y7mHGnoKGbBe4XJ7Z2zeVqbCIXn8BVamZObND+7oacIS6u5ja7Rxq3145R/0m+EqO2Y2THZmyHdaEweQeucSqhtciIQBPt35FXKNm10dmsZCuQucIz6oHCkFy+nQUwzcGCncoqdQWePcY3gxdAilvMjUyseFDjRqY0sdk1zVTwva/dXcyX1xpTJQxu7hAXX2oH5TEZ/+qYXPWN4PIO7Ly0xFHsU9ziL3sC56krSOsDDrfb5NEe0H89t/6iuR1uuev2adxx/wV5v+3vK3ulB6+z8R3c3ZzM+GvF+Vaep7xhrf/SqivZKJC4jCLos4t06s29uRdwMcv9sLLwbpYkx48AAwA73BNgTDy5sgAAAABJRU5ErkJggg==">
     JYN00009:
         ids: ⿰口揖
+        tag: IRG-WS2021
         jyutping: ngap6
         babelstone_pua: "U+E917" # Cowles 1914 (no. 3033)
         sources:
@@ -152,6 +158,7 @@ characters:
             FTL1996: "236"
     JYN00016:
         ids: ⿰貝幾
+        tag: IRG-WS2021
         jyutping: gei1
         babelstone_pua: "U+EBF6" # 《邯鄲縣誌》, UK-20103
         sources:
@@ -159,6 +166,7 @@ characters:
         remarks: |
             - Also seen: [TK01087230](https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
             - Also seen: [UK-20103](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.xlsx) ([PDF](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.pdf)),ref: 《邯鄲縣志》 卷10 folio 8.
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20103)
     JYN00017:
         ids: ⿰舟邊
         jyutping: bin1
@@ -196,17 +204,18 @@ characters:
         sources:
             LCW1914: "59"
     JYN00022:
-        ids: ⿰亻⿱𢆉豕
+        ids: ⿰亻⿱𢆉豕 / ⿰亻⿱𦍌𧰨
         jyutping: ji4
         sources:
             CSK1939: "2"
     JYN00023:
-        ids: ⿱𢆉豕
+        ids: ⿱𢆉豕 / ⿱𦍌𧰨
         jyutping: ji6
         sources:
             CSK1939: "2"
     JYN00024:
         ids: ⿺辶⿱罒屰
+        tag: IRG-WS2021
         jyutping: ng6
         sources:
             CSK1939: "3"
@@ -214,7 +223,7 @@ characters:
             - Also seen: [KC-05584](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2484ROK202Data.xlsx), ref: 南冥學硏究院 小訥先生文集 卷41
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?find=KC-05584)
     JYN00025:
-        ids: ⿰⿱立月⿻己三
+        ids: ⿰𦚏⿷己三
         jyutping: lung4
         sources:
             CSK1939: "4"
@@ -241,7 +250,7 @@ characters:
             CSK1939: "9"
     JYN00030:
         ids: ⿸疒征
-        tag: EXTENSION-H
+        tag: TO-BE-ENCODED
         jyutping: zing1
         babelstone_pua: "U+E5ED"
         sources:
@@ -318,12 +327,14 @@ characters:
         sources:
             CSK1939: "27"
     JYN00043:
-        ids: ⿱彐巩
+        # ids: ⿱彐巩
+        ids: ⿱⺕巩
         jyutping: cam4
         sources:
             CSK1939: "28"
         remarks: |
-            ⿰口⿱彐巩 is found at *sawd-07530* (https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
+            - ⿰口⿱彐巩 is found at *sawd-07530* (https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
+            - The lower right part is indeed 凡, as shown in the corresponding entry in P.51 of Seciton A (the dictionary): <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA5CAMAAABUBBiJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRFaWlplJSUAwMD////QUFBvLy8Hh4e4ODg6Rz7nAAAAh5JREFUeNqUVtkCwyAIC5Xj//94HvWsdtSndjNFAwkgHJeInP8M2P5qIgRVZdgHoID1Ur3yUjIf0GKka1pwAY2vdal5gNS2M4DyFXFFTJREEIm1z5DvjjEJYlN8+ZCOUKDw3/FmljllsDAFbx6FCidsBUjOPLY0qolmvAsoPY9s9HLSFcg9i1K4ER8w0VKzmIGnkz7JMZvKjz7JyoTiSjTpF1kZDQy5hTzLSskHNFrUCJd15NyP4Zh8niOjegGyEHzAW/1NjcELzCpmrCDzyMoeuwSHq+L9QHJU1juQ9BbKH6BEY8Mth3jVrk15T0fZV8qTIk298ugFKKzjrmqwzK8Ro8+0klFpBpc6R/KP0x1lOBSXgrH8HZbyhC2rNtS11raWqyjhQoq4T4cMdc1TE0F9kH1ELgWqk2tTZQkHG0DiM1Z1PPEkwPSWzp1KR/cRo3x7h8GolGSS2ok+FcAEFP3XlVegWZ41cpFySy7/BWrcnByK8gGtpuo1IgZr6158bDx4jA1Jt9K9GH/0KLV+UJs/txuc0jF0RQWV175bjrXazVt52ExDYobSaaaE3ku5OSkGPpaeBb49AlWy2ue9+XSYBIm6Fbf0Rw/ExEeuhfbVUlJR4OWOk98vdNyapjg3WTc+7MZOvaYxleoEqpH0aha8Y5qWfkN6PWdKBMfaINkF7NNor2cfMGT7VB104ASWcTSN+HlRcAO/trnz+gkwACk9JSuHJAqkAAAAAElFTkSuQmCC" />
     JYN00044:
         ids: ⿱罒𠂢
         jyutping: mak6
@@ -333,7 +344,7 @@ characters:
             The right side of 𢟿 (U+227FF).
     JYN00045:
         ids: ⿰飠莽
-        tag: EXTENSION-H
+        tag: TO-BE-ENCODED
         jyutping: mong5
         babelstone_pua: "U+E56C" # SFCY p. 281 UK-10453
         sources:
@@ -348,6 +359,7 @@ characters:
             CSK1939: "33"
     JYN00047:
         ids: ⿱二山
+        tag: IRG-WS2021
         jyutping: ceot1
         babelstone_pua: "U+F4EC" # GDM-00330
         sources:
@@ -356,9 +368,10 @@ characters:
             - Also seen: [sawn-f6c45](http://glyphwiki.org/wiki/Group:Working-SawnNewBuild-05-10)
             - Also seen: [GDM-00330](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2483HanCharacters-ws2021.xlsx), ref: (光緒)榮河縣志
             - Other sources: [王澤《老夫子》](https://zhuanlan.zhihu.com/p/19775339), [司馬龍《𢭃坭幅》](https://www.facebook.com/OldCantonese/photos/a.1850808324990362/2822195947851590/)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=GDM-00330)
     JYN00048:
         ids: ⿱艹乐
-        tag: EXTENSION-H
+        tag: TO-BE-ENCODED
         jyutping: joek6
         sources:
             CSK1939: "40"
@@ -385,7 +398,7 @@ characters:
             - Other source: [司馬龍《𢭃坭幅》](https://www.facebook.com/OldCantonese/photos/a.1850808324990362/2822195947851590/)
     JYN00053:
         ids: ⿱艹执
-        tag: EXTENSION-H
+        tag: TO-BE-ENCODED
         jyutping: ngai6
         sources:
             CSK1939: "50"
@@ -404,11 +417,15 @@ characters:
         jyutping: zou2, cou2
         sources:
             CSK1939: [ "52", "52" ]
+        remarks: |
+            "⿰扌⿳厶大氺" (UK-02633) has been encoded in Ext-G as U+3051D 𰔝.
     JYN00057:
         ids: ⿰⺡⿳厶大氺
         jyutping: cou1
         sources:
             CSK1939: "52"
+        remarks: |
+            "⿰扌⿳厶大氺" (UK-02633) has been encoded in Ext-G as U+3051D 𰔝.
     JYN00059:
         ids: ⿰⺼⿱巛㐫
         jyutping: nou2
@@ -437,9 +454,12 @@ characters:
             CSK1939: "53"
     JYN00063:
         ids: ⿱止⼎
+        tag: RETRACTED
         jyutping: seoi3
         sources:
             CSK1939: "54"
+        remarks: |
+            - Encoded in Ext-F (U+2DB5A).
     JYN00064:
         ids: ⿰𠮥卩
         jyutping: siu6
@@ -454,9 +474,12 @@ characters:
             CSK1939: "68"
     JYN00066:
         ids: ⿱从可
+        tag: RETRACTED
         jyutping: o2
         sources:
             CSK1939: "69"
+        remarks: |
+            - Checked with part A of the book, the form is actually 笴.
     JYN00067:
         ids: ⿱亠𠦆
         jyutping: ce1
@@ -464,6 +487,7 @@ characters:
             CSK1939: "72"
     JYN00068:
         ids: ⿰鹵奄
+        tag: IRG-WS2021
         jyutping: jip3, jim1
         babelstone_pua: "U+F73F"
         sources:
@@ -484,6 +508,7 @@ characters:
             - Also seen: [sawd-39125](https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
     JYN00070:
         ids: ⿰口桻
+        tag: IRG-WS2021
         jyutping: baang6
         babelstone_pua: "U+E19E" # Cowles 1914
         sources:
@@ -514,7 +539,7 @@ characters:
             FTL1974: "17"
             FTL1996: "41"
         remarks: |
-            Misprinted form of 暹. The correct form is shown in 壁魚堂分韻撮要 (17xx).
+            Misprinted form of 暹. The correct form is shown in 壁魚堂分韻撮要 (17xx) <img src='data:image/png;base64,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'/>.
     JYN00074:
         ids: ⿱艹瑳
         jyutping: co1
@@ -534,6 +559,7 @@ characters:
             ZWJ1988: "202"
     JYN00076:
         ids: ⿰口𦂥
+        tag: IRG-WS2021
         jyutping: dam3
         babelstone_pua: "U+E18E" # Cowles 1914 (no. 3001)
         sources:
@@ -574,6 +600,7 @@ characters:
             FTL1996: "129"
     JYN00081:
         ids: ⿰山勘
+        tag: IRG-WS2021
         jyutping: ham3
         babelstone_pua: "U+E190" # KC-05016
         sources:
@@ -591,12 +618,13 @@ characters:
             FTL1996: "132"
     JYN00083:
         ids: ⿰口炕
+        tag: IRG-WS2021
         jyutping: hong3
         babelstone_pua: "U+E19F" # Cowles 1914 (no. 1184)
         sources:
             FTL1996: "142"
         remarks: |
-            Also seen: UTC-00359 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+            - Also seen: UTC-00359 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UTC-00359)
     JYN00084:
         ids: ⿱⿰立隹木
@@ -627,6 +655,7 @@ characters:
             FTL1996: "236"
     JYN00088:
         ids: ⿸尸可
+        tag: IRG-WS2021
         jyutping: o1
         babelstone_pua: "U+E195" # UK-20862
         sources:
@@ -635,7 +664,7 @@ characters:
             FTL1996: "250"
             WST1937: "101"
         remarks: |
-            - Also seen: [UK-20862](https://hc.jsecs.org/irg/ws2021/app/index.php?id=01087). The source says this is a variant of 局 (U+5C40), but in Canton/Hong Kong the usage is different - ⿸尸可 is a variant of 屙 (to defecate), thus not unifiable with 局 (U+5C40).
+            - Also seen: UK-20862 [(IRG WS2021)](https://hc.jsecs.org/irg/ws2021/app/index.php?id=01087). The source says this is a variant of 局 (U+5C40), but in Canton/Hong Kong the usage is different - ⿸尸可 is a variant of 屙 (to defecate), thus not unifiable with 局 (U+5C40).
     JYN00089:
         ids: ⿰言孔
         jyutping: ngo4
@@ -694,7 +723,7 @@ characters:
             ZWJ1988: "30"
     JYN00099:
         ids: ⿰土勇
-        tag: EXTENSION-H
+        tag: TO-BE-ENCODED
         jyutping: jung5
         babelstone_pua: "U+E84F"
         sources:
@@ -731,7 +760,7 @@ characters:
         sources:
             ZWJ1988: "69"
     JYN00105:
-        ids: ⿰木⿱⿳中十中女
+        ids: ⿰木𡝤
         jyutping: lau4
         sources:
             ZWJ1988: ["79", "255"]
@@ -750,7 +779,7 @@ characters:
             Also seen: GDM-00085, UTC-02993([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-02993); [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp201-250.pdf) says “unifies 02007, irg50”, meaning unknown.
     JYN00108:
         ids: ⿰王哥
-        tag: EXTENSION-H
+        tag: TO-BE-ENCODED
         jyutping: go1
         sources:
             ZWJ1988: "104"
@@ -759,7 +788,7 @@ characters:
             - Ext-H: U+31BCE
     JYN00109:
         ids: ⿱田令
-        tag: EXTENSION-H
+        tag: TO-BE-ENCODED
         jyutping: ling4
         babelstone_pua: "U+E84C"
         sources:
@@ -791,11 +820,13 @@ characters:
             - [G_ZFY00754](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
     JYN00113:
         ids: ⿺鬼攴
+        tag: IRG-WS2021
         jyutping: gwai2
         sources:
             ZWJ1988: "263"
         remarks: |
-            Also seen: [CB12840](http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=IDS-CBETA.txt), which is normalized to U+9B3E 鬾, but the pronunciation is different (U+9B3E 鬾: kei4/gei6)
+            - Also seen: [CB12840](http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=IDS-CBETA.txt), which is normalized to U+9B3E 鬾, but the pronunciation is different (U+9B3E 鬾: kei4/gei6)
+            - Also seen: SAT-08653 [(IRG WS2021)](https://hc.jsecs.org/irg/ws2021/app/index.php?find=SAT-08653)
     JYN00114:
         ids: ⿰糸㝉
         jyutping: cyu5
@@ -815,7 +846,7 @@ characters:
             FSY1971: "14"
     JYN00117:
         ids: ⿰犭怒
-        tag: EXTENSION-H
+        tag: TO-BE-ENCODED
         jyutping: nou6
         babelstone_pua: "U+E58F"
         sources:
@@ -846,6 +877,7 @@ characters:
             FSY1971: "67"
     JYN00121:
         ids: ⿰革當
+        tag: IRG-WS2021
         jyutping: tong1
         babelstone_pua: "U+F333"
         sources:
@@ -920,7 +952,8 @@ characters:
             - We have ⿰氵寕 (U+2C23F), ⿱艹寕 (U+2C78A), ⿰糸寕 (U+2615C), ⿰虫寕 (U+2E53E) in addition to 濘, 薴, 𦆭, 䗿.
             - Retracted - already encoded (U+2485B).
     JYN00131:
-        ids: ⿱竹⿳⺊彐龰
+        # ids: ⿱竹⿳⺊彐龰
+        ids: ⿱竹⿳⺊⺕龰
         jyutping: zit6, saap3
         sources:
             WST1937: "299"
@@ -942,10 +975,13 @@ characters:
         remarks: A variant of 絃.
     JYN00134:
         ids: ⿱⿳亠口冖月
+        tag: RETRACTED
         jyutping: gou1, gou3
         sources:
             WST1937: "333"
-        remarks: A variant of 膏.
+        remarks: |
+            - A variant of 膏.
+            - Encoded in Ext-F (U+2E314 𮌔).
     JYN00135:
         ids: ⿱臤見
         jyutping: laam5
@@ -961,7 +997,6 @@ characters:
             WST1937: "483"
         remarks: |
             - Variant of 類.
-            - Also seen - [IRG WS 2017 ##04710](https://hc.jsecs.org/irg/ws2017/app/?id=04710)
     JYN00137:
         ids: ⿰禾⿱不冉
         jyutping: cing1, cing3
@@ -971,13 +1006,14 @@ characters:
             - An erratic form of 稱.
             - Also seen - [TD-5239](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
     JYN00138:
-        ids: ⿳⺊彐龰
+        # ids: ⿳⺊彐龰
+        ids: ⿳⺊⺕龰
         jyutping: zip6
         sources:
             FSY1967: "137"
         remarks: Erratic form of 疌.
     JYN00139:
-        ids: ⿰⿳业𢆉土寸
+        ids: ⿰⿳业𢆉土寸 / ⿰⿳业䒑龶寸
         jyutping: deoi3
         sources:
             FSY1967: "138"
@@ -1022,7 +1058,7 @@ characters:
             FSY1967: "332"
         remarks: Variant of 𧰲.
     JYN00146:
-        ids: ⿱㞢寸
+        ids: ⿱㞢寸 / ⿳山一寸
         jyutping: zi6
         sources:
             FSY1967: "348"
@@ -1067,7 +1103,7 @@ characters:
         remarks: Variant of 稿.
     JYN00153:
         ids: ⿰酉畗
-        tag: EXTENSION-H
+        tag: TO-BE-ENCODED
         jyutping: seon4
         sources:
             FSY1967: "397"
@@ -1077,7 +1113,7 @@ characters:
             - Ext-H: U+321BA
     JYN00154:
         ids: ⿱文韭
-        tag: EXTENSION-H
+        tag: TO-BE-ENCODED
         jyutping: zai1
         babelstone_pua: U+F12B # WG2 N3695 #169:DJ-70, HZFY p.459
         sources:
@@ -1087,7 +1123,7 @@ characters:
             - See also [WS2017 04681](https://hc.jsecs.org/irg/ws2017/app/index.php?id=04681), [UK 10770](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part11.pdf)
             - Ext-H: U+322A6
     JYN00155:
-        ids: ⿰⿱立月尨
+        ids: ⿰𦚏尨
         jyutping: lung4, cung2, lung5
         sources:
             FSY1967: "419"
@@ -1115,13 +1151,14 @@ characters:
         remarks: ~
     JYN00159:
         ids: ⿰鼠余
+        tag: IRG-WS2021
         jyutping: N/A
         sources:
             LDY1916:
                 -   location: "preface-01"
         remarks: |
             - Probably because of the lack of certain movable types, the publisher used simple words to describe the corresponding ideographs. 余（旁舟）（又馬旁鼠旁） literally means 余 (with 舟 besides it) (also with 馬 and 鼠 besides it), and thus can be interpreted as “舟余 (艅)”,  “馬余 (駼)” and  “鼠余” respectively.
-            - Also seen: [GKJ-00643](https://hc.jsecs.org/irg/ws2021/app/?find=GKJ-00643).
+            - Also seen: GKJ-00643 [(IRG WS2021)](https://hc.jsecs.org/irg/ws2021/app/?find=GKJ-00643).
             - The structure would be ⿺鼠余 for TC.
     JYN00160:
         ids: ⿸疒邕

@@ -11,7 +11,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
 
     <style>
         :root {
@@ -105,8 +106,13 @@
     <section>
         <h2>Character List</h2>
 
+        <ul>
+            {% for tag, chars in characters %}
+                <li><a href="#{{ tag }}">{{ tag }} ({{ chars|length }})</a></li>
+            {% endfor %}
+        </ul>
         {% for tag, chars in characters %}
-        <section>
+        <section id="{{ tag }}">
             <h3>{{ tag }} ({{ chars|length }})</h3>
 
             <div class="unenc-char header">
@@ -117,25 +123,25 @@
                 <div>Remarks</div>
             </div>
 
-            {#            <table class="table table-bordered">#}
-            {#                <colgroup>#}
-            {#                    <col style="width:5%"/>#}
-            {#                    <col style="width:10%"/>#}
-            {#                    <col style="width:10%"/>#}
-            {#                    <col style="width:15%"/>#}
-            {#                    <col style="width:10%"/>#}
-            {#                    <col/>#}
-            {#                </colgroup>#}
-            {#                <thead>#}
-            {#                <tr>#}
-            {#                    <th>Seq</th>#}
-            {#                    <th>IDS</th>#}
-            {#                    <th>Jyutping</th>#}
-            {#                    <th>Evidences</th>#}
-            {#                    <th>Image</th>#}
-            {#                    <th>Remarks</th>#}
-            {#                </tr>#}
-            {#                </thead>#}
+            {# <table class="table table-bordered"> #}
+            {# <colgroup> #}
+            {# <col style="width:5%"/> #}
+            {# <col style="width:10%"/> #}
+            {# <col style="width:10%"/> #}
+            {# <col style="width:15%"/> #}
+            {# <col style="width:10%"/> #}
+            {# <col/> #}
+            {# </colgroup> #}
+            {# <thead> #}
+            {# <tr> #}
+            {# <th>Seq</th> #}
+            {# <th>IDS</th> #}
+            {# <th>Jyutping</th> #}
+            {# <th>Evidences</th> #}
+            {# <th>Image</th> #}
+            {# <th>Remarks</th> #}
+            {# </tr> #}
+            {# </thead> #}
             {% for char in chars %}
                 <div class="unenc-char">
                     <div>
@@ -167,36 +173,36 @@
                     </div>
                 </div>
 
-                {#                <tr>#}
-                {#                    <td rowspan="{{ char.srcCount }}">{{ char.id }}</td>#}
-                {#                    <td rowspan="{{ char.srcCount }}">{{ char.ids ?? '' }}</td>#}
-                {#                    <td rowspan="{{ char.srcCount }}">{{ char.jyutping ?? '' }}</td>#}
-                {#                    <td>#}
-                {#                        <a href="#" title="{{ sources[char.src1.id].title }}">#}
-                {#                            {{ char.src1.id }}#}
-                {#                            {{ char.src1.location }}#}
-                {#                        </a>#}
-                {#                    </td>#}
-                {#                    <td>#}
-                {#                        <img class="char-image" src="data:image/png;base64,{{ char.src1.imageData }}"/>#}
-                {#                    </td>#}
-                {#                    <td rowspan="{{ char.srcCount }}">{{ char.remarksHTML|raw }}</td>#}
-                {#                </tr>#}
-                {#                {% for src in char.srcN %}#}
-                {#                    <tr>#}
-                {#                        <td>#}
-                {#                            <a href="#" title="{{ sources[src.id].title }}">#}
-                {#                                {{ src.id }}#}
-                {#                                {{ src.location }}#}
-                {#                            </a>#}
-                {#                        </td>#}
-                {#                        <td>#}
-                {#                            <img class="char-image" src="data:image/png;base64,{{ src.imageData }}"/>#}
-                {#                        </td>#}
-                {#                    </tr>#}
-                {#                {% endfor %}#}
+                {# <tr> #}
+                {# <td rowspan="{{ char.srcCount }}">{{ char.id }}</td> #}
+                {# <td rowspan="{{ char.srcCount }}">{{ char.ids ?? '' }}</td> #}
+                {# <td rowspan="{{ char.srcCount }}">{{ char.jyutping ?? '' }}</td> #}
+                {# <td> #}
+                {# <a href="#" title="{{ sources[char.src1.id].title }}"> #}
+                {# {{ char.src1.id }} #}
+                {# {{ char.src1.location }} #}
+                {# </a> #}
+                {# </td> #}
+                {# <td> #}
+                {# <img class="char-image" src="data:image/png;base64,{{ char.src1.imageData }}"/> #}
+                {# </td> #}
+                {# <td rowspan="{{ char.srcCount }}">{{ char.remarksHTML|raw }}</td> #}
+                {# </tr> #}
+                {# {% for src in char.srcN %} #}
+                {# <tr> #}
+                {# <td> #}
+                {# <a href="#" title="{{ sources[src.id].title }}"> #}
+                {# {{ src.id }} #}
+                {# {{ src.location }} #}
+                {# </a> #}
+                {# </td> #}
+                {# <td> #}
+                {# <img class="char-image" src="data:image/png;base64,{{ src.imageData }}"/> #}
+                {# </td> #}
+                {# </tr> #}
+                {# {% endfor %} #}
             {% endfor %}
-            {#            </table>#}
+            {# </table> #}
             {% endfor %}
         </section>
     </section>
