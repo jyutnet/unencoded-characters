@@ -39,7 +39,7 @@ characters:
             CSK1939:
                 -   location: "58"
         remarks: |
-            A variant of “与”, with “一” replaced by “卄”.
+            Note: [A variant of 与 (與), with “一” replaced by “卄”](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAzMzk4LTAzMg).
     JYN00002:
         ids: null
         jyutping: ngo5
@@ -56,7 +56,7 @@ characters:
             CSK1939:
                 -   location: "72"
         remarks: |
-            A variant of “寫”.
+            Note: a variant of “寫”.
     JYN00004:
         ids: ⿰糹⿱负比
         jyutping: coi4
@@ -208,11 +208,15 @@ characters:
         jyutping: ji4
         sources:
             CSK1939: "2"
+        remarks: |
+            - Also seen: [TK01005890](https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
     JYN00023:
         ids: ⿱𢆉豕 / ⿱𦍌𧰨
         jyutping: ji6
         sources:
             CSK1939: "2"
+        remarks: |
+            - Also seen: [TK01073560](https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
     JYN00024:
         ids: ⿺辶⿱罒屰
         tag: IRG-WS2021
@@ -227,6 +231,8 @@ characters:
         jyutping: lung4
         sources:
             CSK1939: "4"
+        remarks: |
+            - [Variant form of 龍](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTA0ODA2LTAxNw)
     JYN00026:
         ids: ⿱旅刀
         jyutping: leoi5
@@ -248,6 +254,8 @@ characters:
         jyutping: waak6
         sources:
             CSK1939: "9"
+        remarks: |
+            - [Variant form of 劃](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwMzczLTAxOA)
     JYN00030:
         ids: ⿸疒征
         tag: TO-BE-ENCODED
@@ -269,7 +277,7 @@ characters:
             - Also seen: [戚林八音字表](https://only3km.github.io/ciklinbekin/CikLinBekIn.html)
             - Its simplified form ⿰来刂 is encoded in Ext-G: U+3012F
     JYN00032:
-        tag: RETRACTED
+        tag: ENCODED
         ids: ⿱⿳𠫓⺫冖夕
         jyutping: mung6
         sources:
@@ -281,33 +289,41 @@ characters:
         jyutping: daan6
         sources:
             CSK1939: "16"
+        remarks: |
     JYN00034:
         ids: ⿰𩵋羊
         jyutping: sin1
         sources:
             CSK1939: "18"
+        remarks: |
+            - [Variant form of 鮮](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTA0Njk1LTAwNA)
     JYN00035:
         ids: ⿱⿰月犬灬
         jyutping: jin4
         sources:
             CSK1939: "18"
+        remarks: |
+            - [Variant form of 然](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAyNDE3LTAwNA)
     JYN00037:
         ids: ⿰木昬
         jyutping: fan1
         sources:
             CSK1939: "23"
         remarks: |
-            Also seen: [CB09084](https://github.com/mskala/chise-ids/blob/master/IDS-CBETA.txt)
+            - [Variant of 棔](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QzA1MjExLTAwMg)
+            - Also seen: [CB09084](https://github.com/mskala/chise-ids/blob/master/IDS-CBETA.txt)
     JYN00038:
         ids: ⿰骨参
         jyutping: caam2
         sources:
             CSK1939: "24"
     JYN00039:
-        ids: ⿱爫灰
+        ids: ⿱爫⿸厂火 / ⿳一⺌⿸厂火
         jyutping: jim4
         sources:
             CSK1939: "26"
+        remarks: |
+            - Note: while [⿳一⺌⿸厂火 is a variant of 嚴](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwNzE0LTA1NQ), its top is written as 爫 in the book. As some variants of 嚴 are also topped with 爫, it should be safe to treat them as the same.
     JYN00040:
         ids: ⿰石入
         jyutping: dip6
@@ -334,7 +350,7 @@ characters:
             CSK1939: "28"
         remarks: |
             - ⿰口⿱彐巩 is found at *sawd-07530* (https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
-            - The lower right part is indeed 凡, as shown in the corresponding entry in P.51 of Seciton A (the dictionary): <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA5CAMAAABUBBiJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRFaWlplJSUAwMD////QUFBvLy8Hh4e4ODg6Rz7nAAAAh5JREFUeNqUVtkCwyAIC5Xj//94HvWsdtSndjNFAwkgHJeInP8M2P5qIgRVZdgHoID1Ur3yUjIf0GKka1pwAY2vdal5gNS2M4DyFXFFTJREEIm1z5DvjjEJYlN8+ZCOUKDw3/FmljllsDAFbx6FCidsBUjOPLY0qolmvAsoPY9s9HLSFcg9i1K4ER8w0VKzmIGnkz7JMZvKjz7JyoTiSjTpF1kZDQy5hTzLSskHNFrUCJd15NyP4Zh8niOjegGyEHzAW/1NjcELzCpmrCDzyMoeuwSHq+L9QHJU1juQ9BbKH6BEY8Mth3jVrk15T0fZV8qTIk298ugFKKzjrmqwzK8Ro8+0klFpBpc6R/KP0x1lOBSXgrH8HZbyhC2rNtS11raWqyjhQoq4T4cMdc1TE0F9kH1ELgWqk2tTZQkHG0DiM1Z1PPEkwPSWzp1KR/cRo3x7h8GolGSS2ok+FcAEFP3XlVegWZ41cpFySy7/BWrcnByK8gGtpuo1IgZr6158bDx4jA1Jt9K9GH/0KLV+UJs/txuc0jF0RQWV175bjrXazVt52ExDYobSaaaE3ku5OSkGPpaeBb49AlWy2ue9+XSYBIm6Fbf0Rw/ExEeuhfbVUlJR4OWOk98vdNyapjg3WTc+7MZOvaYxleoEqpH0aha8Y5qWfkN6PWdKBMfaINkF7NNor2cfMGT7VB104ASWcTSN+HlRcAO/trnz+gkwACk9JSuHJAqkAAAAAElFTkSuQmCC" />
+            - The lower right part is indeed 凡, as shown in the corresponding entry in P.51 of Section A: <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA5CAMAAABUBBiJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRFaWlplJSUAwMD////QUFBvLy8Hh4e4ODg6Rz7nAAAAh5JREFUeNqUVtkCwyAIC5Xj//94HvWsdtSndjNFAwkgHJeInP8M2P5qIgRVZdgHoID1Ur3yUjIf0GKka1pwAY2vdal5gNS2M4DyFXFFTJREEIm1z5DvjjEJYlN8+ZCOUKDw3/FmljllsDAFbx6FCidsBUjOPLY0qolmvAsoPY9s9HLSFcg9i1K4ER8w0VKzmIGnkz7JMZvKjz7JyoTiSjTpF1kZDQy5hTzLSskHNFrUCJd15NyP4Zh8niOjegGyEHzAW/1NjcELzCpmrCDzyMoeuwSHq+L9QHJU1juQ9BbKH6BEY8Mth3jVrk15T0fZV8qTIk298ugFKKzjrmqwzK8Ro8+0klFpBpc6R/KP0x1lOBSXgrH8HZbyhC2rNtS11raWqyjhQoq4T4cMdc1TE0F9kH1ELgWqk2tTZQkHG0DiM1Z1PPEkwPSWzp1KR/cRo3x7h8GolGSS2ok+FcAEFP3XlVegWZ41cpFySy7/BWrcnByK8gGtpuo1IgZr6158bDx4jA1Jt9K9GH/0KLV+UJs/txuc0jF0RQWV175bjrXazVt52ExDYobSaaaE3ku5OSkGPpaeBb49AlWy2ue9+XSYBIm6Fbf0Rw/ExEeuhfbVUlJR4OWOk98vdNyapjg3WTc+7MZOvaYxleoEqpH0aha8Y5qWfkN6PWdKBMfaINkF7NNor2cfMGT7VB104ASWcTSN+HlRcAO/trnz+gkwACk9JSuHJAqkAAAAAElFTkSuQmCC" />
     JYN00044:
         ids: ⿱罒𠂢
         jyutping: mak6
@@ -396,6 +412,7 @@ characters:
         remarks: |
             - Also seen: [sawd-06617](https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
             - Other source: [司馬龍《𢭃坭幅》](https://www.facebook.com/OldCantonese/photos/a.1850808324990362/2822195947851590/)
+            - Commonly used as a variant of 製.
     JYN00053:
         ids: ⿱艹执
         tag: TO-BE-ENCODED
@@ -411,7 +428,7 @@ characters:
         sources:
             CSK1939: "51"
         remarks: |
-            Also seen: [GT00019](https://zh.wikipedia.org/wiki/User:Urga/%E6%B2%99%E7%9B%92/IRGN1467)
+            - Also seen: [GT00019](https://zh.wikipedia.org/wiki/User:Urga/%E6%B2%99%E7%9B%92/IRGN1467)
     JYN00056:
         ids: ⿱艹⿰⺡⿳厶大氺
         jyutping: zou2, cou2
@@ -428,12 +445,13 @@ characters:
             "⿰扌⿳厶大氺" (UK-02633) has been encoded in Ext-G as U+3051D 𰔝.
     JYN00059:
         ids: ⿰⺼⿱巛㐫
-        jyutping: nou2
+        jyutping: nou5
         sources:
             CSK1939: "52"
         remarks: |
             - Also seen: [Moji_Joho collection IVD](https://unicode.org/ivd/data/2017-12-12/IVD_Charts_Moji_Joho.pdf), as `U+8166 E0102` (Moji_Joho MJ058390)
             - See also JYN00149 for ⿱巛㐫.
+            - [Variant form of 腦](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAzMzU0LTAyNQ)
     JYN00060:
         ids: ⿰女怒
         jyutping: nou6
@@ -454,7 +472,7 @@ characters:
             CSK1939: "53"
     JYN00063:
         ids: ⿱止⼎
-        tag: RETRACTED
+        tag: ENCODED
         jyutping: seoi3
         sources:
             CSK1939: "54"
@@ -523,6 +541,8 @@ characters:
         sources:
             FTL1974: "12"
             FTL1996: "30"
+        remarks: |
+            - Variant form of 篸
     JYN00072:
         ids: ⿰忄𠫵
         jyutping: caam2
@@ -530,6 +550,8 @@ characters:
         sources:
             FTL1974: "12"
             FTL1996: "30"
+        remarks: |
+            - Variant form of 慘
     JYN00073:
         ids: ⿺辶雇
         jyutping: cim3
@@ -590,6 +612,8 @@ characters:
             FW1825: "利29"
             FW1838: "利29"
             FTL1974: "45"
+        remarks: |
+            Note: this form is normally a variant of 薨, but the explanation says "百蟲群飛聲". I suspect that the entry in FW (1825 & 1838, also appear in 壁魚堂 version) was misprinted from "𦒃" (a variant of 䎕, which means “飛聲。【玉篇】群鳥弄翅也。” in KangXi, and pronounces the same as 轟 - which reads [gwang1] in Cantonese).
     JYN00080:
         ids: ⿰木盒
         jyutping: hap6
@@ -640,6 +664,8 @@ characters:
         sources:
             FTL1974: "84"
             FTL1996: "221"
+        remarks: |
+            - A variant of 雷
     JYN00086:
         ids: ⿰步⿱糸頁
         jyutping: leoi6
@@ -763,12 +789,14 @@ characters:
         ids: ⿰木𡝤
         jyutping: lau4
         sources:
-            ZWJ1988: ["79", "255"]
+            ZWJ1988: [ "79", "255" ]
+        remarks: |
+            - Variant form of 樓
     JYN00106:
         ids: ⿳负比免
         jyutping: cam4
         sources:
-            ZWJ1988: ["85", "278"]
+            ZWJ1988: [ "85", "278" ]
     JYN00107:
         ids: ⿱甫氽
         jyutping: jin4
@@ -800,7 +828,7 @@ characters:
         ids: ⿸厂⿱𣏟石
         jyutping: lik6
         sources:
-            ZWJ1988: ["117", "257"]
+            ZWJ1988: [ "117", "257" ]
         remarks: |
             Seems a variant of 磿 (not mentioned in source).
     JYN00111:
@@ -836,14 +864,20 @@ characters:
             Also seen: [Dictionary of the Foochow Dialect, 1929](https://only3km.github.io/ciklinbekin/DFD.html)
     JYN00115:
         ids: ⿰彳⿱丑山
+        tag: RETRACTED
         jyutping: naau4
         sources:
             FSY1971: "10"
+        remarks: |
+            - Retracted. The character is written as 峱 in the radical-stroke index section. Probably misidentified as ⿰彳⿱丑山 by the scribe.
     JYN00116:
         ids: ⿰飠普
+        tag: RETRACTED
         jyutping: pou2
         sources:
             FSY1971: "14"
+        remarks: |
+            - Retracted. The character is written as 譜 in the first edition (1955) and in the radical-stroke index section. Probably misidentified as 飠普 by the scribe.
     JYN00117:
         ids: ⿰犭怒
         tag: TO-BE-ENCODED
@@ -872,9 +906,12 @@ characters:
             FSY1971: "66"
     JYN00120:
         ids: ⿰巾睪
+        tag: RETRACTED
         jyutping: jik6
         sources:
             FSY1971: "67"
+        remarks: |
+            - Retracted. The character is written as 懌 in the first edition (1955) and in the radical-stroke index section. Probably misidentified as ⿰巾睪 by the scribe.
     JYN00121:
         ids: ⿰革當
         tag: IRG-WS2021
@@ -936,21 +973,21 @@ characters:
         remarks: |
             - Variant of 爾.
             - Also seen: [UTC-00526](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [2](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf)
-#    JYN00129: # U+2F8B1
-#        ids: ⿰忄頼
-#        jyutping: laan5
-#        sources:
-#            WST1937: "136"
-#        remarks: Source claims ⿰忄頼 is a varint of 嬾, and is different from 懶
+    #    JYN00129: # U+2F8B1
+    #        ids: ⿰忄頼
+    #        jyutping: laan5
+    #        sources:
+    #            WST1937: "136"
+    #        remarks: Source claims ⿰忄頼 is a varint of 嬾, and is different from 懶
     JYN00130:
-        tag: RETRACTED
+        tag: ENCODED
         ids: ⿰犭寕
         jyutping: ning4
         sources:
             WST1937: "244"
         remarks: |
             - We have ⿰氵寕 (U+2C23F), ⿱艹寕 (U+2C78A), ⿰糸寕 (U+2615C), ⿰虫寕 (U+2E53E) in addition to 濘, 薴, 𦆭, 䗿.
-            - Retracted - already encoded (U+2485B).
+            - Retracted - already encoded (Ext-B, U+2485B).
     JYN00131:
         # ids: ⿱竹⿳⺊彐龰
         ids: ⿱竹⿳⺊⺕龰
@@ -975,7 +1012,7 @@ characters:
         remarks: A variant of 絃.
     JYN00134:
         ids: ⿱⿳亠口冖月
-        tag: RETRACTED
+        tag: ENCODED
         jyutping: gou1, gou3
         sources:
             WST1937: "333"
