@@ -70,7 +70,7 @@ foreach ($data['characters'] as $charId => $charData) {
     $charData['srcN'] = $sources;
     $charData['remarksHTML'] =
         isset($charData['remarks'])
-            ? \Parsedown::instance()->parse($charData['remarks'])
+            ? str_replace('<a ', '<a target="blank"', \Parsedown::instance()->parse($charData['remarks']))
             : '';
 
     $characters[$tag][$charId] = $charData;

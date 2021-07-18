@@ -235,10 +235,13 @@ characters:
             - [Variant form of 龍](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTA0ODA2LTAxNw)
     JYN00026:
         ids: ⿱旅刀
+        tag: RETRACTED
         jyutping: leoi5
         sources:
             CSK1939: "6"
             FSY1971: "25"
+        remarks: |
+            - Retracted. The stroke index section of CSK1939 and the radical-stroke index section of FSY1971 use the form ⿱旅力, i.e. 𭄸 (U+2D138).
     JYN00027:
         ids: ⿳木人貝
         jyutping: loi6
@@ -276,20 +279,21 @@ characters:
         remarks: |
             - Also seen: [戚林八音字表](https://only3km.github.io/ciklinbekin/CikLinBekIn.html)
             - Its simplified form ⿰来刂 is encoded in Ext-G: U+3012F
-    JYN00032:
-        tag: ENCODED
-        ids: ⿱⿳𠫓⺫冖夕
-        jyutping: mung6
-        sources:
-            CSK1939: "13"
-        remarks: |
-            Retracted, already encoded (U+5923 夣)
+#    JYN00032:
+#        tag: ENCODED
+#        ids: ⿱⿳𠫓⺫冖夕
+#        jyutping: mung6
+#        sources:
+#            CSK1939: "13"
+#        remarks: |
+#            Retracted, already encoded (U+5923 夣)
     JYN00033:
         ids: ⿱疋䖵
         jyutping: daan6
         sources:
             CSK1939: "16"
         remarks: |
+            - A variant of 蛋. This form is also seen in the [TOC of 粵東筆記 (~1800, by 李調元)](evidences/others/JYN00033_YDBG.jpg) [(source)](https://books.google.com.hk/books?id=GPZVAAAAcAAJ&dq=%22%E7%B2%A4%E6%9D%B1%E7%AD%86%E8%A8%98%22&pg=PP610#v=twopage&q&f=false). While TOC uses ⿱疋䖵, actual content uses 蛋.
     JYN00034:
         ids: ⿰𩵋羊
         jyutping: sin1
@@ -470,14 +474,14 @@ characters:
         jyutping: mou5
         sources:
             CSK1939: "53"
-    JYN00063:
-        ids: ⿱止⼎
-        tag: ENCODED
-        jyutping: seoi3
-        sources:
-            CSK1939: "54"
-        remarks: |
-            - Encoded in Ext-F (U+2DB5A).
+#    JYN00063:
+#        ids: ⿱止⼎
+#        tag: ENCODED
+#        jyutping: seoi3
+#        sources:
+#            CSK1939: "54"
+#        remarks: |
+#            - Encoded in Ext-F (U+2DB5A).
     JYN00064:
         ids: ⿰𠮥卩
         jyutping: siu6
@@ -804,7 +808,7 @@ characters:
             ZWJ1988: "90"
         babelstone_pua: "U+E41F"
         remarks: |
-            Also seen: GDM-00085, UTC-02993([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-02993); [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp201-250.pdf) says “unifies 02007, irg50”, meaning unknown.
+            Also seen: GDM-00085, UTC-02993([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-02993); [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp201-250.pdf) says “unifies 02007, irg50”, meaning unknown)
     JYN00108:
         ids: ⿰王哥
         tag: TO-BE-ENCODED
@@ -979,15 +983,15 @@ characters:
     #        sources:
     #            WST1937: "136"
     #        remarks: Source claims ⿰忄頼 is a varint of 嬾, and is different from 懶
-    JYN00130:
-        tag: ENCODED
-        ids: ⿰犭寕
-        jyutping: ning4
-        sources:
-            WST1937: "244"
-        remarks: |
-            - We have ⿰氵寕 (U+2C23F), ⿱艹寕 (U+2C78A), ⿰糸寕 (U+2615C), ⿰虫寕 (U+2E53E) in addition to 濘, 薴, 𦆭, 䗿.
-            - Retracted - already encoded (Ext-B, U+2485B).
+#    JYN00130:
+#        tag: ENCODED
+#        ids: ⿰犭寕
+#        jyutping: ning4
+#        sources:
+#            WST1937: "244"
+#        remarks: |
+#            - We have ⿰氵寕 (U+2C23F), ⿱艹寕 (U+2C78A), ⿰糸寕 (U+2615C), ⿰虫寕 (U+2E53E) in addition to 濘, 薴, 𦆭, 䗿.
+#            - Retracted - already encoded (Ext-B, U+2485B).
     JYN00131:
         # ids: ⿱竹⿳⺊彐龰
         ids: ⿱竹⿳⺊⺕龰
@@ -1010,15 +1014,15 @@ characters:
         sources:
             WST1937: "307"
         remarks: A variant of 絃.
-    JYN00134:
-        ids: ⿱⿳亠口冖月
-        tag: ENCODED
-        jyutping: gou1, gou3
-        sources:
-            WST1937: "333"
-        remarks: |
-            - A variant of 膏.
-            - Encoded in Ext-F (U+2E314 𮌔).
+#    JYN00134:
+#        ids: ⿱⿳亠口冖月
+#        tag: ENCODED
+#        jyutping: gou1, gou3
+#        sources:
+#            WST1937: "333"
+#        remarks: |
+#            - A variant of 膏.
+#            - Encoded in Ext-F (U+2E314 𮌔).
     JYN00135:
         ids: ⿱臤見
         jyutping: laam5
@@ -1087,7 +1091,8 @@ characters:
         jyutping: gyun3
         sources:
             FSY1967: "312"
-        remarks: ~
+        remarks: |
+            - The upper part of U+20A1F 𠨟.
     JYN00145:
         ids: ⿱⺕豕
         jyutping: ci2
