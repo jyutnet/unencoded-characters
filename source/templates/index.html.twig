@@ -16,7 +16,7 @@
 
     <style>
         :root {
-            --border-color: #999;
+            --border-color: #ccc;
         }
 
         body {
@@ -106,108 +106,61 @@
     <section>
         <h2>Character List</h2>
 
-        <ul>
+        <div class="card">
             {% for tag, chars in characters %}
-                <li><a href="#{{ tag }}">{{ tag }} ({{ chars|length }})</a></li>
-            {% endfor %}
-        </ul>
-        {% for tag, chars in characters %}
-        <section id="{{ tag }}">
-            <h3>{{ tag }} ({{ chars|length }})</h3>
-
-            <div class="unenc-char header">
-                <div>Seq</div>
-                <div>IDS</div>
-                <div>Jyutping</div>
-                <div>Evidences</div>
-                <div>Remarks</div>
-            </div>
-
-            {# <table class="table table-bordered"> #}
-            {# <colgroup> #}
-            {# <col style="width:5%"/> #}
-            {# <col style="width:10%"/> #}
-            {# <col style="width:10%"/> #}
-            {# <col style="width:15%"/> #}
-            {# <col style="width:10%"/> #}
-            {# <col/> #}
-            {# </colgroup> #}
-            {# <thead> #}
-            {# <tr> #}
-            {# <th>Seq</th> #}
-            {# <th>IDS</th> #}
-            {# <th>Jyutping</th> #}
-            {# <th>Evidences</th> #}
-            {# <th>Image</th> #}
-            {# <th>Remarks</th> #}
-            {# </tr> #}
-            {# </thead> #}
-            {% for char in chars %}
-                <div class="unenc-char">
-                    <div>
-                        {{ char.id }}
-                    </div>
-                    <div>
-                        {{ char.ids ?? '' }}
-                    </div>
-                    <div>
-                        {{ char.jyutping ?? '' }}
-                    </div>
-                    <div class="evidences">
-                        {% for src in char.srcN %}
-                            <dl>
-                                <dt>
-                                    <a href="{{ src.evidencePath }}" title="{{ sources[src.id].title }}"
-                                       target="_blank">
-                                        {{ src.id }},
-                                        {{ src.locationText }}
-                                    </a>
-                                </dt>
-                                <dd>
-                                    <img class="char-image" src="data:image/png;base64,{{ src.imageData }}"/></dd>
-                            </dl>
-                        {% endfor %}
-                    </div>
-                    <div>
-                        {{ char.remarksHTML|raw }}
-                    </div>
+                <div class="card-header">
+                    <a data-bs-toggle="collapse" href="#table-{{ tag }}" role="button" aria-expanded="false"
+                       class="btn-block"
+                       aria-controls="table-{{ tag }}">{{ tag }} ({{ chars|length }})</a>
                 </div>
-
-                {# <tr> #}
-                {# <td rowspan="{{ char.srcCount }}">{{ char.id }}</td> #}
-                {# <td rowspan="{{ char.srcCount }}">{{ char.ids ?? '' }}</td> #}
-                {# <td rowspan="{{ char.srcCount }}">{{ char.jyutping ?? '' }}</td> #}
-                {# <td> #}
-                {# <a href="#" title="{{ sources[char.src1.id].title }}"> #}
-                {# {{ char.src1.id }} #}
-                {# {{ char.src1.location }} #}
-                {# </a> #}
-                {# </td> #}
-                {# <td> #}
-                {# <img class="char-image" src="data:image/png;base64,{{ char.src1.imageData }}"/> #}
-                {# </td> #}
-                {# <td rowspan="{{ char.srcCount }}">{{ char.remarksHTML|raw }}</td> #}
-                {# </tr> #}
-                {# {% for src in char.srcN %} #}
-                {# <tr> #}
-                {# <td> #}
-                {# <a href="#" title="{{ sources[src.id].title }}"> #}
-                {# {{ src.id }} #}
-                {# {{ src.location }} #}
-                {# </a> #}
-                {# </td> #}
-                {# <td> #}
-                {# <img class="char-image" src="data:image/png;base64,{{ src.imageData }}"/> #}
-                {# </td> #}
-                {# </tr> #}
-                {# {% endfor %} #}
+                <div class="card-body collapse multi-collapse" id="table-{{ tag }}">
+                    <div class="unenc-char header">
+                        <div>Seq</div>
+                        <div>IDS</div>
+                        <div>Jyutping</div>
+                        <div>Evidences</div>
+                        <div>Remarks</div>
+                    </div>
+                    {% for char in chars %}
+                        <div class="unenc-char">
+                            <div>
+                                {{ char.id }}
+                            </div>
+                            <div>
+                                {{ char.ids ?? '' }}
+                            </div>
+                            <div>
+                                {{ char.jyutping ?? '' }}
+                            </div>
+                            <div class="evidences">
+                                {% for src in char.srcN %}
+                                    <dl>
+                                        <dt>
+                                            <a href="{{ src.evidencePath }}" title="{{ sources[src.id].title }}"
+                                               target="_blank">
+                                                {{ src.id }},
+                                                {{ src.locationText }}
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,{{ src.imageData }}"/>
+                                        </dd>
+                                    </dl>
+                                {% endfor %}
+                            </div>
+                            <div>
+                                {{ char.remarksHTML|raw }}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
             {% endfor %}
-            {# </table> #}
-            {% endfor %}
-        </section>
+        </div>
     </section>
 </main>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
 
