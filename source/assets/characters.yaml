@@ -649,6 +649,7 @@ characters:
         jyutping: ham3
         babelstone_pua: "U+E190" # KC-05016
         sources:
+            TDCL1856: "92"
             FTL1974: "50"
             FTL1996: "131"
         remarks: |
@@ -1230,3 +1231,49 @@ characters:
             LCW1914:
                 -   location: "2"
         remarks: ~
+    JYN00161:
+        ids: ⿱⺮宼
+        jyutping: kau3
+        sources:
+            TDCL1856: "142"
+        remarks: ~
+    JYN00162:
+        ids: ⿰口鏬
+        jyutping: laa3
+        sources:
+            TDCL1856: "217"
+        remarks: |
+            - Also seen: [UTC-00452](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
+    JYN00164:
+        ids: ⿱艹𡨕
+        jyutping: ming4
+        sources:
+            TDCL1856: "289"
+        remarks: ~
+    JYN00165:
+        ids: ⿰舟敖
+        jyutping: ngou4
+        sources:
+            TDCL1856: "326"
+            FTL1974: "96"
+        remarks: ~
+    JYN00166:
+        ids: ⿱艹贑
+        jyutping: ngong3, ong3
+        sources:
+            TDCL1856: "329"
+        remarks: ~
+    JYN00167:
+        ids: ⿱髟逄
+        jyutping: pung4
+        sources:
+            TDCL1856: "401"
+        remarks: |
+            - Also seen: [UTC-03103](https://hc.jsecs.org/irg/ws2017/app/index.php?id=04828), "Postponed for further investigation"
+    JYN00168:
+        ids: ⿱冃吋
+        jyutping: heoi2
+        sources:
+            TDCL1856: "742"
+        remarks: |
+            - A variant form of 冔
