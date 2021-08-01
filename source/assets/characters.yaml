@@ -113,6 +113,7 @@ characters:
         remarks: |
             - Also seen: UTC-00380 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
             - Also seen: [A Chinese Chrestomathy in the Cantonese Dialect (1941) P.43](evidences/others/JYN00009_CCCD.jpg)
+            - Also seen: [The Student's Cantonese-English Dictionary (1947) P.427](evidences/others/JYN00009_SCED.png)
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=00608)
 
     JYN00010:
@@ -542,6 +543,7 @@ characters:
             FTL1996: "13"
         remarks: |
             - Also seen: UTC-00390 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
+            - Also seen: [The Student's Cantonese-English Dictionary (1947) P.469](evidences/others/JYN00070_SCED.png) (referenced in WS2021)
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=00576)
     JYN00071:
         ids: ⿱𥫗彡
