@@ -6,8 +6,7 @@
     <meta name="description" content="">
     <title>Unencoded characters</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +15,15 @@
 
     <style>
         :root {
-            --border-color: #ccc;
+            --border-color: #ddd;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .card-header a {
+            font-weight: bold;
         }
 
         body {
@@ -78,6 +85,10 @@
             border-top: 1px solid var(--border-color);
         }
 
+        div.card {
+            margin-bottom: 1rem;
+        }
+
         section {
             padding-top: 24px;
         }
@@ -97,7 +108,7 @@
         <ul>
             {% for id, source in sources %}
                 <li>
-                    <strong>{{ id }}</strong>: {{ source.title }}
+                    <strong>{{ id }}</strong>: {{ source.title|raw }}
                 </li>
             {% endfor %}
         </ul>
@@ -106,14 +117,14 @@
     <section>
         <h2>Character List</h2>
 
-        <div class="card">
             {% for tag, chars in characters %}
+        <div class="card">
                 <div class="card-header">
                     <a data-bs-toggle="collapse" href="#table-{{ tag }}" role="button" aria-expanded="false"
                        class="btn-block"
                        aria-controls="table-{{ tag }}">{{ tag }} ({{ chars|length }})</a>
                 </div>
-                <div class="card-body collapse multi-collapse" id="table-{{ tag }}">
+                <div class="card-body collapse multi-collapse show" id="table-{{ tag }}">
                     <div class="unenc-char header">
                         <div>Seq</div>
                         <div>IDS</div>
@@ -122,9 +133,9 @@
                         <div>Remarks</div>
                     </div>
                     {% for char in chars %}
-                        <div class="unenc-char">
+                        <div class="unenc-char" id="{{ char.id }}">
                             <div>
-                                {{ char.id }}
+                                <a href="#{{ char.id }}">{{ char.id }}</a>
                             </div>
                             <div>
                                 {{ char.ids ?? '' }}
@@ -154,8 +165,8 @@
                         </div>
                     {% endfor %}
                 </div>
-            {% endfor %}
         </div>
+            {% endfor %}
     </section>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

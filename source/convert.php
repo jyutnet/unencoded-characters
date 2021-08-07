@@ -61,7 +61,7 @@ foreach ($data['characters'] as $charId => $charData) {
                 'idx' => $idx,
                 'imageData' => base64_encode(file_get_contents($imagePath)),
                 'evidencePath' => $evidencePath,
-                'locationText' => is_numeric($sourceDatum['location']) ? 'P.' . $sourceDatum['location'] : $sourceDatum['location'],
+                'locationText' => $sourceDatum['locationText'] ?? (is_numeric($sourceDatum['location']) ? 'P.' . $sourceDatum['location'] : $sourceDatum['location']),
             ]);
         }
     }
@@ -70,7 +70,7 @@ foreach ($data['characters'] as $charId => $charData) {
     $charData['srcN'] = $sources;
     $charData['remarksHTML'] =
         isset($charData['remarks'])
-            ? str_replace('<a ', '<a target="#blank"', \Parsedown::instance()->parse($charData['remarks']))
+            ? str_replace('<a ', '<a target="blank"', \Parsedown::instance()->parse($charData['remarks']))
             : '';
 
     $characters[$tag][$charId] = $charData;

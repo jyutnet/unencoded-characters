@@ -12,7 +12,7 @@ sources:
     LDY1916:
         title: "Li, Danyu 李澹愚, 廣話國語一貫未定稿. 1916."
     CSK1939:
-        title: "Chan Sui Ki 陳瑞祺, 道漢字音. Hong Kong: 道字總社. 1939"
+        title: "Chan Sui Ki 陳瑞祺, 道漢字音. Hong Kong: 道字總社. 1939. <em>(Unless explicitly specified, the page number refers to the one on Volume 2 of the publication)</em>"
         extension: png
     WSL1941:
         title: "S. L. Wong 黃錫凌, 粵音韻彙 A Chinese Syllable Pronounced According to the Dialect of Canton. Hong Kong: 中華書局. 1980."
@@ -599,6 +599,16 @@ characters:
             - 㞞 has another variant ⿰骨泉, which is interpreted as 骨 (bone) + 泉 (spring) or 骨 (bone) + 白 (white) + 水 (water/liquid). ⿰骨泉 is encoded in Ext-B (U+29A7A 𩩺).
             - [This article](https://www.zhihu.com/question/293176488/answer/490574572) mentions ⿱血⿰骨水, ⿰骨泉 and ⿰骨⿱血水. The answerer is certain that ⿰骨泉 is a variant of 㞞, and that ⿰骨泉 is also written as ⿰骨⿱血水 by elderlies in his/her county.
             - So ⿰骨泉 (𩩺) = ⿰骨眾 = ⿰骨⿱血水 = 㞞.
+            - Also see [JYN00173](#JYN00173) (⿰骨⿱血水).
+    JYN00173:
+        ids: ⿰骨⿱血水
+        jyutping: "N/A"
+        sources:
+            CSK1939:
+                -   location: "A0036"
+                    locationText: "Vol. 1, P.36"
+        remarks: |
+            - See [JYN00075](#JYN00075) (⿰骨衆 / ⿰骨眾) for details.
     JYN00076:
         ids: ⿰口𦂥
         tag: IRG-WS2021
@@ -636,7 +646,9 @@ characters:
             FW1838: "利29"
             FTL1974: "45"
         remarks: |
-            Note: this form is normally a variant of 薨, but source says it means "百蟲群飛聲". I suspect that the entry in FW (1825 & 1838, also appear in 壁魚堂 version) was misprinted from "𦒃" which is a variant of 䎕 and means “飛聲。【玉篇】群鳥弄翅也。” in KangXi. 𦒃/䎕 pronounces the same as 轟 - which reads [gwang1] in Cantonese).
+            - This form is normally a variant of 薨, but source says it means "百蟲群飛聲".
+            - I believe that the entry in FW1828 and FW1838 (also the 壁魚堂 version) is a misprinted form of “𦒃”. “𦒃” is a variant of “䎕” which means “飛聲。【玉篇】群鳥弄翅也。” (KangXi). 𦒃/䎕 pronounces the same as 轟, which reads [gwang1] in Cantonese. This matches the pronunciation given in FW.
+            - FTL1974 states clearly that the form is inherited from FW.
     JYN00080:
         ids: ⿰木盒
         jyutping: hap6
@@ -696,6 +708,8 @@ characters:
         sources:
             FTL1974: "84"
             FTL1996: "222"
+        remarks: |
+            - Printed as <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAApCAMAAABEBVrmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRFpaWl/v7+BAQEyMjIKioqdHR0TU1N5ubmhdTHWAAAAmRJREFUeNqEVYuWrDAIw/L6/z9eEmjVnXtnPXNGbRsIEFCuL5eYf659A1yqV9Yts36pInnpCyAeNJk5C/OAW/paS94AqSX7jyuP2lz6CYh+Ck2413oKMwurHa/XK+WQKXQBvJZCYpm5RghsLBMt7NCTY7zIBDzg0UPyZgnLiERvQPJoGnaNXCfofoFx7dv2ECADSmAlsrPUmQHSzYSe5Fhy/kdZqpx4HQjpoJAkYyw3oHfwb7m38YJDKj7vdlOSLgpWkxU6V2fVuQZn2nSNgFg76H25pKpmU2A0KeUxom2NYy/RNCyOPHK/Zpdmueqcr9UckuSQb8AliSI9IhUQlGY5gKJ18EfeLOkcokdjQF4xO67fAKdH7SKfNJVEvAhU1Cx5DAC67LLIFCfWiacjaoa2PSRyEtmm/bpd2Ev5NwB8YxS1vIHSOhVEEajeA8Dz2sAK04TNn+OkyqzZvTKAFt6WOPWZu7YhH+0LZZVNtOKRUwt6Pfqiq+SDRLgXe6dveod5AHDfb2Itv9g9CjeumwPLXNpi3vJRuKYyaTXOE8ZQ2mbcflwL4/C4G4DP1oDaMBSavvVMjWcHQA/USbdzUoiZMiE3wFkiBVljjlhAFjPYmFLM9DmMcw9T2WaXJkz6zEcOofw1vbWMDA/6zz3GhsPk/wbUom6AH3+eZ6C14OR6sPGRSXCgaGvgTjvtyHDDSrkUmjH8VQIij/+wGYjSM1ZG4R0eqqq3+dc3ZgYZC9mdwAlYdiT//d2DWWS7ZwdVIfblyydDp/oaX4Cd0C8AmHf2GxIffv1xIRck4Ch+5l/nrx8BBgCI8hF0j8qU9QAAAABJRU5ErkJggg==" /> in FW1825 and <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAqCAMAAADCkShIAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRF9/f3EAwHZWFeqKamSEVBLyolg4F/0NDQE9CIwgAAAmtJREFUeNqMVYtyBCEIW3n+/x83AXX1OnOtvc7eKQIhgX2e/6/Mz43v9jIkvztJ/FRNFcMSH2O41oGOaAu1IdtaJLgUm2OIKq9qzjOPGfS4EAr/+MC16Wcm0THU6xnHeYasRK7UR1mm8ZHDc6MxN4bP/uQRYvCHDcWtmWDte7tq26Mi6S4FQvH/2j9eqHJVPU8U0lgmnEejA9iy07cgb2nhPXV7AAFu03t91ws2fwkKgkqGTLrcLUTEsUxs5Ro88MFN668kKoTmeGKRQ3I9L9gwEooF86KUjIaLndqhp5nSIhy8da0mKLOjXCTkxMAyK8RVKkh6UBjIOkqyw4D5CjvBXYR7zoqpi0tubpOILikDKpy7N13KCAC0LyjrcaSkM5nOggoBhr69ItgZIcbiN5+pELgsEb4XbF+A+y7g0jWPPpI+Upp66Ti64zAHl15Fp82yVvKVu/qNikzlXpuHpg1Si7LXWP0PCAeGR0xNrqp6VCKl/6xGtxt0vDJIhqh8MHt0tiM1WhKj0NDZuBCHMLqr2UbZqVYEFxgLtAkh4i+uwYH4Wj5CYqUU+opHjgbi/ElXJVPoHyPaAn315FtEInbOt8Fis9NqeAyTe3Yd0h+gCN2lialVUFjgVsaWnxDfvCD7RLtYvDWnxAqT1/jZ0z5aVULldvusROSU4gSV+8KvzFuM14wF8px55J5xaMP2W77GMUNpH2u85Ry/3DwCso762UFaFt0IoE7OJFQwnJay1jsjS6H9lhj3MKUExDrRF04XH1GUM+N6UyYnr3aB30S1Jaxxz5S+oL2nh4/Ja4r++c6OP17S2+2PAAMASAEPYeGiXWcAAAAASUVORK5CYII=" /> in FW1838 (壁魚堂 version is even stranger: <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAiCAMAAAAuwqolAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRF1reNqo9t48WeJxACalE1jnRTSzIYwKaCAYVRxAAAAndJREFUeNpMVQuyAyEIA+Vz/xu/JGD37bSdWQUJSbB2+BifczLC5/WtHutzWpt47TbtbTgS7vXTPSvfj22287xvEZ+81V3htlWMh86j+HuLgSp/GtlKwGoi1tM98QQe/PCtCvuv8nG8+L38shGcx3DEBQ5w9zZ83dWWq5l7E8Hcb2Hmcg8QP9+jBCA9gBJZN6qwjWCiB9ouQHT7zw5KDUPljt2b3UzkRpMHIGy389GDo5wdISErAh+AQDMC5VxmMRAA9qwnixHFSLFBdoIfxAfr8r1qUpGArzaBBMsU9lC8JHZP4kkdALhKUAfsr5NIoHTkGfBFHocrAFFfSjAliA5QxNBAEa/IEVqoSVfYaC+pgTa6g6Et4iGkumANSS6ZmSDfkD1UCYlAKVRR7lC0EmJIXXUYjzTZCJRyrca36gOHLSSuFOEY/QQwsirNOB5B6miOoFEPW5UrIQh6p5CVzF8HvU2rbVqADHdLAviUL2Qt1Dctnj09KEXRyHNhBhZ0IvlzNJBvp6etYWqqxixHrc/4zWw2WWj52NaDazOZyXwGgPblyT7uWvcN9qRH7/g0iX4SaOwXX/hsglwXbBENqmwwgT3EXBgaJ3AevQSyCnUF0qL8TJimZ8TUA2aVPS9L8iZbjEkALvwSEa4K5+hL2PO7ZDRYGtSXANlRkcO65DJrZ1rxMpE9SDH2oCcHOY+iiKKUXuIIEK2AYU/xvGGo+tkBqj21xYfuEdyTOowbhAOTrQ3UpsiYc+z5cOahhaayPy9Sz3xXRm7znRRABULh5xfOmXcRRQHfXT1X2twI+e7Hnev3f8FbejwJnG3/L1FbnSb+XZV/AgwA5U8SghiqjP4AAAAASUVORK5CYII=" />). So could just be a misprinted form of 纇, which carries the same meaning.
     JYN00087:
         ids: ⿲彳𡼡亍 / ⿴行𡼡
         jyutping: mak1
@@ -1055,13 +1069,13 @@ characters:
         remarks: |
             - A variant of 覽.
             - Also seen - [UTC-00580 1](http://www.unicode.org/reports/tr45/tr45-sourcedata-3.txt), [UTC-00580 2](http://www.unicode.org/Public/12.1.0/ucd/USourceRSChart.pdf)
-    JYN00136:
-        ids: ⿰娄頁
-        jyutping: leoi5, leoi6
-        sources:
-            WST1937: "483"
-        remarks: |
-            - Variant of 類.
+#    JYN00136: # Encoded: 𩔗 U+29517
+#        ids: ⿰娄頁
+#        jyutping: leoi5, leoi6
+#        sources:
+#            WST1937: "483"
+#        remarks: |
+#            - Variant of 類.
     JYN00137:
         ids: ⿰禾⿱不冉
         jyutping: cing1, cing3
@@ -1279,3 +1293,45 @@ characters:
             TDCL1856: "742"
         remarks: |
             - A variant form of 冔
+#    JYN00169: # Encoded: 𭰔
+#        ids: ⿰⺡㓙
+#        jyutping: hung1
+#        sources:
+#            CSK1939: "13"
+#        remarks: |
+#            - [㓙 is a variant form of 凶](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwMzIzLTAwMQ), thus this should be variant form of 汹
+#    JYN00170: # Encoded: 𧧣
+#        ids: ⿰言㓙
+#        jyutping: hung1
+#        sources:
+#            CSK1939: "13"
+#        remarks: |
+#            - [㓙 is a variant form of 凶](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwMzIzLTAwMQ), thus this should be variant form of 訩
+    JYN00171:
+        ids: ⿴囗𢦙
+        jyutping: gwok3
+        sources:
+            CSK1939:
+                -   location: "33"
+                -   location: "A0031"
+                    locationText: "Vol. 1, P.31"
+        remarks: |
+            - "Glyph on the right is a clearer form from Section A of CSK1939, P.31"
+            - [A variant form of 國](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwNzM0LTAwOA)
+            - The form on the book doesn't have the last stroke of 幺
+    JYN00172:
+        ids: ⿱艹冩
+        jyutping: se2, se3
+        sources:
+            CSK1939:
+                -   location: "72"
+        remarks: |
+            - Varaint of 藛
+    JYN00174:
+        ids: ⿰⿹⿺㇉一卄欠
+        jyutping: jyu4
+        sources:
+            CSK1939:
+                -   location: "58"
+        remarks: |
+            A variant of 欤.
