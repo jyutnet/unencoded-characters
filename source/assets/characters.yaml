@@ -274,7 +274,7 @@ characters:
         remarks: |
             - Also seen: UK-10976 ([IRGN2385WS2017 v4.0 Part 6 P.300](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part6.pdf))
             - Also seen: [irg2017-02776](https://hc.jsecs.org/irg/ws2017/app/index.php?id=02776)
-            - Ext-H: U+31C58
+            - [Ext-H: U+31C57](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
     JYN00031:
         ids: ⿰來刂
         jyutping: cik1
@@ -376,7 +376,7 @@ characters:
             CSK1939: "33"
         remarks: |
             - Also seen: UK-10453 ([PDF](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/?id=04744))
-            - Ext-H: U+322DF
+            - [Ext-H: U+322DF](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
     JYN00046:
         ids: ⿰冫莫
         jyutping: mok6
@@ -402,7 +402,7 @@ characters:
             CSK1939: "40"
         remarks: |
             - Also seen: GZ-5011102 ([PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part9.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?id=03666))
-            - Ext-H: U+31F5B
+            - [Ext-H: U+31F5A](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
     JYN00049:
         ids: ⿰⿴弓王畺
         jyutping: goeng1
@@ -430,7 +430,7 @@ characters:
             CSK1939: "50"
         remarks: |
             - Also seen: [GXM-00285](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp401-450.pdf), [IRG2017 #03671](https://hc.jsecs.org/irg/ws2017/app/?id=03671)
-            - Ext-H: U+31F5D
+            - [Ext-H: U+31F5C](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
     JYN00054:
         ids: ⿰厶隹
         jyutping: wai4
@@ -796,7 +796,7 @@ characters:
             ZWJ1988: "32"
         remarks: |
             - Also seen: [UTC-03064](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03064)
-            - Ext-H: U+315D9
+            - [Ext-H: U+315D9](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
     JYN00100:
         ids: ⿳埔𠆢⺢
         jyutping: jing4
@@ -854,7 +854,7 @@ characters:
             ZWJ1988: "104"
         remarks: |
             - Also seen: [GDM-00217](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part6.pdf)
-            - Ext-H: U+31BCE
+            - [Ext-H: U+31BCD](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
     JYN00109:
         ids: ⿱田令
         tag: TO-BE-ENCODED
@@ -864,7 +864,7 @@ characters:
             ZWJ1988: "107"
         remarks: |
             - Also seen: GDM-00107 & UTC-03061 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03061), [PDF 1: #02731 & #02734](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [PDF 2](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp551-600.pdf) says “IRGN2270 Unified & Withdrawn / unified by 02731, irg50”
-            - Ext-H: U+31C2F
+            - [Ext-H: U+31C2E](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
     JYN00110:
         ids: ⿸厂⿱𣏟石
         jyutping: lik6
@@ -931,7 +931,7 @@ characters:
             FSY1967: "375"
         remarks: |
             - Also seen: UK-10780 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UK-10780), [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp251-300.pdf))
-            - Ext-H: U+31B91
+            - [Ext-H: U+31B90](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
     JYN00118:
         ids: ⿰木龠
         jyutping: joek6
@@ -1190,7 +1190,7 @@ characters:
         remarks: |
             - Same as 醇.
             - See also [WS2017 04411](https://hc.jsecs.org/irg/ws2017/app/?id=04411), [KC 08171](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp451-500.pdf)
-            - Ext-H: U+321BA
+            - [Ext-H: U+321B9](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
     JYN00154:
         ids: ⿱文韭
         tag: TO-BE-ENCODED
@@ -1201,7 +1201,7 @@ characters:
         remarks: |
             - Simplified form of 齏.
             - See also [WS2017 04681](https://hc.jsecs.org/irg/ws2017/app/index.php?id=04681), [UK 10770](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part11.pdf)
-            - Ext-H: U+322A6
+            - [Ext-H: U+322A6](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
     JYN00155:
         ids: ⿰𦚏尨
         jyutping: lung4, cung2, lung5
