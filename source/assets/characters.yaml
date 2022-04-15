@@ -98,7 +98,7 @@ characters:
             CPV1855:
                 -   location: "29"
         remarks: |
-            - Retracted, probably a badly printed form of 㻾 according to a clearer source.
+            - Retracted, probably a badly printed form of 㻾 according to a more high-res source.
               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAADGCAMAAACQLOy4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF28myY1E+prBdXwAAAwxJREFUeNrsm9tygzAMRL3//9OdPmRKsO5akaTBT22IDyDL0kqQte6RHsAA8jGmuBjCUsH/lJs+a4ybv50QVzx8mLYdxGn8frTUL1kzW2MIi/nrPSxlYFaGq6y/657n0wX9Svg08D3fXR2/T25tmFxUg7KDReZy/46pX65hH0ddLMx4IK3rNvs4S8XC9BjJt4/TjL1vO92+YyBxIxvOzrjiP+n4sN2XYJEQ03F6qJe7oCxHJItoF28vXJi726AQczaUtGIN7m7oZeeYJ4iTy4/7TLw66R7kG9ByaiQDWoJzPyLHWmTzm3hfPK4YnQzzQlytM1lJZ4ZGivuvs1PiXM3DLG4wC2nhVw3s2lYxxdmelEMekJCTCTdbnkxdNa5oFyepw0hLT3ZNysmKKElg4ZUpWTHpGMYwqT0hK/ujYjLmCLrNfdnXicDaCbd1lVVVnJpa9AsaLWWoPc+sbPeblLRQrMDvFa96HcnhBlIIi7sHPTXcF9o6dPd+CRcElMktn8LaKs0dqmmiqlHC5VudiwHuInNh1loUM1DdN1qv2aVbLia3esrINuGQAce5cdP7/bNirPsrAVxvCzfJLQmf3Sb0pnKJm7DDc6zJqnL+Q7R73OO9x4Qu0zQKn0vTlUNcmNz6GcwOWO7arc6eJFcLmp9YD5ES0GXcZcyFYqR83QI4/lt15lh//t24a5y7mHGnoKGbBe4XJ7Z2zeVqbCIXn8BVamZObND+7oacIS6u5ja7Rxq3145R/0m+EqO2Y2THZmyHdaEweQeucSqhtciIQBPt35FXKNm10dmsZCuQucIz6oHCkFy+nQUwzcGCncoqdQWePcY3gxdAilvMjUyseFDjRqY0sdk1zVTwva/dXcyX1xpTJQxu7hAXX2oH5TEZ/+qYXPWN4PIO7Ly0xFHsU9ziL3sC56krSOsDDrfb5NEe0H89t/6iuR1uuev2adxx/wV5v+3vK3ulB6+z8R3c3ZzM+GvF+Vaep7xhrf/SqivZKJC4jCLos4t06s29uRdwMcv9sLLwbpYkx48AAwA73BNgTDy5sgAAAABJRU5ErkJggg==">
     JYN00009:
         ids: ⿰口揖
@@ -274,7 +274,7 @@ characters:
         remarks: |
             - Also seen: UK-10976 ([IRGN2385WS2017 v4.0 Part 6 P.300](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part6.pdf))
             - Also seen: [irg2017-02776](https://hc.jsecs.org/irg/ws2017/app/index.php?id=02776)
-            - [Ext-H: U+31C57](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
+            - [Ext-H (as of IRG Meeting 58): U+31C57](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00031:
         ids: ⿰來刂
         jyutping: cik1
@@ -376,7 +376,7 @@ characters:
             CSK1939: "33"
         remarks: |
             - Also seen: UK-10453 ([PDF](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/?id=04744))
-            - [Ext-H: U+322DF](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
+            - [Ext-H (as of IRG Meeting 58): U+322DF](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00046:
         ids: ⿰冫莫
         jyutping: mok6
@@ -402,7 +402,7 @@ characters:
             CSK1939: "40"
         remarks: |
             - Also seen: GZ-5011102 ([PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part9.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?id=03666))
-            - [Ext-H: U+31F5A](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
+            - [Ext-H (as of IRG Meeting 58): U+31F5A](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00049:
         ids: ⿰⿴弓王畺
         jyutping: goeng1
@@ -430,7 +430,7 @@ characters:
             CSK1939: "50"
         remarks: |
             - Also seen: [GXM-00285](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp401-450.pdf), [IRG2017 #03671](https://hc.jsecs.org/irg/ws2017/app/?id=03671)
-            - [Ext-H: U+31F5C](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
+            - [Ext-H (as of IRG Meeting 58): U+31F5C](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00054:
         ids: ⿰厶隹
         jyutping: wai4
@@ -627,8 +627,8 @@ characters:
         sources:
             FTL1996: "73"
         remarks: |
-            - (KangXi Dictionary) 𧰵:【集韻】竹角切，音卓。擊也。與𢽚㧻○並同。
-            - The book mentions 𧰵 and 𢽚 (without the dot stroke 丶). Should be safe to conclude ⿰豕攴 is just a misprinted from 𢽚.
+            - KangXi Dictionary: ”𧰵:【集韻】竹角切，音卓。擊也。與𢽚㧻○並同“。
+            - The source mentions 𧰵 and 𢽚, both without the dot stroke 丶. It should be safe to conclude that ⿰豕攴 is just a misprinted from 𢽚.
     JYN00078:
         ids: ⿰扌經
         jyutping: gaang1
@@ -796,7 +796,7 @@ characters:
             ZWJ1988: "32"
         remarks: |
             - Also seen: [UTC-03064](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03064)
-            - [Ext-H: U+315D9](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
+            - [Ext-H (as of IRG Meeting 58): U+315DA](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00100:
         ids: ⿳埔𠆢⺢
         jyutping: jing4
@@ -854,7 +854,7 @@ characters:
             ZWJ1988: "104"
         remarks: |
             - Also seen: [GDM-00217](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part6.pdf)
-            - [Ext-H: U+31BCD](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
+            - [Ext-H (as of IRG Meeting 58): U+31BCD](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00109:
         ids: ⿱田令
         tag: TO-BE-ENCODED
@@ -864,7 +864,7 @@ characters:
             ZWJ1988: "107"
         remarks: |
             - Also seen: GDM-00107 & UTC-03061 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03061), [PDF 1: #02731 & #02734](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [PDF 2](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp551-600.pdf) says “IRGN2270 Unified & Withdrawn / unified by 02731, irg50”
-            - [Ext-H: U+31C2E](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
+            - [Ext-H (as of IRG Meeting 58): U+31C2E](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00110:
         ids: ⿸厂⿱𣏟石
         jyutping: lik6
@@ -931,7 +931,7 @@ characters:
             FSY1967: "375"
         remarks: |
             - Also seen: UK-10780 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UK-10780), [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp251-300.pdf))
-            - [Ext-H: U+31B90](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
+            - [Ext-H (as of IRG Meeting 58): U+31B90](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00118:
         ids: ⿰木龠
         jyutping: joek6
@@ -1190,7 +1190,7 @@ characters:
         remarks: |
             - Same as 醇.
             - See also [WS2017 04411](https://hc.jsecs.org/irg/ws2017/app/?id=04411), [KC 08171](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp451-500.pdf)
-            - [Ext-H: U+321B9](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
+            - [Ext-H (as of IRG Meeting 58): U+321B9](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00154:
         ids: ⿱文韭
         tag: TO-BE-ENCODED
@@ -1201,7 +1201,7 @@ characters:
         remarks: |
             - Simplified form of 齏.
             - See also [WS2017 04681](https://hc.jsecs.org/irg/ws2017/app/index.php?id=04681), [UK 10770](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part11.pdf)
-            - [Ext-H: U+322A6](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2513ExtH.pdf)
+            - [Ext-H (as of IRG Meeting 58): U+322A6](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00155:
         ids: ⿰𦚏尨
         jyutping: lung4, cung2, lung5
