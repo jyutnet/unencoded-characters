@@ -130,6 +130,8 @@ characters:
         sources:
             LCW1914:
                 -   location: "14"
+        remarks: |
+            - I suspect this to be a mistaken form of 摼.
     JYN00012:
         ids: ⿰𧾷貪
         jyutping: taam1
@@ -266,7 +268,7 @@ characters:
             - [Variant form of 劃](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwMzczLTAxOA)
     JYN00030:
         ids: ⿸疒征
-        tag: TO-BE-ENCODED
+        tag: ENCODED-EXT-H
         jyutping: zing1
         babelstone_pua: "U+E5ED"
         sources:
@@ -274,7 +276,7 @@ characters:
         remarks: |
             - Also seen: UK-10976 ([IRGN2385WS2017 v4.0 Part 6 P.300](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part6.pdf))
             - Also seen: [irg2017-02776](https://hc.jsecs.org/irg/ws2017/app/index.php?id=02776)
-            - [Ext-H (as of IRG Meeting 58): U+31C57](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
+            - [Ext-H: U+31C57](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00031:
         ids: ⿰來刂
         jyutping: cik1
@@ -351,6 +353,8 @@ characters:
         jyutping: hip6
         sources:
             CSK1939: "27"
+        remarks: |
+            - Probably a simplified form of 恊, similar to 协 as a simplified form of 協.
     JYN00043:
         # ids: ⿱彐巩
         ids: ⿱⺕巩
@@ -369,14 +373,14 @@ characters:
             The right side of 𢟿 (U+227FF).
     JYN00045:
         ids: ⿰飠莽
-        tag: TO-BE-ENCODED
+        tag: ENCODED-EXT-H
         jyutping: mong5
         babelstone_pua: "U+E56C" # SFCY p. 281 UK-10453
         sources:
             CSK1939: "33"
         remarks: |
             - Also seen: UK-10453 ([PDF](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/?id=04744))
-            - [Ext-H (as of IRG Meeting 58): U+322DF](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
+            - [Ext-H: U+322DF](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00046:
         ids: ⿰冫莫
         jyutping: mok6
@@ -396,13 +400,13 @@ characters:
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=GDM-00330)
     JYN00048:
         ids: ⿱艹乐
-        tag: TO-BE-ENCODED
+        tag: ENCODED-EXT-H
         jyutping: joek6
         sources:
             CSK1939: "40"
         remarks: |
             - Also seen: GZ-5011102 ([PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part9.pdf), [IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?id=03666))
-            - [Ext-H (as of IRG Meeting 58): U+31F5A](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
+            - [Ext-H: U+31F5A](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00049:
         ids: ⿰⿴弓王畺
         jyutping: goeng1
@@ -424,19 +428,20 @@ characters:
             - Commonly used as a variant of 製.
     JYN00053:
         ids: ⿱艹执
-        tag: TO-BE-ENCODED
+        tag: ENCODED-EXT-H
         jyutping: ngai6
         sources:
             CSK1939: "50"
         remarks: |
             - Also seen: [GXM-00285](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp401-450.pdf), [IRG2017 #03671](https://hc.jsecs.org/irg/ws2017/app/?id=03671)
-            - [Ext-H (as of IRG Meeting 58): U+31F5C](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
+            - [Ext-H: U+31F5C](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00054:
         ids: ⿰厶隹
         jyutping: wai4
         sources:
             CSK1939: "51"
         remarks: |
+            - [A variant form of 唯](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwNjEy)
             - Also seen: [GT00019](https://zh.wikipedia.org/wiki/User:Urga/%E6%B2%99%E7%9B%92/IRGN1467)
     JYN00056:
         ids: ⿱艹⿰⺡⿳厶大氺
@@ -730,7 +735,8 @@ characters:
             FTL1996: "250"
             WST1937: "101"
         remarks: |
-            - Also seen: UK-20862 [(IRG WS2021)](https://hc.jsecs.org/irg/ws2021/app/index.php?id=01087). The source says this is a variant of 局 (U+5C40), but in Canton/Hong Kong the usage is different - ⿸尸可 is a variant of 屙 (to defecate), thus not unifiable with 局 (U+5C40).
+            - Also seen: UK-20862 [(IRG WS2021)](https://hc.jsecs.org/irg/ws2021/app/index.php?id=01087).
+            - A comment in the above link suggests this to be unified with 局 (U+5C40). However, in Canton/Hong Kong the usage is different - ⿸尸可 is a variant of 屙 (to defecate), thus not unifiable with 局 (U+5C40).
     JYN00089:
         ids: ⿰言孔
         jyutping: ngo4
@@ -789,14 +795,14 @@ characters:
             ZWJ1988: "30"
     JYN00099:
         ids: ⿰土勇
-        tag: TO-BE-ENCODED
+        tag: ENCODED-EXT-H
         jyutping: jung5
         babelstone_pua: "U+E84F"
         sources:
             ZWJ1988: "32"
         remarks: |
             - Also seen: [UTC-03064](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03064)
-            - [Ext-H (as of IRG Meeting 58): U+315DA](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
+            - [Ext-H: U+315DA](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00100:
         ids: ⿳埔𠆢⺢
         jyutping: jing4
@@ -848,23 +854,23 @@ characters:
             Also seen: GDM-00085, UTC-02993([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-02993); [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp201-250.pdf) says “unifies 02007, irg50”, meaning unknown)
     JYN00108:
         ids: ⿰王哥
-        tag: TO-BE-ENCODED
+        tag: ENCODED-EXT-H
         jyutping: go1
         sources:
             ZWJ1988: "104"
         remarks: |
             - Also seen: [GDM-00217](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part6.pdf)
-            - [Ext-H (as of IRG Meeting 58): U+31BCD](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
+            - [Ext-H: U+31BCD](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00109:
         ids: ⿱田令
-        tag: TO-BE-ENCODED
+        tag: ENCODED-EXT-H
         jyutping: ling4
         babelstone_pua: "U+E84C"
         sources:
             ZWJ1988: "107"
         remarks: |
             - Also seen: GDM-00107 & UTC-03061 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UTC-03061), [PDF 1: #02731 & #02734](http://www.unicode.org/L2/L2018/18269-irgn-2309-ws2017v2.pdf), [PDF 2](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp551-600.pdf) says “IRGN2270 Unified & Withdrawn / unified by 02731, irg50”
-            - [Ext-H (as of IRG Meeting 58): U+31C2E](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
+            - [Ext-H: U+31C2E](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00110:
         ids: ⿸厂⿱𣏟石
         jyutping: lik6
@@ -922,7 +928,7 @@ characters:
             - Retracted. The character is written as 譜 in the first edition (1955) and in the radical-stroke index section. Probably misidentified as 飠普 by the scribe.
     JYN00117:
         ids: ⿰犭怒
-        tag: TO-BE-ENCODED
+        tag: ENCODED-EXT-H
         jyutping: nou6
         babelstone_pua: "U+E58F"
         sources:
@@ -931,7 +937,7 @@ characters:
             FSY1967: "375"
         remarks: |
             - Also seen: UK-10780 ([IRG2017](https://hc.jsecs.org/irg/ws2017/app/index.php?find=UK-10780), [PDF](http://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp251-300.pdf))
-            - [Ext-H (as of IRG Meeting 58): U+31B90](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
+            - [Ext-H: U+31B90](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00118:
         ids: ⿰木龠
         jyutping: joek6
@@ -1183,17 +1189,17 @@ characters:
         remarks: Variant of 稿.
     JYN00153:
         ids: ⿰酉畗
-        tag: TO-BE-ENCODED
+        tag: ENCODED-EXT-H
         jyutping: seon4
         sources:
             FSY1967: "397"
         remarks: |
             - Same as 醇.
             - See also [WS2017 04411](https://hc.jsecs.org/irg/ws2017/app/?id=04411), [KC 08171](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg52/IRGN2347WS2017v3.0WorkingSetpp451-500.pdf)
-            - [Ext-H (as of IRG Meeting 58): U+321B9](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
+            - [Ext-H: U+321B9](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00154:
         ids: ⿱文韭
-        tag: TO-BE-ENCODED
+        tag: ENCODED-EXT-H
         jyutping: zai1
         babelstone_pua: U+F12B # WG2 N3695 #169:DJ-70, HZFY p.459
         sources:
@@ -1201,7 +1207,7 @@ characters:
         remarks: |
             - Simplified form of 齏.
             - See also [WS2017 04681](https://hc.jsecs.org/irg/ws2017/app/index.php?id=04681), [UK 10770](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2385WS2017v4.0-part11.pdf)
-            - [Ext-H (as of IRG Meeting 58): U+322A6](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
+            - [Ext-H: U+322A6](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2544ExtH.pdf)
     JYN00155:
         ids: ⿰𦚏尨
         jyutping: lung4, cung2, lung5
