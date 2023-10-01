@@ -1350,12 +1350,14 @@ characters:
         remarks: |
             A variant of 欤.
     JYN00175:
-        ids: ⿰⺼枕
+        ids: ⿰⺼枕/⿰月枕
         jyutping: zam2
+        tag: IRG-WS2021
         sources:
             EITEL1877:
                 -   location: "17"
-        remarks: ~
+        remarks: |
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=03235)
     JYN00176:
         ids: ⿰立集
         jyutping: lap9
@@ -1375,31 +1377,42 @@ characters:
         jyutping: nap6
         sources:
             EITEL1877: "461"
-        remarks: ~
+        tag: IRG-WS2021
+        remarks: |
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02003)
     JYN00179:
         ids: ⿰火𧛱
         jyutping: bou1
         sources:
             EITEL1877: "549"
-        remarks: ~
+        tag: IRG-WS2021
+        remarks: |
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02242)
     JYN00180:
         ids: ⿰梹咅
         jyutping: bam1
         sources:
             EITEL1877: "559"
-        remarks: ~
+        tag: IRG-WS2021
+        remarks: |
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=01876)
     JYN00181:
         ids: ⿰皮合
         jyutping: pap6
         sources:
             EITEL1877: "562"
-        remarks: ~
+        tag: IRG-WS2021
+        remarks: |
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02659)
     JYN00182:
         ids: ⿰口焙
         jyutping: bui6
         sources:
             EITEL1877: "563"
-        remarks: ~
+        tag: IRG-WS2021
+        remarks: |
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00626)
+            - Note that the tone is T6 in EITEL1877.
     JYN00183:
         ids: ⿺風都
         jyutping: du1
