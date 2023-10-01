@@ -115,6 +115,8 @@ characters:
                 -   location: "8"
             EITEL1877:
                 -   location: "474"
+            EITEL1910:
+                -   location: "668"
         remarks: |
             - Also seen: UTC-00380 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
             - Also seen: [A Chinese Chrestomathy in the Cantonese Dialect (1941) P.43](evidences/others/JYN00009_CCCD.jpg)
@@ -167,6 +169,7 @@ characters:
             FTL1974: "89"
             FTL1996: "236"
             EITEL1877: "409"
+            EITEL1910: "579"
     JYN00016:
         ids: ⿰貝幾
         tag: IRG-WS2021
@@ -647,6 +650,7 @@ characters:
         sources:
             FTL1996: "96"
             EITEL1877: "223"
+            EITEL1910: "324"
         remarks: |
             - Also seen: UTC-00365 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt), [PDF](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf))
             - According to source (FTL1996) it's a variant form of 經 when used as a verb, quotes ”學粵詞典” (i.e. 學生粵英詞典 The Student's Cantonese-English Dictionary, Bernard F. Meyer & Theodore F. Wempe, 1935)
@@ -696,6 +700,7 @@ characters:
         sources:
             FTL1996: "142"
             EITEL1877: "173"
+            EITEL1910: "242"
         remarks: |
             - Also seen: UTC-00359 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UTC-00359)
@@ -704,8 +709,9 @@ characters:
         jyutping: lap1
         sources:
             FTL1996: "203"
-        remarks:
-            ≠ U+2E980 (⿰亲隹, JMJ-060323) which is a variant of 雜.
+        remarks: |
+            - ≠ U+2E980 (⿰亲隹, JMJ-060323) which is a variant of 雜.
+            - See also [JYN00176](#JYN00176) (⿰立集).
     JYN00085:
         ids: ⿱雷䖵
         jyutping: leoi4
@@ -1356,6 +1362,8 @@ characters:
         sources:
             EITEL1877:
                 -   location: "17"
+            EITEL1910:
+                -   location: "19"
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=03235)
     JYN00176:
@@ -1364,19 +1372,27 @@ characters:
         sources:
             EITEL1877:
                 -   location: "347"
-        remarks: ~
+            EITEL1910:
+                -   location: "497"
+        remarks: |
+            - See also [JYN00084](#JYN00084) (⿱⿰立隹木). Suggest to use this form if unifiable.
+            - Also seen: [UTC-00373](https://www.unicode.org/Public/15.0.0/ucd/USourceGlyphs.pdf), https://www.unicode.org/reports/tr45/tr45-27.html
     JYN00177:
         ids: ⿰氵雒
         jyutping: lok8
         sources:
             EITEL1877:
                 -   location: "385"
-        remarks: ~
+        remarks: |
+            - Also appears in EITEL1910. The glyph appears as "⿰氵雒" in the radical-stroke index section (XVII, the 7th entry in the rightmost column), but looks like "⿰氵𨿅" in the main section (p.547), i.e. 各 becomes 名.
+            - Suggest to follow EITEL1877 and use "⿰氵雒" as the standard form.
+            - "𨿅" (U+28FC5) is a variant of "雒" (U+96D2) according to [zi.tools](https://zi.tools/zi/%F0%A8%BF%85).
     JYN00178:
         ids: ⿰氵𠕄
         jyutping: nap6
         sources:
             EITEL1877: "461"
+            EITEL1910: "650"
         tag: IRG-WS2021
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02003)
@@ -1385,6 +1401,7 @@ characters:
         jyutping: bou1
         sources:
             EITEL1877: "549"
+            EITEL1910: "764"
         tag: IRG-WS2021
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02242)
@@ -1393,6 +1410,7 @@ characters:
         jyutping: bam1
         sources:
             EITEL1877: "559"
+            EITEL1910: "777"
         tag: IRG-WS2021
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=01876)
@@ -1401,6 +1419,7 @@ characters:
         jyutping: pap6
         sources:
             EITEL1877: "562"
+            EITEL1910: "780"
         tag: IRG-WS2021
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02659)
@@ -1409,6 +1428,7 @@ characters:
         jyutping: bui6
         sources:
             EITEL1877: "563"
+            EITEL1910: "782"
         tag: IRG-WS2021
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00626)
@@ -1418,17 +1438,14 @@ characters:
         jyutping: du1
         sources:
             EITEL1877: "859"
+            EITEL1910: "1199"
         remarks: ~
-
-
-
-
-
-
-#    JYN00176:
-#        ids: ⿰虫琴
-#        jyutping: kam4
-#        sources:
-#            EITEL1877:
-#                -   location: "215"
-#        remarks: ~
+    JYN00184:
+        ids: ⿰虫琴
+        jyutping: kam4
+        sources:
+            EITEL1910: "313"
+        tag: IRG-WS2021
+        remarks: |
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=03627)
+            - In EITEL1877 (p.215) the form appears as "⿰虫⿱𪢴今", i.e. 玨 -> 𪢴. Probably misprinted, thus not included. 
