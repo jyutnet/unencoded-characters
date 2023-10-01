@@ -30,7 +30,10 @@ sources:
         title: "Wang Sung Tang 王頌棠, 中華新字典. Guangzhou: 環球書局, 1937."
     FSY1967:
         title: "Fung, Sz-Yi 馮思禹, 部身字典. Hong Kong: 右文書局, 1967."
-
+    EITEL1877:
+        title: "A Chinese dictionary in the Cantonese dialect. London : Trübner and Co. ; Hong Kong : Lane, Crawford & Co. 1877."
+    EITEL1910:
+        title: "A Chinese dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly & Walsh 1910."
 characters:
     JYN00001:
         ids: ⿹⿺㇉一卄
@@ -110,6 +113,8 @@ characters:
                 -   location: "321"
             FTL1996:
                 -   location: "8"
+            EITEL1877:
+                -   location: "474"
         remarks: |
             - Also seen: UTC-00380 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-1.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
             - Also seen: [A Chinese Chrestomathy in the Cantonese Dialect (1941) P.43](evidences/others/JYN00009_CCCD.jpg)
@@ -161,6 +166,7 @@ characters:
             CSK1939: "31"
             FTL1974: "89"
             FTL1996: "236"
+            EITEL1877: "409"
     JYN00016:
         ids: ⿰貝幾
         tag: IRG-WS2021
@@ -640,6 +646,7 @@ characters:
         babelstone_pua: "U+F020" # Cowles 1914 (no. 1481)
         sources:
             FTL1996: "96"
+            EITEL1877: "223"
         remarks: |
             - Also seen: UTC-00365 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt), [PDF](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf))
             - According to source (FTL1996) it's a variant form of 經 when used as a verb, quotes ”學粵詞典” (i.e. 學生粵英詞典 The Student's Cantonese-English Dictionary, Bernard F. Meyer & Theodore F. Wempe, 1935)
@@ -688,6 +695,7 @@ characters:
         babelstone_pua: "U+E19F" # Cowles 1914 (no. 1184)
         sources:
             FTL1996: "142"
+            EITEL1877: "173"
         remarks: |
             - Also seen: UTC-00359 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UTC-00359)
@@ -1341,3 +1349,73 @@ characters:
                 -   location: "58"
         remarks: |
             A variant of 欤.
+    JYN00175:
+        ids: ⿰⺼枕
+        jyutping: zam2
+        sources:
+            EITEL1877:
+                -   location: "17"
+        remarks: ~
+    JYN00176:
+        ids: ⿰立集
+        jyutping: lap9
+        sources:
+            EITEL1877:
+                -   location: "347"
+        remarks: ~
+    JYN00177:
+        ids: ⿰氵雒
+        jyutping: lok8
+        sources:
+            EITEL1877:
+                -   location: "385"
+        remarks: ~
+    JYN00178:
+        ids: ⿰氵𠕄
+        jyutping: nap6
+        sources:
+            EITEL1877: "461"
+        remarks: ~
+    JYN00179:
+        ids: ⿰火𧛱
+        jyutping: bou1
+        sources:
+            EITEL1877: "549"
+        remarks: ~
+    JYN00180:
+        ids: ⿰梹咅
+        jyutping: bam1
+        sources:
+            EITEL1877: "559"
+        remarks: ~
+    JYN00181:
+        ids: ⿰皮合
+        jyutping: pap6
+        sources:
+            EITEL1877: "562"
+        remarks: ~
+    JYN00182:
+        ids: ⿰口焙
+        jyutping: bui6
+        sources:
+            EITEL1877: "563"
+        remarks: ~
+    JYN00183:
+        ids: ⿺風都
+        jyutping: du1
+        sources:
+            EITEL1877: "859"
+        remarks: ~
+
+
+
+
+
+
+#    JYN00176:
+#        ids: ⿰虫琴
+#        jyutping: kam4
+#        sources:
+#            EITEL1877:
+#                -   location: "215"
+#        remarks: ~
