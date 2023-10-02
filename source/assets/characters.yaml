@@ -1,4 +1,6 @@
 sources:
+    FW17XX:
+        title: 武山溫岐石校輯, 分韻撮要. 壁魚堂, 17XX.
     FW1825:
         title: 虞學圃、溫岐石輯, 江湖尺牘分韻撮要合集. 1825 (道光 5 年).
     FW1838:
@@ -186,6 +188,8 @@ characters:
         jyutping: bin1
         sources:
             LCW1914: "41"
+            FW1825: "元01"
+            FW17XX: "上01"
         remarks: |
             Also seen: GT01918 (IRGN1467, [IRGN1467IDS_A2.xls](https://drive.google.com/uc?id=15P6CRjRiIvImo8fRjhWPr-eN7wdP1oYc&export=download))
     JYN00018:
@@ -1405,6 +1409,7 @@ characters:
         tag: IRG-WS2021
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02242)
+            - See also [JYN00190](#JYN00190) (⿰火褒).
     JYN00180:
         ids: ⿰梹咅
         jyutping: bam1
@@ -1449,3 +1454,67 @@ characters:
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=03627)
             - In EITEL1877 (p.215) the form appears as "⿰虫⿱𪢴今", i.e. 玨 -> 𪢴. Probably misprinted, thus not included. 
+    JYN00185:
+        ids: ⿰金邊
+        jyutping: bin1
+        sources:
+            FW1825: "元01"
+            FW17XX: "上01"
+        remarks: ~
+#    JYN00186:
+#        ids: ⿰舟邊
+#        jyutping: bin1
+#        sources:
+#            FW1825: "元01"
+#            FW17XX: "上01"
+#        remarks: ~
+    JYN00187:
+        ids: ⿰弓典
+        jyutping: tin2
+        sources:
+            FW1825: "元05"
+            FW17XX: "上02"
+        remarks: ~
+    JYN00188:
+        ids: ⿰田必
+        jyutping: bei3
+        sources:
+            FW1825: "元24"
+            FW17XX: "上11"
+        remarks: ~
+    JYN00189:
+        ids: ⿰氵棘
+        jyutping: gik1
+        sources:
+            FW1825: "亨19"
+            FW17XX: "上28"
+        remarks: ~
+    JYN00190:
+        ids: ⿰火褒
+        jyutping: bou1
+        sources:
+            FW1825: "利08"
+            FW17XX: "下04"
+        remarks: |
+            - See also [JYN00179](#JYN00179) (⿰火𧛱).
+    JYN00191:
+        ids: ⿰女互
+        jyutping: fu5
+        sources:
+            FW1825: "利14"
+        remarks: |
+            - Glyph is ⿰女⺕ (妇) in FW17XX.
+#    JYN00192:
+#        ids: ⿰鳥佳
+#        jyutping: gaai1
+#        sources:
+#            FW1825: "利24"
+#            FW17XX: "下12"
+#        remarks: ~
+    JYN00192:
+        ids: ⿰扌⿸厃⿱儿𢀛
+        jyutping: daam1
+        sources:
+            FW1825: "貞16"
+            FW17XX: "下32"
+        remarks: ~
