@@ -126,11 +126,13 @@ characters:
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=00608)
 
     JYN00010:
-        ids: ⿰扌𦧕
+        ids: ⿰扌𦧕 / ⿰扌⿸厃⿱儿𢀛
         jyutping: daam1
         sources:
             TDCL1856:
                 -   location: "499"
+            FW1825: "貞16"
+            FW17XX: "下32"
         remarks: |
             A variant of 擔.
     JYN00011:
@@ -1504,17 +1506,3 @@ characters:
             FW1825: "利14"
         remarks: |
             - Glyph is ⿰女⺕ (妇) in FW17XX.
-#    JYN00192:
-#        ids: ⿰鳥佳
-#        jyutping: gaai1
-#        sources:
-#            FW1825: "利24"
-#            FW17XX: "下12"
-#        remarks: ~
-    JYN00192:
-        ids: ⿰扌⿸厃⿱儿𢀛
-        jyutping: daam1
-        sources:
-            FW1825: "貞16"
-            FW17XX: "下32"
-        remarks: ~
