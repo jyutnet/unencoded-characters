@@ -35,7 +35,7 @@ sources:
     EITEL1877:
         title: "A Chinese dictionary in the Cantonese dialect. London : Trübner and Co. ; Hong Kong : Lane, Crawford & Co. 1877."
     EITEL1910:
-        title: "A Chinese dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly & Walsh 1910."
+        title: "A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly & Walsh 1910."
 characters:
     JYN00001:
         ids: ⿹⿺㇉一卄
@@ -712,12 +712,14 @@ characters:
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UTC-00359)
     JYN00084:
         ids: ⿱⿰立隹木
-        jyutping: lap1
+        jyutping: lap6
         sources:
             FTL1996: "203"
+            EITEL1910: "985"
         remarks: |
             - ≠ U+2E980 (⿰亲隹, JMJ-060323) which is a variant of 雜.
             - See also [JYN00176](#JYN00176) (⿰立集).
+            - In the Eitel's first edition ([EITEL1877 P.705](evidences/EITEL1877/0705_excerpt.png)), the same character is rendered as ⿰立集, i.e. JYN00176. Indicates that the two forms are interchangeable.
     JYN00085:
         ids: ⿱雷䖵
         jyutping: leoi4
@@ -1381,7 +1383,7 @@ characters:
             EITEL1910:
                 -   location: "497"
         remarks: |
-            - See also [JYN00084](#JYN00084) (⿱⿰立隹木). Suggest to use this form if unifiable.
+            - See also [JYN00084](#JYN00084) (⿱⿰立隹木).
             - Also seen: [UTC-00373](https://www.unicode.org/Public/15.0.0/ucd/USourceGlyphs.pdf), https://www.unicode.org/reports/tr45/tr45-27.html
     JYN00177:
         ids: ⿰氵雒
