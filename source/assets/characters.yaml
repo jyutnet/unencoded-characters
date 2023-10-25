@@ -554,6 +554,7 @@ characters:
             FTL1996: "4"
         remarks: |
             - Also seen: [sawd-39125](https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
+            - Also seen: [南寧白話小冊子:南寧白話常用口語字表](https://leimaau.gitee.io/book/appendix1/appendix4.4.html) #2008, #2095
     JYN00070:
         ids: ⿰口桻
         tag: IRG-WS2021
@@ -651,6 +652,7 @@ characters:
             - The source mentions 𧰵 and 𢽚, both without the dot stroke 丶. It should be safe to conclude that ⿰豕攴 is just a misprinted from 𢽚.
     JYN00078:
         ids: ⿰扌經
+        tag: IRG-WS2021
         jyutping: gaang1
         babelstone_pua: "U+F020" # Cowles 1914 (no. 1481)
         sources:
@@ -660,6 +662,7 @@ characters:
         remarks: |
             - Also seen: UTC-00365 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt), [PDF](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf))
             - According to source (FTL1996) it's a variant form of 經 when used as a verb, quotes ”學粵詞典” (i.e. 學生粵英詞典 The Student's Cantonese-English Dictionary, Bernard F. Meyer & Theodore F. Wempe, 1935)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=01560)
     JYN00079:
         ids: ⿳艹⿻亜冖死
         jyutping: gwang1
@@ -710,7 +713,7 @@ characters:
         remarks: |
             - Also seen: UTC-00359 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UTC-00359)
-    JYN00084:
+    "JYN00084":
         ids: ⿱⿰立隹木
         jyutping: lap6
         sources:
@@ -720,6 +723,17 @@ characters:
             - ≠ U+2E980 (⿰亲隹, JMJ-060323) which is a variant of 雜.
             - See also [JYN00176](#JYN00176) (⿰立集).
             - In the Eitel's first edition ([EITEL1877 P.705](evidences/EITEL1877/0705_excerpt.png)), the same character is rendered as ⿰立集, i.e. JYN00176. Indicates that the two forms are interchangeable.
+    JYN00176:
+        ids: ⿰立集
+        jyutping: lap6
+        sources:
+            EITEL1877:
+                -   location: "347"
+            EITEL1910:
+                -   location: "497"
+        remarks: |
+            - See also [JYN00084](#JYN00084) (⿱⿰立隹木).
+            - Also seen: [UTC-00373](https://www.unicode.org/Public/15.0.0/ucd/USourceGlyphs.pdf), https://www.unicode.org/reports/tr45/tr45-27.html
     JYN00085:
         ids: ⿱雷䖵
         jyutping: leoi4
@@ -1374,17 +1388,6 @@ characters:
                 -   location: "19"
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=03235)
-    JYN00176:
-        ids: ⿰立集
-        jyutping: lap9
-        sources:
-            EITEL1877:
-                -   location: "347"
-            EITEL1910:
-                -   location: "497"
-        remarks: |
-            - See also [JYN00084](#JYN00084) (⿱⿰立隹木).
-            - Also seen: [UTC-00373](https://www.unicode.org/Public/15.0.0/ucd/USourceGlyphs.pdf), https://www.unicode.org/reports/tr45/tr45-27.html
     JYN00177:
         ids: ⿰氵雒
         jyutping: lok8
@@ -1501,10 +1504,11 @@ characters:
             FW17XX: "下04"
         remarks: |
             - See also [JYN00179](#JYN00179) (⿰火𧛱).
-    JYN00191:
-        ids: ⿰女互
-        jyutping: fu5
-        sources:
-            FW1825: "利14"
-        remarks: |
-            - Glyph is ⿰女⺕ (妇) in FW17XX.
+#    JYN00191: # Already encoded: U+2A966
+#        ids: ⿰女互
+#        jyutping: fu5
+#        sources:
+#            FW1825: "利14"
+#        remarks: |
+#            - Glyph is ⿰女⺕ (妇) in FW17XX.
+#            - Also seen: [G_BK100319](https://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
