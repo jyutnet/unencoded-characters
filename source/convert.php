@@ -25,12 +25,26 @@ foreach ($data['characters'] as $charId => $charData) {
 
         foreach ($sourceData as $idx => $sourceDatum) {
             $imageFilename = (count($sourceData) > 1)
-                ? sprintf('%s_%s_%d.png', $charId, $sourceId, $idx)
-                : sprintf('%s_%s.png', $charId, $sourceId);
+                ? sprintf('%s_%s_%d', $charId, $sourceId, $idx)
+                : sprintf('%s_%s', $charId, $sourceId);
 
-            $imagePath = __DIR__ . '/assets/images/chars/' . $imageFilename;
-            if (!is_file($imagePath)) {
-                die($imageFilename . ' not found.');
+            $imagePath = null;
+
+            $tryImagePaths = [__DIR__ . '/assets/images/chars/' . $imageFilename . '.png',
+                __DIR__ . '/assets/images/chars/' . $imageFilename . '.webp'];
+            foreach ($tryImagePaths as $tryImagePath) {
+                if (is_file($tryImagePath)) {
+                    $imagePath = $tryImagePath;
+                    break;
+                }
+            }
+
+            if ($imagePath === null || !is_file($imagePath)) {
+                //echo ($imageFilename . ' not found.' );
+                echo sprintf('%s.png not found (p.%s, %s).', $imageFilename, $sourceDatum, $charData['ids']), "\n";
+                //var_dump($sourceDatum);
+
+                continue;
             }
 
             if (is_string($sourceDatum)) {
@@ -75,6 +89,18 @@ foreach ($data['characters'] as $charId => $charData) {
 
     $characters[$tag][$charId] = $charData;
 }
+
+uksort($characters, function ($a, $b) {
+    if ($a === 'UNTAGGED') {
+        return -1;
+    }
+
+    if ($b === 'UNTAGGED') {
+        return 1;
+    }
+
+    return strcmp($a, $b);
+});
 
 $result = $twig->render('index.html.twig', [
     'characters' => $characters,
