@@ -1576,8 +1576,8 @@ characters:
         sources:
             MW1947: "437"
         remarks: |
-            - Recorded as a variant of 𢴕(擰) in MW1947.
             - [UTC-00381](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
+            - Recorded as a variant of 𢴕(擰) in MW1947.
     JYN00198:
         ids: ⿱⺾囘
         jyutping: wui4
