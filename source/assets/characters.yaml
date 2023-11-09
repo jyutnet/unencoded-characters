@@ -1543,6 +1543,7 @@ characters:
             MW1947: "84"
         remarks: |
             - Also seen: [英語集全 v.1 P.7](https://zh.wikisource.org/wiki/Page:Harvard_drs_20931849_%E8%8B%B1%E8%AA%9E%E9%9B%86%E5%85%A8_v.1.pdf/30)
+            - [UTC-00353](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 蝌 in MW1947.
     JYN00194:
         ids: ⿰黍果
@@ -1557,6 +1558,7 @@ characters:
         sources:
             MW1947: "344"
         remarks: |
+            - [UTC-00375](https://www.unicode.org/Public/15.1.0/ucd/USourceRSChart.pdf)
             - Recorded as a variant of 屢 in MW1947.
     JYN00196:
         ids: ⿰口掹
@@ -1566,6 +1568,7 @@ characters:
         tag: IRG-WS2021
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00587)
+            - [UTC-00455](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 擝 in MW1947.
     JYN00197:
         ids: ⿰扌寍
@@ -1573,7 +1576,7 @@ characters:
         sources:
             MW1947: "437"
         remarks: |
-            - UTC-00381 ([source](https://www.babelstone.co.uk/Fonts/PUA.html))
+            - [UTC-00381](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 𢴕(擰) in MW1947.
     JYN00198:
         ids: ⿱⺾囘
@@ -1581,6 +1584,7 @@ characters:
         sources:
             MW1947: "455"
         remarks: |
+            - [UTC-00386](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 茴 in MW1947.
     JYN00199:
         ids: ⿳⿴林夂大手
@@ -1588,6 +1592,7 @@ characters:
         sources:
             MW1947: "469"
         remarks: |
+            - [UTC-00389](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 攀 in MW1947.
     JYN00200:
         ids: ⿰扌劈
@@ -1596,6 +1601,7 @@ characters:
             MW1947: "489"
         tag: IRG-WS2021
         remarks: |
+            - [UTC-00394](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=01583)
             - Recorded as a variant of 劈/擗 in MW1947.
     JYN00201:
@@ -1604,6 +1610,7 @@ characters:
         sources:
             MW1947: "511"
         remarks: |
+            - [UTC-00399](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 抱 and ⿰口抱 in MW1947.
     JYN00202:
         ids: ⿰口抱
@@ -1611,6 +1618,7 @@ characters:
         sources:
             MW1947: "511"
         remarks: |
+            - [UTC-00400](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 抱 and ⿰氵抱 in MW1947.
     JYN00203:
         ids: ⿰月⿱冘皿
@@ -1618,6 +1626,7 @@ characters:
         sources:
             MW1947: "628"
         remarks: |
+            - [UTC-00414](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 醓 in MW1947.
     JYN00204:
         ids: ⿰口兜
@@ -1627,6 +1636,7 @@ characters:
         tag: IRG-WS2017
         remarks: |
             - [IRG WS2017](https://hc.jsecs.org/irg/ws2017/app/?id=00529)
+            - [UTC-00420](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 竇 in MW1947.
     JYN00205:
         ids: ⿰日嗇
@@ -1634,6 +1644,7 @@ characters:
         sources:
             MW1947: "707"
         remarks: |
+            - [UTC-00425](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 檣 in MW1947.
     JYN00206:
         ids: ⿰口蕉
@@ -1643,6 +1654,7 @@ characters:
             MW1947: "719"
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00705)
+            - [UTC-00427](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 噍 in MW1947.
     JYN00207:
         ids: ⿰口洞
@@ -1652,6 +1664,7 @@ characters:
             MW1947: "763"
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00551)
+            - [UTC-00431](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 洞 and 峒 in MW1947.
 
 #    JYN00191: # Already encoded: U+2A966
