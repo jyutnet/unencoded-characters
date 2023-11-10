@@ -52,7 +52,7 @@ foreach ($data['characters'] as $charId => $charData) {
             }
 
             $evidencePath = null;
-            foreach (['jpg', 'png'] as $tryExtension) {
+            foreach (['jpg', 'png', 'webp'] as $tryExtension) {
                 $ext = $data['sources'][$sourceId]['extension'] ?? $tryExtension;
                 $evidenceFilename =
                     is_numeric($sourceDatum['location'])

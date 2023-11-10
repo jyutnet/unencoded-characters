@@ -303,14 +303,14 @@ characters:
         remarks: |
             - Also seen: [戚林八音字表](https://only3km.github.io/ciklinbekin/CikLinBekIn.html)
             - Its simplified form ⿰来刂 is encoded in Ext-G: U+3012F
-#    JYN00032:
-#        tag: ENCODED
-#        ids: ⿱⿳𠫓⺫冖夕
-#        jyutping: mung6
-#        sources:
-#            CSK1939: "13"
-#        remarks: |
-#            Retracted, already encoded (U+5923 夣)
+    #    JYN00032:
+    #        tag: ENCODED
+    #        ids: ⿱⿳𠫓⺫冖夕
+    #        jyutping: mung6
+    #        sources:
+    #            CSK1939: "13"
+    #        remarks: |
+    #            Retracted, already encoded (U+5923 夣)
     JYN00033:
         ids: ⿱疋䖵
         jyutping: daan6
@@ -502,14 +502,14 @@ characters:
         jyutping: mou5
         sources:
             CSK1939: "53"
-#    JYN00063:
-#        ids: ⿱止⼎
-#        tag: ENCODED
-#        jyutping: seoi3
-#        sources:
-#            CSK1939: "54"
-#        remarks: |
-#            - Encoded in Ext-F (U+2DB5A).
+    #    JYN00063:
+    #        ids: ⿱止⼎
+    #        tag: ENCODED
+    #        jyutping: seoi3
+    #        sources:
+    #            CSK1939: "54"
+    #        remarks: |
+    #            - Encoded in Ext-F (U+2DB5A).
     JYN00064:
         ids: ⿰𠮥卩
         jyutping: siu6
@@ -1070,15 +1070,15 @@ characters:
     #        sources:
     #            WST1937: "136"
     #        remarks: Source claims ⿰忄頼 is a varint of 嬾, and is different from 懶
-#    JYN00130:
-#        tag: ENCODED
-#        ids: ⿰犭寕
-#        jyutping: ning4
-#        sources:
-#            WST1937: "244"
-#        remarks: |
-#            - We have ⿰氵寕 (U+2C23F), ⿱艹寕 (U+2C78A), ⿰糸寕 (U+2615C), ⿰虫寕 (U+2E53E) in addition to 濘, 薴, 𦆭, 䗿.
-#            - Retracted - already encoded (Ext-B, U+2485B).
+    #    JYN00130:
+    #        tag: ENCODED
+    #        ids: ⿰犭寕
+    #        jyutping: ning4
+    #        sources:
+    #            WST1937: "244"
+    #        remarks: |
+    #            - We have ⿰氵寕 (U+2C23F), ⿱艹寕 (U+2C78A), ⿰糸寕 (U+2615C), ⿰虫寕 (U+2E53E) in addition to 濘, 薴, 𦆭, 䗿.
+    #            - Retracted - already encoded (Ext-B, U+2485B).
     JYN00131:
         # ids: ⿱竹⿳⺊彐龰
         ids: ⿱竹⿳⺊⺕龰
@@ -1101,15 +1101,15 @@ characters:
         sources:
             WST1937: "307"
         remarks: A variant of 絃.
-#    JYN00134:
-#        ids: ⿱⿳亠口冖月
-#        tag: ENCODED
-#        jyutping: gou1, gou3
-#        sources:
-#            WST1937: "333"
-#        remarks: |
-#            - A variant of 膏.
-#            - Encoded in Ext-F (U+2E314 𮌔).
+    #    JYN00134:
+    #        ids: ⿱⿳亠口冖月
+    #        tag: ENCODED
+    #        jyutping: gou1, gou3
+    #        sources:
+    #            WST1937: "333"
+    #        remarks: |
+    #            - A variant of 膏.
+    #            - Encoded in Ext-F (U+2E314 𮌔).
     JYN00135:
         ids: ⿱臤見
         jyutping: laam5
@@ -1118,13 +1118,13 @@ characters:
         remarks: |
             - A variant of 覽.
             - Also seen - [UTC-00580 1](http://www.unicode.org/reports/tr45/tr45-sourcedata-3.txt), [UTC-00580 2](http://www.unicode.org/Public/12.1.0/ucd/USourceRSChart.pdf)
-#    JYN00136: # Encoded: 𩔗 U+29517
-#        ids: ⿰娄頁
-#        jyutping: leoi5, leoi6
-#        sources:
-#            WST1937: "483"
-#        remarks: |
-#            - Variant of 類.
+    #    JYN00136: # Encoded: 𩔗 U+29517
+    #        ids: ⿰娄頁
+    #        jyutping: leoi5, leoi6
+    #        sources:
+    #            WST1937: "483"
+    #        remarks: |
+    #            - Variant of 類.
     JYN00137:
         ids: ⿰禾⿱不冉
         jyutping: cing1, cing3
@@ -1343,20 +1343,20 @@ characters:
             TDCL1856: "742"
         remarks: |
             - A variant form of 冔
-#    JYN00169: # Encoded: 𭰔
-#        ids: ⿰⺡㓙
-#        jyutping: hung1
-#        sources:
-#            CSK1939: "13"
-#        remarks: |
-#            - [㓙 is a variant form of 凶](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwMzIzLTAwMQ), thus this should be variant form of 汹
-#    JYN00170: # Encoded: 𧧣
-#        ids: ⿰言㓙
-#        jyutping: hung1
-#        sources:
-#            CSK1939: "13"
-#        remarks: |
-#            - [㓙 is a variant form of 凶](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwMzIzLTAwMQ), thus this should be variant form of 訩
+    #    JYN00169: # Encoded: 𭰔
+    #        ids: ⿰⺡㓙
+    #        jyutping: hung1
+    #        sources:
+    #            CSK1939: "13"
+    #        remarks: |
+    #            - [㓙 is a variant form of 凶](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwMzIzLTAwMQ), thus this should be variant form of 汹
+    #    JYN00170: # Encoded: 𧧣
+    #        ids: ⿰言㓙
+    #        jyutping: hung1
+    #        sources:
+    #            CSK1939: "13"
+    #        remarks: |
+    #            - [㓙 is a variant form of 凶](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwMzIzLTAwMQ), thus this should be variant form of 訩
     JYN00171:
         ids: ⿴囗𢦙
         jyutping: gwok3
@@ -1482,13 +1482,13 @@ characters:
             FW1825: "元01"
             FW17XX: "上01"
         remarks: ~
-#    JYN00186:
-#        ids: ⿰舟邊
-#        jyutping: bin1
-#        sources:
-#            FW1825: "元01"
-#            FW17XX: "上01"
-#        remarks: ~
+    #    JYN00186:
+    #        ids: ⿰舟邊
+    #        jyutping: bin1
+    #        sources:
+    #            FW1825: "元01"
+    #            FW17XX: "上01"
+    #        remarks: ~
     JYN00187:
         ids: ⿰弓典
         jyutping: tin2
@@ -1666,6 +1666,13 @@ characters:
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00551)
             - [UTC-00431](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 洞 and 峒 in MW1947.
+    JYN00208:
+        ids: ⿰貝兆
+        jyutping: min5
+        sources:
+            MW1947: "383"
+        remarks: |
+            - [UTC-00495](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
 
 #    JYN00191: # Already encoded: U+2A966
 #        ids: ⿰女互
