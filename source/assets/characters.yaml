@@ -73,7 +73,7 @@ characters:
     JYN00005:
         ids: ⿰口士
         jyutping: si6
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         babelstone_pua: "U+F1DB" # Hakka Chinese Bible HGSS p. 143, UK-20592
         sources:
             CPV1855:
@@ -83,9 +83,10 @@ characters:
             - Also seen: [林則徐集](https://zh.wikipedia.org/wiki/User:Urga/%E6%9C%AA%E7%B7%A8%E7%A2%BC%E6%BC%A2%E5%AD%97%E5%88%97%E8%A1%A8)
             - Also seen: [UK-20592](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.xlsx) ([PDF](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.pdf)), evidences: 《海國四説》（中華書局, 1993年） p. 143 ; 《海國四説・蘭侖偶説》（清道光刊本）卷3 folio 13 ; 《新約全書淺文理和合本使徒列傳》 卷17 folio 18 ; Thom, Robert：“Chinese and English Vocabulary” = 《華英通用雜話》 (Canton, 1843) p.5
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20592)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+3250E
     JYN00007:
         ids: ⿱左月
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: do6
         babelstone_pua: "U+F07E" # L2/20-073 UTC-00609
         sources:
@@ -97,6 +98,7 @@ characters:
             - Also seen: [《廣雅·卷一》](https://ctext.org/dictionary.pl?if=gb&char=ctext%3A8075): “紓摯貞二又至蕆勑輦呈俙許皆屬時欲蛻七會㲗孚毻門悼反冒字也必無**［⿱左月］**字邊從毛吐外反形聲不然或未𠠎口白口郭劙力支袒解也”
             - Also seen: [UTC-00609](https://www.unicode.org/Public/13.0.0/ucd/USourceGlyphs.pdf)
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UTC-00609)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+3250E
     JYN00008:
         tag: RETRACTED
         ids: ⿱雍正
@@ -109,7 +111,7 @@ characters:
               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAADGCAMAAACQLOy4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF28myY1E+prBdXwAAAwxJREFUeNrsm9tygzAMRL3//9OdPmRKsO5akaTBT22IDyDL0kqQte6RHsAA8jGmuBjCUsH/lJs+a4ybv50QVzx8mLYdxGn8frTUL1kzW2MIi/nrPSxlYFaGq6y/657n0wX9Svg08D3fXR2/T25tmFxUg7KDReZy/46pX65hH0ddLMx4IK3rNvs4S8XC9BjJt4/TjL1vO92+YyBxIxvOzrjiP+n4sN2XYJEQ03F6qJe7oCxHJItoF28vXJi726AQczaUtGIN7m7oZeeYJ4iTy4/7TLw66R7kG9ByaiQDWoJzPyLHWmTzm3hfPK4YnQzzQlytM1lJZ4ZGivuvs1PiXM3DLG4wC2nhVw3s2lYxxdmelEMekJCTCTdbnkxdNa5oFyepw0hLT3ZNysmKKElg4ZUpWTHpGMYwqT0hK/ujYjLmCLrNfdnXicDaCbd1lVVVnJpa9AsaLWWoPc+sbPeblLRQrMDvFa96HcnhBlIIi7sHPTXcF9o6dPd+CRcElMktn8LaKs0dqmmiqlHC5VudiwHuInNh1loUM1DdN1qv2aVbLia3esrINuGQAce5cdP7/bNirPsrAVxvCzfJLQmf3Sb0pnKJm7DDc6zJqnL+Q7R73OO9x4Qu0zQKn0vTlUNcmNz6GcwOWO7arc6eJFcLmp9YD5ES0GXcZcyFYqR83QI4/lt15lh//t24a5y7mHGnoKGbBe4XJ7Z2zeVqbCIXn8BVamZObND+7oacIS6u5ja7Rxq3145R/0m+EqO2Y2THZmyHdaEweQeucSqhtciIQBPt35FXKNm10dmsZCuQucIz6oHCkFy+nQUwzcGCncoqdQWePcY3gxdAilvMjUyseFDjRqY0sdk1zVTwva/dXcyX1xpTJQxu7hAXX2oH5TEZ/+qYXPWN4PIO7Ly0xFHsU9ziL3sC56krSOsDDrfb5NEe0H89t/6iuR1uuev2adxx/wV5v+3vK3ulB6+z8R3c3ZzM+GvF+Vaep7xhrf/SqivZKJC4jCLos4t06s29uRdwMcv9sLLwbpYkx48AAwA73BNgTDy5sgAAAABJRU5ErkJggg==">
     JYN00009:
         ids: ⿰口揖
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: ngap6
         babelstone_pua: "U+E917" # Cowles 1914 (no. 3033)
         sources:
@@ -127,6 +129,7 @@ characters:
             - Also seen: [A Chinese Chrestomathy in the Cantonese Dialect (1941) P.43](evidences/others/JYN00009_CCCD.jpg)
             - Also seen: [The Student's Cantonese-English Dictionary (1947) P.427](evidences/others/JYN00009_SCED.png)
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=00608)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+3259C
     JYN00010:
         ids: ⿰扌𦧕 / ⿰扌⿸厃⿱儿𢀛
         jyutping: daam1
@@ -178,7 +181,7 @@ characters:
             EITEL1910: "579"
     JYN00016:
         ids: ⿰貝幾
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: gei1
         babelstone_pua: "U+EBF6" # 《邯鄲縣誌》, UK-20103
         sources:
@@ -187,6 +190,7 @@ characters:
             - Also seen: [TK01087230](https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
             - Also seen: [UK-20103](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.xlsx) ([PDF](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.pdf)),ref: 《邯鄲縣志》 卷10 folio 8.
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20103)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+330A5
     JYN00017:
         ids: ⿰舟邊
         jyutping: bin1
@@ -243,13 +247,14 @@ characters:
             - Also seen: [TK01073560](https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
     JYN00024:
         ids: ⿺辶⿱罒屰
-        tag: IRG-WS2021
+        tag: RETRACTED
         jyutping: ng6
         sources:
             CSK1939: "3"
         remarks: |
             - Also seen: [KC-05584](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2484ROK202Data.xlsx), ref: 南冥學硏究院 小訥先生文集 卷41
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?find=KC-05584)
+            - Retracted, unified to 遻. Unlikely to be encoded separately.
     JYN00025:
         ids: ⿰𦚏⿷己三
         jyutping: lung4
@@ -405,7 +410,7 @@ characters:
             CSK1939: "33"
     JYN00047:
         ids: ⿱二山
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: ceot1
         babelstone_pua: "U+F4EC" # GDM-00330
         sources:
@@ -415,6 +420,7 @@ characters:
             - Also seen: [GDM-00330](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2483HanCharacters-ws2021.xlsx), ref: (光緒)榮河縣志
             - Other sources: [王澤《老夫子》](https://zhuanlan.zhihu.com/p/19775339), [司馬龍《𢭃坭幅》](https://www.facebook.com/OldCantonese/photos/a.1850808324990362/2822195947851590/)
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=GDM-00330)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+32402
     JYN00048:
         ids: ⿱艹乐
         tag: ENCODED-EXT-H
@@ -537,7 +543,7 @@ characters:
             CSK1939: "72"
     JYN00068:
         ids: ⿰鹵奄
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: jip3, jim1
         babelstone_pua: "U+F73F"
         sources:
@@ -547,6 +553,7 @@ characters:
         remarks: |
             - Also seen: [G_WZ102916](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
             - Also seen: UK-20918 [(IRG WS2021)](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20918), ref: 《福建通志》（清乾隆二年刊本）卷12 folio 42
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+3341B
     JYN00069:
         ids: ⿰口靄
         jyutping: aai3
@@ -559,7 +566,7 @@ characters:
             - Also seen: [南寧白話小冊子:南寧白話常用口語字表](https://leimaau.gitee.io/book/appendix1/appendix4.4.html) #2008, #2095
     JYN00070:
         ids: ⿰口桻
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: baang6
         babelstone_pua: "U+E19E" # Cowles 1914
         sources:
@@ -569,6 +576,7 @@ characters:
             - Also seen: UTC-00390 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
             - Also seen: [The Student's Cantonese-English Dictionary (1947) P.469](evidences/others/JYN00070_SCED.png) (referenced in WS2021)
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=00576)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+32582
     JYN00071:
         ids: ⿱𥫗彡
         jyutping: caam2
@@ -635,7 +643,7 @@ characters:
             - See [JYN00075](#JYN00075) (⿰骨衆 / ⿰骨眾) for details.
     JYN00076:
         ids: ⿰口𦂥
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: dam3
         babelstone_pua: "U+E18E" # Cowles 1914 (no. 3001)
         sources:
@@ -645,6 +653,7 @@ characters:
         remarks: |
             - [UTC-00416](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2488UTC153.pdf)
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=00696)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+325E7
     JYN00077:
         ids: ⿰豕攴
         tag: RETRACTED
@@ -656,7 +665,7 @@ characters:
             - The source mentions 𧰵 and 𢽚, both without the dot stroke 丶. It should be safe to conclude that ⿰豕攴 is just a misprinted from 𢽚.
     JYN00078:
         ids: ⿰扌經
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: gaang1
         babelstone_pua: "U+F020" # Cowles 1914 (no. 1481)
         sources:
@@ -668,6 +677,7 @@ characters:
             - Also seen: UTC-00365 ([TXT](http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt), [PDF](http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf))
             - According to source (FTL1996) it's a variant form of 經 when used as a verb, quotes ”學粵詞典” (i.e. 學生粵英詞典 The Student's Cantonese-English Dictionary, Bernard F. Meyer & Theodore F. Wempe, 1935)
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=01560)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+328C4
     JYN00079:
         ids: ⿳艹⿻亜冖死
         jyutping: gwang1
@@ -689,7 +699,7 @@ characters:
             FTL1996: "129"
     JYN00081:
         ids: ⿰山勘
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: ham3
         babelstone_pua: "U+E190" # KC-05016
         sources:
@@ -699,6 +709,7 @@ characters:
         remarks: |
             - Also seen: [KC-05016](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2484ROK202Data.xlsx), ref: 韓國古典飜譯院 頤齋遺藁卷5 挽金君公白光晶
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=KC-05016)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+32776
     JYN00082:
         ids: ⿱冖盅
         jyutping: ham6
@@ -708,7 +719,7 @@ characters:
             FTL1996: "132"
     JYN00083:
         ids: ⿰口炕
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: hong3
         babelstone_pua: "U+E19F" # Cowles 1914 (no. 1184)
         sources:
@@ -719,6 +730,7 @@ characters:
         remarks: |
             - Also seen: UTC-00359 ([TXT](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt), [PDF](http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf))
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UTC-00359)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+32551
     "JYN00084":
         ids: ⿱⿰立隹木
         jyutping: lap6
@@ -769,7 +781,7 @@ characters:
             - Also seen: [粵東筆記 (文畬堂, 1800?)](evidences/others/JYN00087_YDBG.jpg)
     JYN00088:
         ids: ⿸尸可
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: o1
         babelstone_pua: "U+E195" # UK-20862
         sources:
@@ -780,6 +792,7 @@ characters:
         remarks: |
             - Also seen: UK-20862 [(IRG WS2021)](https://hc.jsecs.org/irg/ws2021/app/index.php?id=01087).
             - A comment in the above link suggests this to be unified with 局 (U+5C40). However, in Canton/Hong Kong the usage is different - ⿸尸可 is a variant of 屙 (to defecate), thus not unifiable with 局 (U+5C40).
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+32735
     JYN00089:
         ids: ⿰言孔
         jyutping: ngo4
@@ -939,13 +952,14 @@ characters:
             - [G_ZFY00754](http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt)
     JYN00113:
         ids: ⿺鬼攴
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: gwai2
         sources:
             ZWJ1988: "263"
         remarks: |
             - Also seen: [CB12840](http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=IDS-CBETA.txt), which is normalized to U+9B3E 鬾, but the pronunciation is different (U+9B3E 鬾: kei4/gei6)
             - Also seen: SAT-08653 [(IRG WS2021)](https://hc.jsecs.org/irg/ws2021/app/index.php?find=SAT-08653)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+33334
     JYN00114:
         ids: ⿰糸㝉
         jyutping: cyu5
@@ -1005,7 +1019,7 @@ characters:
             - Retracted. The character is written as 懌 in the first edition (1955) and in the radical-stroke index section. Probably misidentified as ⿰巾睪 by the scribe.
     JYN00121:
         ids: ⿰革當
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: tong1
         babelstone_pua: "U+F333"
         sources:
@@ -1014,6 +1028,7 @@ characters:
             - Also seen: Nihon Kokugo Daijiten 日本国語大辞典 (1st ed.) vol. 8 p. 689 ([BabelStone U+F333](https://www.babelstone.co.uk/Fonts/PUA.html), [Twitter](https://twitter.com/bori_so1/status/1162963648119132160))
             - Also seen: [UK-20233](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.xlsx), same source as above.
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20233)
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+332A8
     JYN00122:
         tag: UNLIKELY
         ids: null
@@ -1281,7 +1296,7 @@ characters:
         remarks: ~
     JYN00159:
         ids: ⿰鼠余
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         jyutping: N/A
         sources:
             LDY1916:
@@ -1290,6 +1305,7 @@ characters:
             - Probably because of the lack of certain movable types, the publisher used simple words to describe the corresponding ideographs. 余（旁舟）（又馬旁鼠旁） literally means 余 (with 舟 besides it) (also with 馬 and 鼠 besides it), and thus can be interpreted as “舟余 (艅)”,  “馬余 (駼)” and  “鼠余” respectively.
             - Also seen: GKJ-00643 [(IRG WS2021)](https://hc.jsecs.org/irg/ws2021/app/?find=GKJ-00643).
             - The structure would be ⿺鼠余 for TC.
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+3345E
     JYN00160:
         ids: ⿸疒邕
         jyutping: jung1
@@ -1388,7 +1404,7 @@ characters:
     JYN00175:
         ids: ⿰⺼枕/⿰月枕
         jyutping: zam2
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         sources:
             EITEL1877:
                 -   location: "17"
@@ -1396,7 +1412,8 @@ characters:
                 -   location: "19"
             MW1947: "17"
         remarks: |
-            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=03235)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/index.php?id=03235), UTC-00345
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+32E99
     JYN00177:
         ids: ⿰氵雒
         jyutping: lok8
@@ -1413,9 +1430,10 @@ characters:
         sources:
             EITEL1877: "461"
             EITEL1910: "650"
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         remarks: |
-            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02003)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02003), UTC-00456
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+32A3F
     JYN00179:
         ids: ⿰火𧛱
         jyutping: bou1
@@ -1423,10 +1441,11 @@ characters:
             EITEL1877: "549"
             EITEL1910: "764"
             MW1947: "504"
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         remarks: |
-            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02242)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02242), UTC-00398
             - See also [JYN00190](#JYN00190) (⿰火褒).
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+32B2A
     JYN00180:
         ids: ⿰梹咅
         jyutping: bam1
@@ -1434,9 +1453,10 @@ characters:
             EITEL1877: "559"
             EITEL1910: "777"
             MW1947: "516"
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         remarks: |
-            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=01876)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=01876), UTC-00402
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+329D6
     JYN00181:
         ids: ⿰皮合
         jyutping: pap6
@@ -1444,9 +1464,10 @@ characters:
             EITEL1877: "562"
             EITEL1910: "780"
             MW1947: "525"
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         remarks: |
-            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02659)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=02659), UTC-00405
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+32C87
     JYN00182:
         ids: ⿰口焙
         jyutping: bui6
@@ -1454,10 +1475,11 @@ characters:
             EITEL1877: "563"
             EITEL1910: "782"
             MW1947: "519"
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         remarks: |
-            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00626)
-            - Unlike what is currently tracking in WS2021, the tone for this character is T6 in EITEL1877, EITEL1910 and MW1947.
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00626), UTC-00403
+            - Unlike what is currently tracking in WS2021, the tone for this character is T6 in EITEL1877, EITEL1910 and MW1947. (Updated: updated to bui6 in WS2021) 
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+325AA
     JYN00183:
         ids: ⿺風都
         jyutping: du1
@@ -1472,9 +1494,10 @@ characters:
             EITEL1877: "215"
             EITEL1910: "313"
             MW1947: "182"
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         remarks: |
-            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=03627)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=03627), UTC-00450
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+32FEF
     JYN00185:
         ids: ⿰金邊
         jyutping: bin1
@@ -1523,19 +1546,21 @@ characters:
         jyutping: aai3
         sources:
             MW1947: "2"
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         remarks: |
-            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00652)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00652), UTC-00328
             - Recorded as a variant of 嗌 in MW1947.
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+325C5
     JYN00192:
         ids: ⿰口笞
         jyutping: ci1
         sources:
             MW1947: "36"
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         remarks: |
-            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00587)
+            - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00587), UTC-00446
             - Recorded as a variant of 黐 in MW1947.
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+3258C
     JYN00193:
         ids: ⿰口科
         jyutping: fo1
@@ -1565,11 +1590,12 @@ characters:
         jyutping: mang3
         sources:
             MW1947: "371"
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00577)
             - [UTC-00455](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 擝 in MW1947.
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+32583
     JYN00197:
         ids: ⿰扌寍
         jyutping: ning1
@@ -1599,11 +1625,12 @@ characters:
         jyutping: pek3
         sources:
             MW1947: "489"
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         remarks: |
             - [UTC-00394](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=01583)
             - Recorded as a variant of 劈/擗 in MW1947.
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+328D9
     JYN00201:
         ids: ⿰氵抱
         jyutping: pou5
@@ -1649,23 +1676,25 @@ characters:
     JYN00206:
         ids: ⿰口蕉
         jyutping: ziu6
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         sources:
             MW1947: "719"
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00705)
             - [UTC-00427](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 噍 in MW1947.
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+325EF
     JYN00207:
         ids: ⿰口洞
         jyutping: dung6
-        tag: IRG-WS2021
+        tag: EXT-J-WORKING-DRAFT
         sources:
             MW1947: "763"
         remarks: |
             - [IRG WS2021](https://hc.jsecs.org/irg/ws2021/app/?id=00551)
             - [UTC-00431](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 洞 and 峒 in MW1947.
+            - [Extension J Working Draft](https://unicode.org/irg/docs/n2707-ExtensionJ.pdf): U+3256E
     JYN00208:
         ids: ⿰貝兆
         jyutping: min5
