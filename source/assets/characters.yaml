@@ -161,6 +161,9 @@ characters:
                 -   location: "113"
             FTL1996:
                 -   location: "301"
+        tag: IRG-WS2024
+        remarks: |
+            - [IRG WS2024](https://hc.jsecs.org/irg/ws2024/app/?id=03674)
     JYN00013:
         ids: ⿵門覃
         jyutping: taam4
