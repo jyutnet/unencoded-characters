@@ -1638,8 +1638,10 @@ characters:
             - Recorded as a variant of 屢 in MW1947.
     JYN00196:
         ids: ⿰口掹
-        jyutping: mang3
+        jyutping: mang1, mang3
         sources:
+            EITEL1877: "36"
+            EITEL1910: "41"
             MW1947: "371"
         tag: EXT-J-WORKING-DRAFT
         remarks: |
