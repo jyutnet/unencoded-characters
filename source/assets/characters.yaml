@@ -1719,11 +1719,12 @@ characters:
         jyutping: dau3
         sources:
             MW1947: "647"
-        tag: IRG-WS2017
+        tag: ENCODED-EXT-H
         remarks: |
             - [IRG WS2017](https://hc.jsecs.org/irg/ws2017/app/?id=00529)
             - [UTC-00420](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 竇 in MW1947.
+            - [Extension H](https://www.unicode.org/charts/PDF/U31350.pdf): U+3150D
     JYN00205:
         ids: ⿰日嗇
         jyutping: coeng4
