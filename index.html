@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chiron-hei-hk-webfont@latest/css/vf.min.css">
+
+
     <style>
         :root {
             --border-color: #ddd;
@@ -27,7 +30,7 @@
         }
 
         body {
-            font-family: 'Noto Sans', sans-serif;
+            font-family: 'Noto Sans', 'Chiron Hei HK WS', sans-serif;
         }
 
         .char-image {
@@ -158,10 +161,13 @@
                     <strong>EITEL1877</strong>: A Chinese dictionary in the Cantonese dialect. London : Trübner and Co. ; Hong Kong : Lane, Crawford & Co. 1877.
                 </li>
                             <li>
-                    <strong>EITEL1910</strong>: A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly & Walsh 1910.
+                    <strong>EITEL1910</strong>: A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly & Walsh 1910.
                 </li>
                             <li>
                     <strong>MW1947</strong>: Bernard F. Meyer and Theodore F. Wempe: The Student's Cantonese-English Dictionary, 3rd edition, 1947. Reprinted by Catholic Truth Society Hong Kong, 1978.
+                </li>
+                            <li>
+                    <strong>CCS1985</strong>: 陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985.
                 </li>
                     </ul>
     </section>
@@ -173,7 +179,7 @@
                 <div class="card-header">
                     <a data-bs-toggle="collapse" href="#table-UNTAGGED" role="button" aria-expanded="false"
                        class="btn-block"
-                       aria-controls="table-UNTAGGED">UNTAGGED (111)</a>
+                       aria-controls="table-UNTAGGED">UNTAGGED (119)</a>
                 </div>
                 <div class="card-body collapse multi-collapse show" id="table-UNTAGGED">
                     <div class="unenc-char header">
@@ -204,6 +210,18 @@
                                         </dt>
                                         <dd>
                                             <img class="char-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABpCAMAAAAQlc27AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ/UExURf//////7/ju2unt2u////z+2tnbyqu2h62xcZ+crqiqyrm6/O/v/9fNqZ6bbmdnRk1KNUZGV0pJcWBjsKiq67i7mHZ3V19aMkRDJjU0RUBCh398u8zY/dncqVVVJkA4MjQzVjMwbGBastzp/tjcuWtqNDEpVqy27Nnc/e/v9O34ytDOi4SHPkVDNURDRaao2+jd1bq7yrerqaiqmOjd9Pfv/OntysTJiYuNUzQyNTEpRZ6b0/b/79nb2sbKubatuaipqo2QbXRpW1NJVWRZToB7bIuMkMnL/enture6hXd3RDEpND85Xn2Do7i62tnc68nKyrm6upiijzUzJTEpJ11ZbOjn/7vEdykxVXN0jKiquZ+akmdnWE5KRjlCL7Wt7CEhICEhMVVVWVVVNikxJSkxNE1Kjri67Ojdsp+c8O33uhohFoqL1Pv8y9jbmSkxRfruyr+8diAhSUpSWVpjTDlCVF5ibV1ikSgmWJqlspCUr6u3yay32sjM69fNmM7o/d73/s7n6szY67vI08jMmH+EXU1KJqy3+6mq+/n7u7vI+PDvqjczhOfrqnRqRqirXu33qZKT6/ju7BghJCEiaEU/ttfMuce84tfO65ujcNzp7Mi8qbarmNfN2czXqZ2aVdjMyyEYQCEYJ19akiEYGHRy0ikhICkhMczWh9fbh25uckpSNczY26eqhCEpIdzo0UE5iu742tzos1ZWRVNPqri6qcnL2rvHnmZnIPjturasg2t0QygfbrWt+8zYuNbO/GBjNMzXmcjMqRgYJF9YG0VEFvj6qSkpFqy3qejsmMrPd8zYyjgztJum75ii0qu2uqy3l9736SEpMUpSRgAAAKXcDCsAAADVdFJOU///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////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"/>
+                                        </dd>
+                                    </dl>
+                                                                    <dl>
+                                        <dt>
+                                            <a href="evidences/CCS1985/0071.webp" title="陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
+                                               target="_blank">
+                                                CCS1985,
+                                                P.71
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,UklGRsoCAABXRUJQVlA4TL4CAAAvNMANAIUs2tqON3pqux3btm3btm3bdm17bNu2rWQ8qfVc/H/+5v+GlxH9nwD+57xy6Vd43bvpmUTxzheA580s4W4vxFTqzTy4Z23gKyEuT0XlJ9R+zuCzsGaO5rBaLcS3icDs55GnwrpANt9yITgUyNGmTBULALCovfToHTFmm0PevPriiKsU9WojSdWStYeHUOC0OkCnMYt9Eij0U1PU8UvMzKTQ7yYD3p8o+qEcQCiFP2MBzNFSK9i3DsBGZlenHiPzN7qrT8PkZ4eHNjSpfem1WnsqTrjz8MGN44fijp8eU9YKsjk6+T5UJWOibe0pA8vmcLSFrRUUt3uiBgdYQdYI+UtV7LN6zJolK4tL7HzT1AjqCsA1X5W+B54cuklqksm9xQE4BGrU+PzogLfvlMBzN6nwXiMAPb5T5XdpGir/3A7AdKqdwuw+LwuYRxjm2w13PTpm+2FhYH2iYd42xlaNjEb36DXJ5K/6rpeD+TsaeAwsNn9NJfn86PDcc6LuPHqm70wr4LShdDng/fTu6ztXd/QHgHyNusVekHu/EZj5zkAHndHSp0vOAqaQN8mTb80HGU4GAmhQXUxjKM8xfG5c1G3KXrEG3A2SEFsLyq1Xv35H/esB7MxGctqj40cPTMgP2ebT3d03d4XV6O9UugYo9FnRy96uJQs7u0Bv16sk6Q7n2RolWSOA5lR8uQxkK1etXNUUmP8gk+TzprVDMpS8HeCIbjpF9GtXr37HoSHHDt14GdrBudOZNJLPTDD/s5INgMPir8pI/nz9MIHSD0Ebb0vigRkJSroBdU5SzZeUboCdT6IkRZLsCszQqSK/EFjwU8I03t3ZATANpICLgQU6maNbcgNAqScirMm3/C5lY5pB2i5FhOSr1L+vMAC7XUIo39gY1k3fU/R7U1BmPYV/4Dlw6XPxqNXy/z8="/>
                                         </dd>
                                     </dl>
                                                             </div>
@@ -1621,7 +1639,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0985.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0985.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.985
@@ -3783,6 +3801,251 @@
 </ul>
                             </div>
                         </div>
+                                            <div class="unenc-char" id="JYN00209">
+                            <div>
+                                <a href="#JYN00209">JYN00209</a>
+                            </div>
+                            <div>
+                                ⿸疒拿
+                            </div>
+                            <div>
+                                naa1
+                            </div>
+                            <div class="evidences">
+                                                                    <dl>
+                                        <dt>
+                                            <a href="evidences/CCS1985/0038.webp" title="陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
+                                               target="_blank">
+                                                CCS1985,
+                                                P.38
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,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"/>
+                                        </dd>
+                                    </dl>
+                                                            </div>
+                            <div>
+                                <ul>
+<li>Means &quot;疤痕&quot; (a scar).</li>
+</ul>
+                            </div>
+                        </div>
+                                            <div class="unenc-char" id="JYN00210">
+                            <div>
+                                <a href="#JYN00210">JYN00210</a>
+                            </div>
+                            <div>
+                                ⿰⺼解 / ⿰月解
+                            </div>
+                            <div>
+                                haai4
+                            </div>
+                            <div class="evidences">
+                                                                    <dl>
+                                        <dt>
+                                            <a href="evidences/CCS1985/0051.webp" title="陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
+                                               target="_blank">
+                                                CCS1985,
+                                                P.51
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,UklGRqgDAABXRUJQVlA4TJwDAAAvRUAQAAU12rZN6dF6laTN2GjbVo0Kaoy2bdsd23bbdmzbtm3bSe0f595X79WX5q+I/k+A/pf8x+tfRbGs0+wc6xMQZDX9yoIXwgsHcupNqJTFslG46+RUZbgyzIQ/Xi5ZkMK3lwTOj2XuwKofD90U4mOAMJ9iu2gXcEYcdbAVuniOYC/82KcH7gE+k4A6MTyB94yvHEk4DWCETzoLGLwdaBndZMJOktQTum4xvcLcCJQUcF90Al6VpA/hQ0lpknIsCpEBaKqWUCe6ucA8I2gkaebLm6RLoJJC7jHSgRvvXB/dD3CMPLdKUkaSgjMUdhHQRTHPA3zVjXtBqBGQVtyjgLVmAbQMMbM4lR77yrOy8JuKvR1Qy2Qg4Vi0a8TlOB8a4cjJScCboySpGDgKYhNnACc4Mrkg4ENpl5TmEtMaoNw30lOAw3vraV3iOBeOndc8cfX0K8HcDMyUpOGlqRSqOTA1BkKbu0GasFJSVU7z9J+w7XaA/vEVOM2TjxulJFdLWyjomPwAXkW/ywQ9JW2CjKQzOFECJkvvdzDV8deMQWatJM2DJpJKQ/V+wCKpcGlJCwAKPpUGFONMM1dbMhJcKSmNe7sEY6QUsOyIBAXj2GkoCUFNKL1NKu16VaaPdCEgmfPjkMM2gBOWSfUcSTl+06EUPGUSsDOGUZ77pgvOkvQFvDxqiWxp2kpqxAuSUkCi4GNd0zX3RbLevJBcLekeLpTUHSTNNVfSZMuBTR/C5cdeTsi2kdQzco4ikNSfawc2gErS8hR8rA6Ef4CnMpGcYPY4fuQ+SaDpATBPC1JAQNia476QjihSrJwpbnVU7Q4gHWpAyOtNRpG/atKulpSTxuHuIi3pABwLHPOFds0EFD12iWsZZ0gVzMAXJGnyrYC8H4ZoVDO7jeYYeUFKwTh5A3jBJ6CWY1y/7K435TxDqSq1pa38wG/hcEQ4FZv2PMcDUsG0/BuBH3xzgcpRBY6btXGt+ZCgQZ1jBnr2PJcAfvQNBtgZUQXHCCUp/eH7z0FheFneHwAqbPNtNIq2FnbqpFvxVoUFvv7mfYU0Q6M41ACn1MD3g8JuNE2y+SGCZXfjzEi61ZVPoVubTmEC4EAEl+D8UPZ1h8K/CNy3LwxworLvjrOy3E8BDbI4pGyBYEl2Muc3kr8JJyveHwD2RaDMEuX0U5HlehczMO+dYZrmuWXYJ/Lccsc7eU4nm+l5T8Ug0FGwDsd+czT4zxY="/>
+                                        </dd>
+                                    </dl>
+                                                            </div>
+                            <div>
+                                <ul>
+<li>Means &quot;肉粗&quot; (rough meat) (in opposition to smooth).</li>
+<li>The radical should be 肉 meat</li>
+</ul>
+                            </div>
+                        </div>
+                                            <div class="unenc-char" id="JYN00211">
+                            <div>
+                                <a href="#JYN00211">JYN00211</a>
+                            </div>
+                            <div>
+                                ⿰扌戥
+                            </div>
+                            <div>
+                                dang6
+                            </div>
+                            <div class="evidences">
+                                                                    <dl>
+                                        <dt>
+                                            <a href="evidences/CCS1985/0082.webp" title="陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
+                                               target="_blank">
+                                                CCS1985,
+                                                P.82
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,UklGRtIDAABXRUJQVlA4TMYDAAAvPkAOAAU1avvPv839b2pr3mqnQ23btt3k1LZt27adU9tGzr8ntd1tGYrnxff7+/1/mfcuov8ToIAv6p/7vT9bWGAnRpVvc0oR4ZIi/whZc7p7licWVl/QwndtUtyOOj+Msp09FDZnPG5ThDVlVNRtgTy2UKwxloW/yWcwtTzxLa+i4hIktk0Cgo4+k6R2RpHI74hmzA+uVX+rZwJsYUCYrE2M6xpBLKMSQEhUzLdMAlru05krkg/IJm0ivpHboMlPHmUDdhvdMONAyCuAuCv1HRgPGqUAKO9RJ4CQ6U5A/CVG1b3KBo9lNVjpTWKDT6T5DrV2/JoZkIwHtt0Gjz04VQyz0A4pwpBW/Sg1Bd58VDeQow+ooMBvYh0vE1gv/SqpAaSXtAym/Pb0prGpVJeZCvy3QpZUslaHNourZ5sgdYfDko4CqUuFG54endQcaztbdqyJ9+nH3uEyAaLJ4wMFcW5qw7GfHG8afby59glmk5mGP5DuTruBYvJ0YyHMXdJ0YJdNBVO1nKpuMMnmjwOM9uR8EOYoSWeMZzY70LJD/YXzKxQESO/JqzxAyaeS1BOQ+59wmRoI9kTv2uWb9VFmIRfTmx4y9rmI/xtQR1KX8QG5BXhgicGXV55KR41Gs4jb5bZ8gBQBUSQrUGr+pYh8xitZ5wCR6hQVMwHfb8ZZ3H4ixzKQYg3evZj1OTBKZidXqZxuYw31qmlTgPmWFK6CnO5YFsvbCdnjjOgA1LdAjFTt6thw2meRt00hWI+dwiH0prTWUtDpQRQsgWj7dBaYalSFfZJeRTMOOCnYq3frfdBG8gNjJQ2Edv5XdzbWATgj5+N4825AKYAIKRIo9FjdINQfkv07rLd1yKGCESOgNekxv5R0Cki6a6oP33XlxNkXdNSG9WkgX2FtICkSSL9w5fjdfulALJI2tcA8S3db5qMBJLZ8EilpFTBAjv6mR5867DMGQ2h1gD4f3R0Khqbjn0lSP2CHk3RqvK3lO0nPIERaD1RSoPuuyd4JOOSmJGYdmWuKkDhCUmbgaCDO1z4BzrxziKiFuUqSni6MBZsk6QpQxqtiALK/WVUKSNsuTNKvlQBCZQWY78G9LX2aAhQy5ufOXBJgl6w/tvkc+sk+GGBVQA+yYu9nYC11XI4fr9x5J+dUQPyA9uI41EX53+TxHICs0j6/G8VwWGxsy1o+ZIS8jwFQsibMc7PVFqI/4h3DzONGOQ2f/pjZHIJdPTD8fxA5dHOlYRVqDtMf9dInlsXu/tgHgo0lfx5pQL/m4df+TO/0PyA="/>
+                                        </dd>
+                                    </dl>
+                                                            </div>
+                            <div>
+                                <ul>
+<li>Means &quot;幫助&quot; (to help).</li>
+</ul>
+                            </div>
+                        </div>
+                                            <div class="unenc-char" id="JYN00212">
+                            <div>
+                                <a href="#JYN00212">JYN00212</a>
+                            </div>
+                            <div>
+                                ⿰火奈
+                            </div>
+                            <div>
+                                naat6
+                            </div>
+                            <div class="evidences">
+                                                                    <dl>
+                                        <dt>
+                                            <a href="evidences/CCS1985/0084.webp" title="陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
+                                               target="_blank">
+                                                CCS1985,
+                                                P.84
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,UklGRtQDAABXRUJQVlA4TMgDAAAvRMAPAAUt2taOvdX6k1Hbtm3btm3btm0bqW3bymFtKxhpUrf74v3+L3++HN5F9H8C9P/vPlfsx38BOaHaXwBAv78GAsNdQeN2uIttKNy7jI/hrphRZvyg6gW7O2VTp+OhG4LdSw5JBj9DcwK7ET45pBMcCE0bG/GOBsihm2CFvbdzAVw1Ji+Z6nNOjl0OZW2837K4FkC2E5/k7JbACYuXVaqlBpexQE4vART7YpxJjtsCNyX5jP7goCIAt42fG/Mlq1agSBRoL0lJKPjIOQUNuX0qaQs0lRSUDLK+d0w6YLw7sy3U/ShpJJDpmlMiAfds7QNmyZwKtHdKfCDEVjaI/sjifTJglUO6A52+27gEDJT1YhdQwRmbAIZsv+0mJ1QKcaNOAPXDphUjjNEG0XOHWJwDbshmfIAlYeED+EqqZ+FV5IdFVnDJ7u60AHt+em4M0OWr1A0i1li25I3Mp0AFPzsaajDWc0MBQqQCsCNIbrsD6yRNL1tv2IlzkgI2Ghz95Ckf46aUA57J7Z9Ared31kbDTP+bJOUwXIlb3vSMn+EjJYZPbq6UgWzbr1TC7SljdSosvZpe84TKAnMkF8htNWDHozZY5+7jbwS2cVkANz3hA67TegU8s9oUAXIHqXM2IF29OS9lfXx05ohWfTyhFunHSksAX4vJLih4XAp63L7Nxreyv69sfCPnU088PS+pBPDY6AzUuy2P725W3RWl/ydPmEEu4KikPUDpq7I5/7etuy/tebBjzmMLSb++CZSnVwFUWP3FpzQRjn+S9dVnn1pgRowA6W+6CcvxBnhX7z70oMyvJw61iYdbb4DxDthtxZ4fkvRm+SDseg/Zvqrl6CW3HbDVqrTML7WwdDWsYfSU9FZO/JEMSOUVZ6FFI8BVrN/WE3qZCrgmh36vBZkX+h7Y+N2iINAzUGYNQE4dAtyUzbHQ4jdZNnJSIkB2f4MDsvzQEyI4JdAFQ+18rQJdrFQQeCbpS8iPMBsJXvft3APmukkNXJWmwdEw8msBlJTdU8BFNwDnpQhA+4CwCGoG0N/WGeA3W35SScwCba956PHeMuBdo88lWzeAV7Yk/cxhAP4e2R4TYPQN2T8APLPaDkSXpAcDvSzqeeJNZoBsfgplP8BX0qkvIUWAdIb0a++SAJ7YEwGIvUChzQfxpSG5Y3onAkhvJX2pAZT2C93P3QO7zPJVqKtDH2msN9ad3EnTgBqh8/RIr7K+UsD0rFbL7Ghm5tInnOK74IHMLRZpv9rSUzm/S/QI3qknKbx/3Xpo0/nv4e7fOA=="/>
+                                        </dd>
+                                    </dl>
+                                                            </div>
+                            <div>
+                                <ul>
+<li>Means &quot;燒傷&quot; (burn).</li>
+<li><a target="blank"href="https://hc.jsecs.org/irg/ws2024/app/?id=02235">IRG WS2024 02235</a>, UTC-03339.</li>
+</ul>
+                            </div>
+                        </div>
+                                            <div class="unenc-char" id="JYN00213">
+                            <div>
+                                <a href="#JYN00213">JYN00213</a>
+                            </div>
+                            <div>
+                                ⿰𧾷奀
+                            </div>
+                            <div>
+                                ngan1?
+                            </div>
+                            <div class="evidences">
+                                                                    <dl>
+                                        <dt>
+                                            <a href="evidences/CCS1985/0089.webp" title="陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
+                                               target="_blank">
+                                                CCS1985,
+                                                P.89
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,UklGRuQCAABXRUJQVlA4TNgCAAAvPcANAAUtatsMSdJbObZt27bWtm3b9o5n1jbHtm3btu36LiIqIrKWlxH9nwD9/3luf/IvtPanpsVLX//5X2LFR2WqlsDMdC79vr+wOKlvOZNeYzp2uRprqzaXXnper6Ri39Au35AUH5XOSMqKUlLxf38e5nrL+gSpE0MU96JeL7RKYH/doldK0/K3kWObAg/GVgbX3rZjM3dJ2oAZG84/2exPpdHda54x5H6tZXxchYA/pN5AT7c9WLvE1Q0elNQdkPsjtlGSpr5+24Zgk+AzSR/B5x6PQyFgraQLIVF9eCDBYUnfwHSPWkzaC9wj6U7MzD+FiRKShgDXOs2NOE8CWkrSnQYsCQJbNbge0NjpUhhqKWTohmxG0xBHgCoFgSq9Xc6DTDssWKSmACEUYbbsJccNDYFZ0gAnfQAXBikP5/cfflyOvSKovlXSg257DszcGmT8HSvkeV+iXv+lklTPmJsi/FZJ3e780sHxTkNpCfQN8EpaZQkwACiaHuWAKju8tJQyg9PjcsyXvKS5Ss+bLYsCxH4DHxl3AM8sl+f0Gy7fZRn7+iM5uCfI+cAcSY0B+e4vCplePTJmbmOsW0JcCHSUphPiXTwjhawKXCwdbwD8kbTNWr906h8Lz+BZfmiQp4CWkrIBY2T9DCJSN37jpSx036vQXYASksoBM21FcVbMDwLo5CqAUUnL0gc7vtvt+ns+MhT3T0BCkkFkSbkE+Dyucx1t4y085nQHsMFY/92moR8lw+hy26uWq/a6bMgGbWReDlDult5BtmA2BPhsk5yrAKuMc48ZQNGxfjtkMZ9fItcVDwP5Zd+V2UJur15Rwtaq2ydyvwpgeQqpoIXuHscKYjbs2FG+OQHekWtLC33ddFU+Gr87Xf4jATbIfZSF6W4n9dMK+b+K+bx8j1U3iroFHVIPIJ+2ekkGyZg+qVgwytT+YQVdbuyK6c7L1yr8qWv5QP/rAw=="/>
+                                        </dd>
+                                    </dl>
+                                                            </div>
+                            <div>
+                                <ul>
+<li>Example &quot;［⿰𧾷奀］脚&quot; means bouncing/jiggling  one's legs.</li>
+<li>The pronunciation should be ngan3 for this meaning.</li>
+<li>Spotted in Cantonese movie 阿福當兵 (1959) according to <a target="blank"href="https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2646_caption%20subtitle.pdf">IRGN2646</a>.</li>
+</ul>
+                            </div>
+                        </div>
+                                            <div class="unenc-char" id="JYN00214">
+                            <div>
+                                <a href="#JYN00214">JYN00214</a>
+                            </div>
+                            <div>
+                                ⿰口蜃
+                            </div>
+                            <div>
+                                san5
+                            </div>
+                            <div class="evidences">
+                                                                    <dl>
+                                        <dt>
+                                            <a href="evidences/CCS1985/0097.webp" title="陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
+                                               target="_blank">
+                                                CCS1985,
+                                                P.97
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,UklGRrQDAABXRUJQVlA4TKcDAAAvOAAOAAUtatuOudX9T23b2andprZt27Zt27ZtTWrbth20XUmX0pXn4P9nMvNvnUb0fwL0D75/zv7bf4fznSsZBg3tN8jnL8ylbfbMOQPiQ+TqFffa6MmBSYPbxgejy+zOb2XnPnF8oWAq2u6S3bs7IMvJN6u+Xv8ZZrPQegVvS9KJ0lWHrraXcjBFerQ3DxA3zFYngard/bD8YasmuI5l9JCtC5liAR0+PH1tL4A+X1/XzNU76JNsN0ySM6+RuZtNQkKsIqe/JOl9DoDzdgg9PeGoxWVHEultGwdAuTBv/Phmsat/ypT9j0gKLw3N5hbDnGOvLEMueSKkTbn5q46fmRLHAMaaDCyjxCk7I+irKaRz9Tz+HniajJjxSzZJgnmvJPmZovpcl+u9UaGsB64buLvHVNZ0xPnb1YumeOYKlvmXlQOWS/qQ0HRe325NnTJh56Gzg2uCwUoPfLboeFkXgLuS5kOb9JR6/+2NHy5bb18kT+YxrZMWGeCUnhmMe1kPToRqQ2YX3eXZI6b8769EAdbpbFX4vj8aPFFAyJMJDgucnlF6zIkAAjQVUr05AzyS+ZvTgomPPLLVwlxBKgelJGB5gEnalMxE/qkbtl6KkCqYfAafvx4s7YRFUkeQ65vjUmEdd+jMMxH4MbFlhc6HvkpSWClSSyqLI9SV9Gd2FAsg+1n3JL0PC5V5uMFc6YsPVJrihv4829DaB4xoUCFCluFaFhkjSFJMIPtONz5I0slJq8+MjtbDM+rngO6SAvwAOrrh7odvntkGcFqSrvkSjVTS3pff1k6Z4P/TDQ/fBIgmyz0X/B0kTAgYYDR86o3Pn852NjmtJPlhjm8A2eTFN82KYW4gBVgEDQJItfjHbV+IFe4FJ+bM+aWXg/rPdp7ekC0ykF/vJV9o8t0LfzbPbbBYkkK7OyB9NHxrGlAtVFJJOC3vXgs3SXEAEl3TQ2Cl1j4sCfe85OZoqHRaUiEgWtymceGEXfbC8DB9OuuDywmybWTo9lWjMRtxsneQgu1SEIjli/nkPemPbuY4bo8f1XE9V5b3svWzxQ/9hkSf9zjAISlAWjvS4dj5wwaSvv+UtBlYtalQ5h7VjWQ4YnV7aAvz2c5EdGS4HY7Puezvg+taq4bXBaJt9sbXn9L+lVsnxsJdwy9M0lCgwlvPtU8UNXUp3M4yZYFcAsXk+YK4We6Tc0LnbU/lJpDsrecut0/mKJQ5+bCZLWYq4kuAD57zcujclfr/DQA="/>
+                                        </dd>
+                                    </dl>
+                                                            </div>
+                            <div>
+                                <ul>
+<li>Means &quot;傻也&quot; (foolish).</li>
+</ul>
+                            </div>
+                        </div>
+                                            <div class="unenc-char" id="JYN00217">
+                            <div>
+                                <a href="#JYN00217">JYN00217</a>
+                            </div>
+                            <div>
+                                ⿸尸票
+                            </div>
+                            <div>
+                                biu1
+                            </div>
+                            <div class="evidences">
+                                                                    <dl>
+                                        <dt>
+                                            <a href="evidences/CCS1985/0144.webp" title="陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
+                                               target="_blank">
+                                                CCS1985,
+                                                P.144
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,UklGRtAEAABXRUJQVlA4TMMEAAAvR8APAAU99v/XKd3rSxy9ncnKOMJOYLUhFrgBdnd3dzeN3YrEwO7uZnjYrsAW7LobZwey1x/fgN/n1/9F9H8C+D9joTEt+7WF/GAufpjx4k9zaX6U3lWq5hfhZ6gVGOCp80n5E9xJX7d0XSDkDvogWyiHPhAtI6mjNaADYGvVfLXREjOyucIQkzifLCcS08Nre1cE4GoITn55+4aJZIazzO0Qhc0I8a8OoJz7mD7u864cvknlh/UB1G2xnOJGAIAU1Tf57cXt1PiwI4AWt27+FCgQQNjiws/UfC2jOuz8k55T6NVA+ANq/HJ+ZMTYRgCmXqPg14F271U+xybVkiAPW/KCol92h8eS7Gs3zxfM6OrvBEVpxnWKfyDYGrbl4AQ95DqP4BbT7xWRv4Wb4aGDRtvm6Tc/3C7iQ+OmOWsPFIg1CRrrbNyV9oXkJ3OMBMBpsVjTAMkzzC9x+qjN36l4bXE4FGeLNRI2MTm/yUdU3B7bXw/VDWIlOUe+pvrhzg4S1KVdYm3zHUL1PZUASJ1GRUeFAUDg+MUmgc75D9YwSg+4xZstee8vyQC4hYycky9IrMcQDZZLfTaxiMUvN9dRkgDAzySE0RnVC9VImvhhc9daLgCk8E3mfaEAsEeIFz6wPq/lRmSoH5TbPSBZ3ALQGYXgSEnK0VDcSScBqO0G620sIcm1Dgh8JEYUsE924UTauR0dXQBg3icWXj5PxZxw1+0U0lwXUibJlLA6rv6V9D6y6evmBTcJjY3N/vE0a1LtipvE+NEIOEhSD3nGDQka3RrFrotws3beJYRpKYDV5DEAmFpABmiBLjFzvGuj8Z+FYFcA68jH3kCL/DdkqJL11I2/TxeRxaeuFFBMPwBZ5Od9QK2U6UP7QD7t0GuK/sMNwHKS5/ysoGi38tE+/gktnQCnfSR5or7Me/faQv45lwN1LDJeqYXqcaep/HLXrXyxjhiAzVTeZTuYyncyeth4ZonVH0C6SskGyr+YYqxtAfcbYkUAcFNRvNUnwBYADHs+CfVWAuCp6bDB16/+sNmdz5FksUBLXQHM0HSldsrhTU9Jmvl5062Lh8R4/OOeBCDyoCZeel9Mkj82XUlv1S3QumfadwHIS54A2rPUny17hlWEap8iEWIqAjDc+16K/Yt1ULRr1rVa+6R8CmhuAACHqFySR+ZNDnOBcmDKDQq73Q7AjO8q2cmRLSSoN3pJcfNaAbAxkuQtb8nZRQfFnqvN2+vAO1Og5dVlZ2QFAVB2X07+5kUJ6P9N4YcA+eEA4E/lPrJWFz5RbnEAYqj4WIBhzrJ9KsyeCpfNVNUBdXPIPV0TR6SkZP9B2wDAbhM1LgUGq3yvDyCHxjGukPR2PtPuld2Hy+P1ss6m7xoOAw3eK/ECYMgjafSFPOR4WV2IrAS54Ty1forGCKoeB5oUkDQdC5bB53bZlIwAgEqG2nuo9dpYK4TmKT3uD5TbRXn+EAkAostmHuDSLv5CzrbTmtZaAYY0suTWoU4AUPugApldHgBOl+77jaINkXMuPGapYwGg0uqVA7ydIB/7U4XP68IBB0onf8uy/LwEsI6MzsvsEVDezhbob1IjryfPuVQ2ZW2cl1xAkiXmW1kdHTbyL/Im/9MFAA=="/>
+                                        </dd>
+                                    </dl>
+                                                            </div>
+                            <div>
+                                <ul>
+<li>To spurt out. The example &quot;［⿸尸票］尿&quot; means &quot;to spurt out urine&quot;.</li>
+</ul>
+                            </div>
+                        </div>
+                                            <div class="unenc-char" id="JYN00218">
+                            <div>
+                                <a href="#JYN00218">JYN00218</a>
+                            </div>
+                            <div>
+                                ⿰首眷
+                            </div>
+                            <div>
+                                gyun1
+                            </div>
+                            <div class="evidences">
+                                                                    <dl>
+                                        <dt>
+                                            <a href="evidences/CCS1985/0166.webp" title="陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
+                                               target="_blank">
+                                                CCS1985,
+                                                P.166
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,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"/>
+                                        </dd>
+                                    </dl>
+                                                            </div>
+                            <div>
+                                <ul>
+<li>Means &quot;伸出&quot; (to stretch out).</li>
+<li>Actually it usually means to duck into or out of a hole (or something similar).</li>
+</ul>
+                            </div>
+                        </div>
                                     </div>
         </div>
                     <div class="card">
@@ -4140,11 +4403,11 @@
         </div>
                     <div class="card">
                 <div class="card-header">
-                    <a data-bs-toggle="collapse" href="#table-EXT-J-WORKING-DRAFT" role="button" aria-expanded="false"
+                    <a data-bs-toggle="collapse" href="#table-ENCODED-EXT-J" role="button" aria-expanded="false"
                        class="btn-block"
-                       aria-controls="table-EXT-J-WORKING-DRAFT">EXT-J-WORKING-DRAFT (29)</a>
+                       aria-controls="table-ENCODED-EXT-J">ENCODED-EXT-J (31)</a>
                 </div>
-                <div class="card-body collapse multi-collapse show" id="table-EXT-J-WORKING-DRAFT">
+                <div class="card-body collapse multi-collapse show" id="table-ENCODED-EXT-J">
                     <div class="unenc-char header">
                         <div>Seq</div>
                         <div>IDS</div>
@@ -4182,7 +4445,7 @@
 <li>Also seen: <a target="blank"href="https://zh.wikipedia.org/wiki/User:Urga/%E6%9C%AA%E7%B7%A8%E7%A2%BC%E6%BC%A2%E5%AD%97%E5%88%97%E8%A1%A8">林則徐集</a></li>
 <li>Also seen: <a target="blank"href="https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.xlsx">UK-20592</a> (<a target="blank"href="https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.pdf">PDF</a>), evidences: 《海國四説》（中華書局, 1993年） p. 143 ; 《海國四説・蘭侖偶説》（清道光刊本）卷3 folio 13 ; 《新約全書淺文理和合本使徒列傳》 卷17 folio 18 ; Thom, Robert：“Chinese and English Vocabulary” = 《華英通用雜話》 (Canton, 1843) p.5</li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20592">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+3250E</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+3250E 𲔎</li>
 </ul>
                             </div>
                         </div>
@@ -4228,7 +4491,7 @@
 <li>Also seen: <a target="blank"href="https://ctext.org/dictionary.pl?if=gb&amp;char=ctext%3A8075">《廣雅·卷一》</a>: “紓摯貞二又至蕆勑輦呈俙許皆屬時欲蛻七會㲗孚毻門悼反冒字也必無<strong>［⿱左月］</strong>字邊從毛吐外反形聲不然或未𠠎口白口郭劙力支袒解也”</li>
 <li>Also seen: <a target="blank"href="https://www.unicode.org/Public/13.0.0/ucd/USourceGlyphs.pdf">UTC-00609</a></li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?find=UTC-00609">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32E8B</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32E8B 𲺋</li>
 </ul>
                             </div>
                         </div>
@@ -4281,7 +4544,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0668.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0668.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.668
@@ -4310,7 +4573,7 @@
 <li>Also seen: <a target="blank"href="evidences/others/JYN00009_CCCD.jpg">A Chinese Chrestomathy in the Cantonese Dialect (1941) P.43</a></li>
 <li>Also seen: <a target="blank"href="evidences/others/JYN00009_SCED.png">The Student's Cantonese-English Dictionary (1947) P.427</a></li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?id=00608">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+3259C</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+3259C 𲖜</li>
 </ul>
                             </div>
                         </div>
@@ -4343,7 +4606,7 @@
 <li>Also seen: <a target="blank"href="https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt">TK01087230</a></li>
 <li>Also seen: <a target="blank"href="https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.xlsx">UK-20103</a> (<a target="blank"href="https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.pdf">PDF</a>),ref: 《邯鄲縣志》 卷10 folio 8.</li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20103">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+330A4</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+330A4 𳂤</li>
 </ul>
                             </div>
                         </div>
@@ -4377,7 +4640,7 @@
 <li>Also seen: <a target="blank"href="https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2483HanCharacters-ws2021.xlsx">GDM-00330</a>, ref: (光緒)榮河縣志</li>
 <li>Other sources: <a target="blank"href="https://zhuanlan.zhihu.com/p/19775339">王澤《老夫子》</a>, <a target="blank"href="https://www.facebook.com/OldCantonese/photos/a.1850808324990362/2822195947851590/">司馬龍《𢭃坭幅》</a></li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?find=GDM-00330">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32402</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32402 𲐂</li>
 </ul>
                             </div>
                         </div>
@@ -4433,7 +4696,7 @@
                                 <ul>
 <li>Also seen: <a target="blank"href="http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt">G_WZ102916</a></li>
 <li>Also seen: UK-20918 <a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20918">(IRG WS2021)</a>, ref: 《福建通志》（清乾隆二年刊本）卷12 folio 42</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+33419</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+33419 𳐙</li>
 </ul>
                             </div>
                         </div>
@@ -4478,7 +4741,7 @@
 <li>Also seen: UTC-00390 (<a target="blank"href="http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt">TXT</a>, <a target="blank"href="http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf">PDF</a>)</li>
 <li>Also seen: <a target="blank"href="evidences/others/JYN00070_SCED.png">The Student's Cantonese-English Dictionary (1947) P.469</a> (referenced in WS2021)</li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?id=00576">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32582</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32582 𲖂</li>
 </ul>
                             </div>
                         </div>
@@ -4534,7 +4797,7 @@
                                 <ul>
 <li><a target="blank"href="https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2488UTC153.pdf">UTC-00416</a></li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?id=00696">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+325E7</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+325E7 𲗧</li>
 </ul>
                             </div>
                         </div>
@@ -4575,7 +4838,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0324.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0324.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.324
@@ -4603,7 +4866,7 @@
 <li>Also seen: UTC-00365 (<a target="blank"href="http://www.unicode.org/reports/tr45/tr45-sourcedata-6.txt">TXT</a>, <a target="blank"href="http://www.unicode.org/reports/tr45/tr45-glyphs-1.pdf">PDF</a>)</li>
 <li>According to source (FTL1996) it's a variant form of 經 when used as a verb, quotes ”學粵詞典” (i.e. 學生粵英詞典 The Student's Cantonese-English Dictionary, Bernard F. Meyer &amp; Theodore F. Wempe, 1935)</li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=01560">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+328C4</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+328C4 𲣄</li>
 </ul>
                             </div>
                         </div>
@@ -4659,7 +4922,7 @@
                                 <ul>
 <li>Also seen: <a target="blank"href="https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2484ROK202Data.xlsx">KC-05016</a>, ref: 韓國古典飜譯院 頤齋遺藁卷5 挽金君公白光晶</li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?find=KC-05016">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32776</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32776 𲝶</li>
 </ul>
                             </div>
                         </div>
@@ -4700,7 +4963,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0242.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0242.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.242
@@ -4727,7 +4990,7 @@
                                 <ul>
 <li>Also seen: UTC-00359 (<a target="blank"href="http://kanji-database.sourceforge.net/ucs/ids-nonucs.txt">TXT</a>, <a target="blank"href="http://www.unicode.org/L2/L2008/08284-utr45-files/08284-tr45-glyphs-1.pdf">PDF</a>)</li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?find=UTC-00359">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32551</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32551 𲕑</li>
 </ul>
                             </div>
                         </div>
@@ -4795,7 +5058,7 @@
                                 <ul>
 <li>Also seen: UK-20862 <a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?id=01087">(IRG WS2021)</a>.</li>
 <li>A comment in the above link suggests this to be unified with 局 (U+5C40). However, in Canton/Hong Kong the usage is different - ⿸尸可 is a variant of 屙 (to defecate), thus not unifiable with 局 (U+5C40).</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32735</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32735 𲜵</li>
 </ul>
                             </div>
                         </div>
@@ -4827,7 +5090,7 @@
                                 <ul>
 <li>Also seen: <a target="blank"href="http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=IDS-CBETA.txt">CB12840</a>, which is normalized to U+9B3E 鬾, but the pronunciation is different (U+9B3E 鬾: kei4/gei6)</li>
 <li>Also seen: SAT-08653 <a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?find=SAT-08653">(IRG WS2021)</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+33332</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+33332 𳌲</li>
 </ul>
                             </div>
                         </div>
@@ -4860,7 +5123,7 @@
 <li>Also seen: Nihon Kokugo Daijiten 日本国語大辞典 (1st ed.) vol. 8 p. 689 (<a target="blank"href="https://www.babelstone.co.uk/Fonts/PUA.html">BabelStone U+F333</a>, <a target="blank"href="https://twitter.com/bori_so1/status/1162963648119132160">Twitter</a>)</li>
 <li>Also seen: <a target="blank"href="https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg56/IRGN2487UKData002.xlsx">UK-20233</a>, same source as above.</li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?find=UK-20233">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+332A6</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+332A6 𳊦</li>
 </ul>
                             </div>
                         </div>
@@ -4893,7 +5156,7 @@
 <li>Probably because of the lack of certain movable types, the publisher used simple words to describe the corresponding ideographs. 余（旁舟）（又馬旁鼠旁） literally means 余 (with 舟 besides it) (also with 馬 and 鼠 besides it), and thus can be interpreted as “舟余 (艅)”,  “馬余 (駼)” and  “鼠余” respectively.</li>
 <li>Also seen: GKJ-00643 <a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?find=GKJ-00643">(IRG WS2021)</a>.</li>
 <li>The structure would be ⿺鼠余 for TC.</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+3345C</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+3345C 𳑜</li>
 </ul>
                             </div>
                         </div>
@@ -4922,7 +5185,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0019.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0019.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.19
@@ -4948,7 +5211,7 @@
                             <div>
                                 <ul>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/index.php?id=03235">IRG WS2021</a>, UTC-00345</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32E98</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32E98 𲺘</li>
 </ul>
                             </div>
                         </div>
@@ -4977,7 +5240,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0650.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0650.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.650
@@ -4991,7 +5254,7 @@
                             <div>
                                 <ul>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=02003">IRG WS2021</a>, UTC-00456</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32A3F</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32A3F 𲨿</li>
 </ul>
                             </div>
                         </div>
@@ -5020,7 +5283,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0764.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0764.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.764
@@ -5047,7 +5310,7 @@
                                 <ul>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=02242">IRG WS2021</a>, UTC-00398</li>
 <li>See also <a target="blank"href="#JYN00190">JYN00190</a> (⿰火褒).</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32B2A</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32B2A 𲬪</li>
 </ul>
                             </div>
                         </div>
@@ -5076,7 +5339,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0777.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0777.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.777
@@ -5102,7 +5365,7 @@
                             <div>
                                 <ul>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=01876">IRG WS2021</a>, UTC-00402</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+329D6</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+329D6 𲧖</li>
 </ul>
                             </div>
                         </div>
@@ -5131,7 +5394,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0780.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0780.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.780
@@ -5157,7 +5420,7 @@
                             <div>
                                 <ul>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=02659">IRG WS2021</a>, UTC-00405</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32C87</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32C87 𲲇</li>
 </ul>
                             </div>
                         </div>
@@ -5186,7 +5449,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0782.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0782.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.782
@@ -5213,7 +5476,7 @@
                                 <ul>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=00626">IRG WS2021</a>, UTC-00403</li>
 <li>Unlike what is currently tracking in WS2021, the tone for this character is T6 in EITEL1877, EITEL1910 and MW1947. (Updated: updated to bui6 in WS2021) </li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+325AA</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+325AA 𲖪</li>
 </ul>
                             </div>
                         </div>
@@ -5242,7 +5505,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0313.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0313.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.313
@@ -5268,7 +5531,7 @@
                             <div>
                                 <ul>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=03627">IRG WS2021</a>, UTC-00450</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32FEE</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32FEE 𲿮</li>
 </ul>
                             </div>
                         </div>
@@ -5300,7 +5563,7 @@
                                 <ul>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=00652">IRG WS2021</a>, UTC-00328</li>
 <li>Recorded as a variant of 嗌 in MW1947.</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+325C5</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+325C5 𲗅</li>
 </ul>
                             </div>
                         </div>
@@ -5332,7 +5595,7 @@
                                 <ul>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=00587">IRG WS2021</a>, UTC-00446</li>
 <li>Recorded as a variant of 黐 in MW1947.</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+3258C</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+3258C 𲖌</li>
 </ul>
                             </div>
                         </div>
@@ -5361,7 +5624,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0041.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0041.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.41
@@ -5389,7 +5652,7 @@
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=00577">IRG WS2021</a></li>
 <li><a target="blank"href="https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf">UTC-00455</a></li>
 <li>Recorded as a variant of 擝 in MW1947.</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+32583</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32583 𲖃</li>
 </ul>
                             </div>
                         </div>
@@ -5422,7 +5685,7 @@
 <li><a target="blank"href="https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf">UTC-00394</a></li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=01583">IRG WS2021</a></li>
 <li>Recorded as a variant of 劈/擗 in MW1947.</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+328D9</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+328D9 𲣙</li>
 </ul>
                             </div>
                         </div>
@@ -5455,7 +5718,7 @@
 <li><a target="blank"href="https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf">UTC-00400</a></li>
 <li>Recorded as a variant of 抱 and <a target="blank"href="#JYN00201">⿰氵抱</a>  in MW1947.</li>
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=00492">IRG WS2021</a></li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+3253F</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+3253F 𲔿</li>
 </ul>
                             </div>
                         </div>
@@ -5488,7 +5751,7 @@
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=00705">IRG WS2021</a></li>
 <li><a target="blank"href="https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf">UTC-00427</a></li>
 <li>Recorded as a variant of 噍 in MW1947.</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+325EF</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+325EF 𲗯</li>
 </ul>
                             </div>
                         </div>
@@ -5521,7 +5784,71 @@
 <li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=00551">IRG WS2021</a></li>
 <li><a target="blank"href="https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf">UTC-00431</a></li>
 <li>Recorded as a variant of 洞 and 峒 in MW1947.</li>
-<li><a target="blank"href="https://www.unicode.org/irg/docs/n2781-ExtensionJ.pdf">Extension J Working Draft</a>: U+3256E</li>
+<li><a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+3256E 𲕮</li>
+</ul>
+                            </div>
+                        </div>
+                                            <div class="unenc-char" id="JYN00215">
+                            <div>
+                                <a href="#JYN00215">JYN00215</a>
+                            </div>
+                            <div>
+                                ⿰火慶
+                            </div>
+                            <div>
+                                hing3
+                            </div>
+                            <div class="evidences">
+                                                                    <dl>
+                                        <dt>
+                                            <a href="evidences/CCS1985/0109.webp" title="陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
+                                               target="_blank">
+                                                CCS1985,
+                                                P.109
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,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"/>
+                                        </dd>
+                                    </dl>
+                                                            </div>
+                            <div>
+                                <ul>
+<li>Means &quot;熱也&quot; (hot).</li>
+<li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=02260">IRG WS2021 02260</a></li>
+<li>TE-2D72 in <a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32B2B 𲬫</li>
+</ul>
+                            </div>
+                        </div>
+                                            <div class="unenc-char" id="JYN00216">
+                            <div>
+                                <a href="#JYN00216">JYN00216</a>
+                            </div>
+                            <div>
+                                ⿰石六
+                            </div>
+                            <div>
+                                luk6
+                            </div>
+                            <div class="evidences">
+                                                                    <dl>
+                                        <dt>
+                                            <a href="evidences/CCS1985/0121.webp" title="陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
+                                               target="_blank">
+                                                CCS1985,
+                                                P.121
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <img class="char-image" src="data:image/png;base64,UklGRiYDAABXRUJQVlA4TBkDAAAvPwAMAAU1bNuON9L1pfjGto2MrfWObdtc2zYztq21bY5tMzmacY5Nj94/8ilf178i+j8B+ht9OZvtmz4tM3v1DnTZeD5bPZeHzqFsteNmjBtP++r46T3OFARu88usB+4e0rpujWYZzuoAVWP+mJ5WCjAKTow5OlwKAhvkxyOzegIVA7VXyfmhpqktZiv5e94c37nq0HsbVZ7+2jq53TjjSyX74juTauQ209LaHTrydVQex5KyqIFJYoMP5H7XsrtHH0j49FT4Z0mZ3vz62gO3dbjDMEPnPdg9p0PRRZc/XfBShy5Vg03bPb7PG8sjrcrsk/usN28rSusBwytiXXdVEo73ZYgHf9xsAAXSUiF3qlm59ZPbkrC5u1H8mrunTSzrDGgWUvyLqJJ5Wxqm3IaHlQJMgkveiu47rWTnhSpRNxd7QmDYgo8/kR+jQO9rbqTPQ+ffismfzwF3y8vL8mtPKLPGZs0MJ77NupFCTSKSNr54/8AKTTf47+mi0ODuNWOblm+SGwKtffdWbQADDCz7XLY5c9gfP1Q0EqD8nLfuTA1ASLajG40L2cSSsK6CgWWj+RelEkDVc1aRNsB8iy/vWRPxbDy2n8alA4Uhb0jWZwYCAy3mQ8HZn8a82LLpJsNqaCQu3Qa8ItuVtaHwYguNDXDjD/JyWs2ckDOhS1xSKSgdtTk+0YAOSryq2eWh9W8eZASBaTreG8ZJ+rYh3HjOKvJBAeAeCyljHFAj6q4ZNBx/QlIjc42kb6D2k7KdD7T5McNK2lQYhu1x0wdavXBJkjrQ8/uNKztC77ey4hb7Z5ciePiEHN4Jhda5eByMBceUOBkKpAWAWdd0yeLDOyrn7CrHbVKhj6PpHQtQd+BlJR5qCmCUZrGk8wnbe5YKPrzO2aZHSsM922wyj7xg1n5N9gOAJpMvKjGsU3rSxHjpRzmMS7r0DBT64prVia/f+u3XiINNean9bFiWh7N+2dQG8/G43Pek6fGwlfsGqZMPyfq1JuUNKLFbHoanfSHPG+Z8V3Y5gWDXLV4kddm0E3Y688pt38YP6P+NAA=="/>
+                                        </dd>
+                                    </dl>
+                                                            </div>
+                            <div>
+                                <ul>
+<li>An element.</li>
+<li><a target="blank"href="https://hc.jsecs.org/irg/ws2021/app/?id=02743">IRG WS2021 02743</a></li>
+<li>GKJ-00881 in <a target="blank"href="https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf">Extension J</a>: U+32CD1 𲳑</li>
 </ul>
                             </div>
                         </div>
@@ -5740,7 +6067,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0579.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0579.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.579
@@ -6178,7 +6505,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/0497.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/0497.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.497
@@ -6476,7 +6803,7 @@
                                     </dl>
                                                                     <dl>
                                         <dt>
-                                            <a href="evidences/EITEL1910/1199.png" title="A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
+                                            <a href="evidences/EITEL1910/1199.png" title="A C hinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly &amp; Walsh 1910."
                                                target="_blank">
                                                 EITEL1910,
                                                 P.1199

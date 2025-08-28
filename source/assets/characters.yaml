@@ -38,6 +38,8 @@ sources:
         title: "A Chinese-English dictionary in the Cantonese dialect. Rev. and enl. Hongkong : Kelly & Walsh 1910."
     MW1947:
         title: "Bernard F. Meyer and Theodore F. Wempe: The Student's Cantonese-English Dictionary, 3rd edition, 1947. Reprinted by Catholic Truth Society Hong Kong, 1978."
+    CCS1985:
+        title: "陳岫山, 粵語查音識字字典. Hong Kong: 大江書店, 1985."
 characters:
     JYN00001:
         ids: ⿹⿺㇉一卄
@@ -45,6 +47,7 @@ characters:
         sources:
             CSK1939:
                 -   location: "58"
+            CCS1985: "71"
         remarks: |
             Note: [A variant of 与 (與), with “一” replaced by “卄”](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAzMzk4LTAzMg).
     JYN00002:
@@ -1758,6 +1761,87 @@ characters:
             MW1947: "383"
         remarks: |
             - [UTC-00495](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
+    JYN00209:
+        ids: ⿸疒拿
+        jyutping: naa1
+        sources:
+            CCS1985: "38"
+        remarks: |
+            - Means "疤痕" (a scar).
+    JYN00210:
+        ids: ⿰⺼解 / ⿰月解
+        jyutping: haai4
+        sources:
+            CCS1985: "51"
+        remarks: |
+            - Means "肉粗" (rough meat) (in opposition to smooth).
+            - The radical should be 肉 meat
+    JYN00211:
+        ids: ⿰扌戥
+        jyutping: dang6
+        sources:
+            CCS1985: "82"
+        remarks: |
+            - Means "幫助" (to help).
+    JYN00212:
+        ids: ⿰火奈
+        jyutping: naat6
+        sources:
+            CCS1985: "84"
+        remarks: |
+            - Means "燒傷" (burn).
+            - [IRG WS2024 02235](https://hc.jsecs.org/irg/ws2024/app/?id=02235), UTC-03339.
+    JYN00213:
+        ids: ⿰𧾷奀
+        jyutping: ngan1?
+        sources:
+            CCS1985: "89"
+        remarks: |
+            - Example "［⿰𧾷奀］脚" means bouncing/jiggling  one's legs.
+            - The pronunciation should be ngan3 for this meaning.
+            - Spotted in Cantonese movie 阿福當兵 (1959) according to [IRGN2646](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2646_caption%20subtitle.pdf).
+    JYN00214:
+        ids: ⿰口蜃
+        jyutping: san5
+        sources:
+            CCS1985: "97"
+        remarks: |
+            - Means "傻也" (foolish).
+    JYN00215:
+        ids: ⿰火慶
+        jyutping: hing3
+        sources:
+            CCS1985: "109"
+        tag: ENCODED-EXT-J
+        remarks: |
+            - Means "熱也" (hot).
+            - [IRG WS2021 02260](https://hc.jsecs.org/irg/ws2021/app/?id=02260)
+            - TE-2D72 in [Extension J](https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf): U+32B2B 𲬫
+    JYN00216:
+        ids: ⿰石六
+        jyutping: luk6
+        sources:
+            CCS1985: "121"
+        tag: ENCODED-EXT-J
+        remarks: |
+            - An element.
+            - [IRG WS2021 02743](https://hc.jsecs.org/irg/ws2021/app/?id=02743)
+            - GKJ-00881 in [Extension J](https://www.unicode.org/Public/draft/charts/blocks/U323B0.pdf): U+32CD1 𲳑
+    JYN00217:
+        ids: ⿸尸票
+        jyutping: biu1
+        sources:
+            CCS1985: "144"
+        remarks: |
+            - To spurt out. The example "［⿸尸票］尿" means "to spurt out urine".
+    JYN00218:
+        ids: ⿰首眷
+        jyutping: gyun1
+        sources:
+            CCS1985: "166"
+        remarks: |
+            - Means "伸出" (to stretch out).
+            - Actually it usually means to duck into or out of a hole (or something similar).
 
 #    JYN00191: # Already encoded: U+2A966
 #        ids: ⿰女互
