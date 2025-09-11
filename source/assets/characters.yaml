@@ -1724,7 +1724,7 @@ characters:
             - [IRG WS2017](https://hc.jsecs.org/irg/ws2017/app/?id=00529)
             - [UTC-00420](https://www.unicode.org/reports/tr45/tr45-glyphs-6.pdf)
             - Recorded as a variant of 竇 in MW1947.
-            - [Extension H](https://www.unicode.org/charts/PDF/U31350.pdf): U+3150D
+            - [Extension H](https://www.unicode.org/charts/PDF/U31350.pdf): U+3150D 𱔍
     JYN00205:
         ids: ⿰日嗇
         jyutping: coeng4
@@ -1789,6 +1789,7 @@ characters:
         jyutping: naat6
         sources:
             CCS1985: "84"
+        tag: IRG-WS2024
         remarks: |
             - Means "燒傷" (burn).
             - [IRG WS2024 02235](https://hc.jsecs.org/irg/ws2024/app/?id=02235), UTC-03339.
@@ -1798,7 +1799,7 @@ characters:
         sources:
             CCS1985: "89"
         remarks: |
-            - Example "［⿰𧾷奀］脚" means bouncing/jiggling  one's legs.
+            - "［⿰𧾷奀］脚" means bouncing/jiggling one's leg.
             - The pronunciation should be ngan3 for this meaning.
             - Spotted in Cantonese movie 阿福當兵 (1959) according to [IRGN2646](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2646_caption%20subtitle.pdf).
     JYN00214:
@@ -1834,7 +1835,7 @@ characters:
         sources:
             CCS1985: "144"
         remarks: |
-            - To spurt out. The example "［⿸尸票］尿" means "to spurt out urine".
+            - To spurt out. "［⿸尸票］尿" means "to spurt out urine".
     JYN00218:
         ids: ⿰首眷
         jyutping: gyun1
