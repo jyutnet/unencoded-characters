@@ -465,10 +465,12 @@ characters:
         jyutping: zai3
         sources:
             CSK1939: "50"
+        tag: IRG-WS2024
         remarks: |
             - Also seen: [sawd-06617](https://github.com/cjkvi/cjkvi-dict/blob/master/sawndip.txt)
             - Other source: [司馬龍《𢭃坭幅》](https://www.facebook.com/OldCantonese/photos/a.1850808324990362/2822195947851590/)
             - Commonly used as a variant of 製.
+            - [IRG WS2024](https://hc.jsecs.org/irg/ws2024/app/?id=00089)
     JYN00053:
         ids: ⿱艹执
         tag: ENCODED-EXT-H
@@ -509,6 +511,7 @@ characters:
             - Also seen: [Moji_Joho collection IVD](https://unicode.org/ivd/data/2017-12-12/IVD_Charts_Moji_Joho.pdf), as `U+8166 E0102` (Moji_Joho MJ058390)
             - See also JYN00149 for ⿱巛㐫.
             - [Variant form of 腦](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAzMzU0LTAyNQ)
+            - Also seen: "⿰貝兆[問俗錄](https://zh.wikisource.org/wiki/Page:CADAL02035394_%E5%95%8F%E4%BF%97%E9%8C%84%EF%BC%88%E4%BA%8C%EF%BC%89.djvu/109)
     JYN00060:
         ids: ⿰女怒
         jyutping: nou6
