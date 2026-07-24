@@ -16,6 +16,8 @@ sources:
     CSK1939:
         title: "Chan Sui Ki 陳瑞祺, 道漢字音. Hong Kong: 道字總社. 1939. <em>(Unless explicitly specified, the page number refers to the one on Volume 2 of the publication)</em>"
         extension: png
+    CSK1939V1:
+        title: "Chan Sui Ki 陳瑞祺, 道漢字音. Hong Kong: 道字總社. 1939. <em>(卷一：道漢字典)</em>"
     WSL1941:
         title: "S. L. Wong 黃錫凌, 粵音韻彙 A Chinese Syllable Pronounced According to the Dialect of Canton. Hong Kong: 中華書局. 1980."
     FTL1974:
@@ -60,7 +62,7 @@ characters:
             [A variant of 我 according to 俗書刊誤 卷七．略記字始．頁571(石鼓字)](http://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAxNDcz)
             <img src="data:image/png;base64,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">
     JYN00003:
-        ids: null
+        ids: ⿳宀⿰丨⿴⿻冂一一⿹𠃌灬
         jyutping: se2
         sources:
             CSK1939:
@@ -248,17 +250,21 @@ characters:
         jyutping: ji4
         sources:
             CSK1939: "2"
+        tag: IRG-WS2024
         remarks: |
             - [Variant form of 儀](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwMjQ2LTAwNw)
             - Also seen: [TK01005890](https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
+            - [IRG WS2024](https://hc.jsecs.org/irg/ws2024/app/?id=00164)
     JYN00023:
         ids: ⿱𢆉豕 / ⿱𦍌𧰨
         jyutping: ji6
         sources:
             CSK1939: "2"
+        tag: IRG-WS2024
         remarks: |
             - Given ⿰亻⿱𢆉豕 (JYN00022) is a variant form of 儀, it'd be safe to see this a variant of 義
             - Also seen: [TK01073560](https://github.com/cjkvi/cjkvi-ids/blob/master/hanyo-ids.txt)
+            - [IRG WS2024](https://hc.jsecs.org/irg/ws2024/app/?id=03072)
     JYN00024:
         ids: ⿺辶⿱罒屰
         tag: RETRACTED
@@ -489,14 +495,14 @@ characters:
             - [A variant form of 唯](https://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwNjEy)
             - Also seen: [GT00019](https://zh.wikipedia.org/wiki/User:Urga/%E6%B2%99%E7%9B%92/IRGN1467)
     JYN00056:
-        ids: ⿱艹⿰⺡⿳厶大氺
+        ids: ⿱艹⿰⺡⿳厶大氺 / ⿱艹⿰⺡𭆞
         jyutping: zou2, cou2
         sources:
             CSK1939: [ "52", "52" ]
         remarks: |
             "⿰扌⿳厶大氺" (UK-02633) has been encoded in Ext-G as U+3051D 𰔝.
     JYN00057:
-        ids: ⿰⺡⿳厶大氺
+        ids: ⿰⺡⿳厶大氺 / ⿰⺡𭆞
         jyutping: cou1
         sources:
             CSK1939: "52"
@@ -1847,6 +1853,320 @@ characters:
         remarks: |
             - Means "伸出" (to stretch out).
             - Actually it usually means to duck into or out of a hole (or something similar).
+    JYN00220:
+        ids: ⿰忄⿱一⿰⿺乚丶丶
+        jyutping: zing1
+        sources:
+            CSK1939V1: "1"
+    JYN00221:
+        ids: ⿰忄⿱⿻又丷丰
+        jyutping: jik6
+        sources:
+            CSK1939V1: "2"
+    JYN00222:
+        ids: ⿰氵𥥛
+        jyutping: sam1
+        sources:
+            CSK1939V1: "3"
+    JYN00223:
+        ids: ⿰氵𡘤
+        jyutping: jim1
+        sources:
+            CSK1939V1: "3"
+    JYN00224:
+        ids: ⿰氵𡨴
+        jyutping: jim1
+        sources:
+            CSK1939V1: "3"
+    JYN00225:
+        ids: ⿰寕鳥
+        jyutping: ning4
+        sources:
+            CSK1939V1: "5"
+    JYN00226:
+        ids: ⿰寉鳥
+        jyutping: hok6
+        sources:
+            CSK1939V1: "5"
+    JYN00227:
+        ids: ⿱亠⿺𠃊王
+        jyutping: hong1
+        sources:
+            CSK1939V1: "5"
+    JYN00228:
+        ids: ⿸疒⿱一⿰⿺乚丶丶
+        jyutping: zing3
+        sources:
+            CSK1939V1: "5"
+    JYN00229:
+        ids: ⿳亠𠦆凵
+        jyutping: gik1
+        sources:
+            CSK1939V1: "5"
+    JYN00230:
+        ids: ⿰言⿱一⿰⿺乚丶丶
+        jyutping: zing3
+        sources:
+            CSK1939V1: "6"
+    JYN00231:
+        ids: ⿳𠫓冖牟
+        jyutping: hin1
+        sources:
+            CSK1939V1: "6"
+    JYN00232:
+        ids: ⿳亠⿻丄𠈌八
+        jyutping: song2
+        sources:
+            CSK1939V1: "7"
+    JYN00233:
+        ids: ⿸疒莭
+        jyutping: zit3
+        sources:
+            CSK1939V1: "7"
+    JYN00234:
+        ids: ⿰言⿱𢆉豕 / ⿰言⿱𦍌𧰨
+        jyutping: ji5
+        sources:
+            CSK1939V1: "8"
+        tag: IRG-WS2024
+        remarks: |
+            - Variant form of 議.
+            - [IRG WS2024](https://hc.jsecs.org/irg/ws2024/app/?id=03538)
+    JYN00235:
+        ids: ⿳亡罒⿲月貝凡
+        jyutping: jing4,jeng4
+        sources:
+            CSK1939V1: "8"
+    JYN00236:
+        ids: ⿸广聼
+        jyutping: teng1
+        sources:
+            CSK1939V1: "8"
+    JYN00237:
+        ids: ⿱䒑𢎨
+        jyutping: dai6
+        sources:
+            CSK1939V1: "9"
+    JYN00238:
+        ids: ⿱䒑約
+        jyutping: joek6
+        sources:
+            CSK1939V1: "9"
+    JYN00239:
+        ids: ⿱⿻工⿱冖一巾
+        jyutping: fu2
+        sources:
+            CSK1939V1: "13"
+    JYN00240:
+        ids: ⿱𰀆氺
+        jyutping: luk6
+        sources:
+            CSK1939V1: "13"
+    JYN00241:
+        ids: ⿱⿻工⿱冖一丘
+        jyutping: heoi1
+        sources:
+            CSK1939V1: "13"
+    JYN00242:
+        ids: ⿳雨罒巫
+        jyutping: ling4,leng4
+        sources:
+            CSK1939V1: "13"
+    JYN00243:
+        ids: ⿰⿱一匚卩
+        jyutping: jan3
+        sources:
+            CSK1939V1: "13"
+    JYN00244:
+        ids: ⿱夀灬
+        jyutping: tou4
+        sources:
+            CSK1939V1: "14"
+    JYN00245:
+        ids: ⿰夀羽
+        jyutping: tou4
+        sources:
+            CSK1939V1: "14"
+    JYN00246:
+        ids: ⿰夀鬼
+        jyutping: cau4
+        sources:
+            CSK1939V1: "14"
+    JYN00247:
+        ids: ⿺丶杰
+        jyutping: git6
+        sources:
+            CSK1939V1: "15"
+    JYN00248:
+        ids: ⿺𥃭丄
+        jyutping: zik6
+        sources:
+            CSK1939V1: "15"
+    JYN00249:
+        ids: ⿱垚几
+        jyutping: jiu4
+        sources:
+            CSK1939V1: "16"
+    JYN00250:
+        ids: ⿳十⿺丨具
+        jyutping: zan1
+        sources:
+            CSK1939V1: "16"
+    JYN00251:
+        ids: ⿳⿻卄口冖瓦
+        jyutping: mang4
+        sources:
+            CSK1939V1: "17"
+    JYN00252:
+        ids: ⿰木𡨴
+        jyutping: ning4
+        sources:
+            CSK1939V1: "19"
+    JYN00253:
+        ids: ⿰梪木
+        jyutping: syu6
+        sources:
+            CSK1939V1: "19"
+    JYN00254:
+        ids: ⿱埶糸
+        jyutping: zap1
+        sources:
+            CSK1939V1: "19"
+    JYN00255:
+        ids: ⿹⿺㇉⿱𠆣二灬
+        jyutping: jin1,jin4
+        sources:
+            CSK1939V1: "22"
+    JYN00256:
+        ids: ⿰石⿱卜𠦆
+        jyutping: ce1
+        sources:
+            CSK1939V1: "22"
+    JYN00257:
+        ids: ⿰歹貟
+        jyutping: wan5
+        sources:
+            CSK1939V1: "22"
+    JYN00258:
+        ids: ⿰扌㫖
+        jyutping: zi2
+        sources:
+            CSK1939V1: "24"
+    JYN00259:
+        ids: ⿱执貝
+        jyutping: zi3
+        sources:
+            CSK1939V1: "25"
+    JYN00260:
+        ids: ⿰𫎇毛
+        jyutping: mung4
+        sources:
+            CSK1939V1: "30"
+    JYN00261:
+        ids: ⿰貝⿱宀一
+        jyutping: cyu5
+        sources:
+            CSK1939V1: "32"
+    JYN00262:
+        ids: ⿳⿻甲艹一八
+        jyutping: ji6
+        sources:
+            CSK1939V1: "32"
+    JYN00263:
+        ids: 𦉴⿺𠃊⿵冂三
+        jyutping: zi3
+        sources:
+            CSK1939V1: "34"
+    JYN00264:
+        ids: ⿰嵗刂
+        jyutping: gwai6,wai3
+        sources:
+            CSK1939V1: "34"
+    JYN00265:
+        ids: ⿰貝⿱𠫓冉
+        jyutping: gau3
+        sources:
+            CSK1939V1: "35"
+    JYN00266:
+        ids: ⿰口歴
+        jyutping: lik1
+        sources:
+            CSK1939V1: "35"
+    JYN00267:
+        ids: ⿱竹夲
+        jyutping: ban6
+        sources:
+            CSK1939V1: "40"
+    JYN00268:
+        ids: ⿰𦈢夲
+        jyutping: but3
+        sources:
+            CSK1939V1: "40"
+    JYN00270:
+        ids: ⿰禾⿱九旨
+        jyutping: kai1,kai2,hai4
+        sources:
+            CSK1939V1: "41"
+    JYN00271:
+        ids: ⿱竹宼
+        jyutping: kau3
+        sources:
+            CSK1939V1: "41"
+    JYN00272:
+        ids: ⿱𤯟縣
+        jyutping: duk6,dou6
+        sources:
+            CSK1939V1: "42"
+    JYN00273:
+        ids: ⿰亻𡨴
+        jyutping: ning4
+        sources:
+            CSK1939V1: "44"
+    JYN00274:
+        ids: ⿰彳⿱䒑之
+        jyutping: zung1,zung6,cung4,sung1
+        sources:
+            CSK1939V1: "45"
+    JYN00275:
+        ids: ⿱人⿻丨⿱𠈌二
+        jyutping: saan3
+        sources:
+            CSK1939V1: "46"
+    JYN00276:
+        ids: ⿺九重
+        jyutping: zung2
+        sources:
+            CSK1939V1: "47"
+    JYN00277:
+        ids: ⿰胠阝
+        jyutping: goek3
+        sources:
+            CSK1939V1: "48"
+    JYN00278:
+        ids: ⿱厶巴
+        jyutping: jap1
+        sources:
+            CSK1939V1: "50"
+    JYN00279:
+        ids: ⿱厸犬
+        jyutping: huk1
+        sources:
+            CSK1939V1: "50"
+    JYN00280:
+        ids: ⿱厶㐭
+        jyutping: pei2,tou4
+        sources:
+            CSK1939V1: "50"
+    JYN00281:
+        ids: ⿱刀巴
+        jyutping: sik1
+        sources:
+            CSK1939V1: "52"
+    JYN00282:
+        ids: ⿰糹𦕈
+        jyutping: miu5
+        sources:
+            CSK1939V1: "55"
 
 #    JYN00191: # Already encoded: U+2A966
 #        ids: ⿰女互
